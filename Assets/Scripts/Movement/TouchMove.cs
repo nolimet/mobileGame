@@ -9,7 +9,11 @@ public class TouchMove : MonoBehaviour {
         if (Input.touchCount > 0 && Input.GetTouch(0).phase == TouchPhase.Moved)
         {
             Vector2 touchDeltaPosition = Input.GetTouch(0).deltaPosition;
-            transform.Translate(-touchDeltaPosition.x * speed, -touchDeltaPosition.y * speed, 0);
+            rigidbody2D.AddForce(new Vector2(-touchDeltaPosition.x * speed, -touchDeltaPosition.y * speed));
+        }
+        if (Input.touchCount == 2)
+        {
+            rigidbody2D.velocity = new Vector2();
         }
     }
 }

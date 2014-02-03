@@ -12,7 +12,7 @@ public class Click : MonoBehaviour {
 	void Update () {
         if (Input.touchCount != 0)
         {
-
+            //Input.
         }
 	}
 }
