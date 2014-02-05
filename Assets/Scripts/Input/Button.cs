@@ -91,9 +91,18 @@ public class Button : MonoBehaviour {
             else
             {
 
-                //Stops Action
+                state = false;
 
             }
         }
+    }
+    void OnMouseDown()
+    {
+        state = true;
+    }
+
+    void OnMouseUp()
+    {
+        state = false;
     }
 }

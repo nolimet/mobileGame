@@ -3,7 +3,7 @@ using System.Collections;
 
 public class CameraManager : MonoBehaviour {
 
-	public Transform[] Targets;
+	public Transform Target;
 	public KeyCode SwitchCamPos;
 	public float MoveTime = 1f;
 	public float speed = 1f;
@@ -22,31 +22,24 @@ public class CameraManager : MonoBehaviour {
 	}
 
 	// Update is called once per frame
-	void Update () {
-		if(!paused){
-			if(Targets.Length>0){
-				if(Input.GetKeyDown(SwitchCamPos)){
-					GlobalStatics.currentChar++;
-						if(GlobalStatics.currentChar>=Targets.Length){
-						GlobalStatics.currentChar=0;
-					}
-				}
+    void Update()
+    {
+        if (!paused)
+        {
+            Vector3 temp =Target.position;
+            temp.z = transform.position.z;
 
-				Vector3 temp = Targets[GlobalStatics.currentChar].position;
-				temp.z = transform.position.z;
-
-				if(Vector3.Distance(transform.position,temp)>=accurcy){
-					Vector3 dir = Targets[GlobalStatics.currentChar].position - transform.position;
-					dir.z=0;
-                    if (lockXAxis)
-                    {
-                        dir.x = 0;
-                    }
-					transform.Translate(dir*speed*Time.deltaTime);
-					Debug.DrawLine(transform.position,temp,Color.green);
-
-				}
-			}
-		}
-	}
+            if (Vector3.Distance(transform.position, temp) >= accurcy)
+            {
+                Vector3 dir = Target.position - transform.position;
+                dir.z = 0;
+                if (lockXAxis)
+                {
+                    dir.x = 0;
+                }
+                transform.Translate(dir * speed * Time.deltaTime);
+                Debug.DrawLine(transform.position, temp, Color.green);
+            }
+        }
+    }
 }

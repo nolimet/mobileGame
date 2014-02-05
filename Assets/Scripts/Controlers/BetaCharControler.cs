@@ -22,10 +22,18 @@ public class BetaCharControler : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
         Vector2 move = new Vector2();
-        if(rigidbody2D.velocity.x < 20 && g)
+        Vector2 anlogmove = AnologeStick.position+new Vector2(Input.GetAxis("Horizontal"),Input.GetAxis("Vertical"));
+        if (rigidbody2D.velocity.x < 20)
         {
-            move.x =  AnologeStick.position.x * 25;
-            Debug.Log(AnologeStick.position);
+            if (g)
+            {
+                move.x = anlogmove.x * 17;
+                Debug.Log(AnologeStick.position);
+            }
+            else
+            {
+                move.x = anlogmove.x * 2;
+            }
         }
         if (ButtonB.state&&g)
         {
