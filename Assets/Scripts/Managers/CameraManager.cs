@@ -4,7 +4,6 @@ using System.Collections;
 public class CameraManager : MonoBehaviour {
 
 	public Transform Target;
-	public KeyCode SwitchCamPos;
 	public float MoveTime = 1f;
 	public float speed = 1f;
 	public float accurcy = 0.1f;

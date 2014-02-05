@@ -196,7 +196,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   WaitForSec: 2
-  MoveAmount: {x: 5.80000019, y: 0}
+  MoveAmount: {x: 7, y: 0}
 --- !u!212 &725530960
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -218,7 +218,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_SortingLayerID: 0
-  m_Sprite: {fileID: 21300000, guid: 7654eaec057419b4ca051a48c085b86f, type: 3}
+  m_Sprite: {fileID: 21300000, guid: ce6a91d570a4d374eac85e44329e15ee, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!4 &725530961
 Transform:
@@ -228,7 +228,7 @@ Transform:
   m_GameObject: {fileID: 725530958}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -13.088131, y: -1.97181737, z: 0}
-  m_LocalScale: {x: 8, y: 2, z: 1}
+  m_LocalScale: {x: 2, y: 2.5, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
 --- !u!65 &725530962
@@ -241,7 +241,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: .639999986, y: .639999986, z: .200000003}
+  m_Size: {x: 2.88000011, y: .639999986, z: .200000003}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &725530963
 MonoBehaviour:
@@ -287,7 +287,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   WaitForSec: 1
-  MoveAmount: {x: 5.80000019, y: 0}
+  MoveAmount: {x: 7, y: 0}
 --- !u!212 &858295276
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -309,7 +309,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_SortingLayerID: 0
-  m_Sprite: {fileID: 21300000, guid: 7654eaec057419b4ca051a48c085b86f, type: 3}
+  m_Sprite: {fileID: 21300000, guid: c1b98ad14b899a145b2c2321e53480ca, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!4 &858295277
 Transform:
@@ -318,8 +318,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 858295274}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -13.0977097, y: 1.88675964, z: 0}
-  m_LocalScale: {x: 8, y: 2, z: 1}
+  m_LocalPosition: {x: -13.0627117, y: 1.58925784, z: 0}
+  m_LocalScale: {x: 2, y: 2.5, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
 --- !u!65 &858295278
@@ -332,7 +332,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: .639999986, y: .639999986, z: .200000003}
+  m_Size: {x: 3.23000002, y: .639999986, z: .200000003}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &858295279
 MonoBehaviour:

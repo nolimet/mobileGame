@@ -39,7 +39,6 @@ public class BetaCharControler : MonoBehaviour {
         {
            // g = false;
             coll.sharedMaterial = airPhyMat;
-            Debug.Log("jump");
             ButtonB.state = false;
             move.y = 500;
         }
