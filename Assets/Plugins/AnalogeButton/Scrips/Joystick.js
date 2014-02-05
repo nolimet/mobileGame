@@ -12,8 +12,8 @@
 // A simple class for bounding how far the GUITexture will move
 class Boundary 
 {
-	var min : Vector2 = Vector2.zero;
-	var max : Vector2 = Vector2.zero;
+	var min:Vector2 = Vector2.zero;
+	var max:Vector2 = Vector2.zero;
 }
 
 static private var joysticks : Joystick[];					// A static collection of all joysticks

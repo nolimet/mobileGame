@@ -24,11 +24,14 @@ public class Click : MonoBehaviour {
     }
     void OnMouseDown()
     {
-        if (ExitGame&&!Application.isWebPlayer&&!Application.isEditor)
+        if (ExitGame && !Application.isWebPlayer && !Application.isEditor)
         {
             Application.Quit();
         }
-        Application.LoadLevel(LoadLevel);
+        else
+        {
+            Application.LoadLevel(LoadLevel);
+        }
         Debug.Log("clicked");
     }
 }

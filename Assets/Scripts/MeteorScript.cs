@@ -21,14 +21,14 @@ public class MeteorScript : MonoBehaviour
         }
         if (spawnTimer <= 0)
         {
-            int random = Random.Range(-4, 2);
-            Vector3 positions = new Vector3(transform.position.x + 10, random, 0f);
+           // int random = Random.Range(-4, 2);
+            //Vector3 positions = new Vector3(transform.position.x + 10, random, 0f);
 
-            GameObject clone;
+            //GameObject clone;
 
-            clone = Instantiate(meteor, positions, transform.rotation) as GameObject;
+           // clone = Instantiate(meteor, positions, transform.rotation) as GameObject;
            // clone.transform.position.z = 0;
-            spawnTimer = 4f;
+           // spawnTimer = 4f;
         }
     }
 }
