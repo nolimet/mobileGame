@@ -13,7 +13,7 @@ public class BetaCharControler : MonoBehaviour {
     private bool g = false;
     private PhysicsMaterial2D orPhyMat;
     private BoxCollider2D coll;
-
+    private bool isLight = true;
     void Start()
     {
         coll = GetComponent<BoxCollider2D>();;
@@ -23,26 +23,52 @@ public class BetaCharControler : MonoBehaviour {
 	void Update () {
         Vector2 move = new Vector2();
         Vector2 anlogmove = AnologeStick.position+new Vector2(Input.GetAxis("Horizontal"),Input.GetAxis("Vertical"));
-        if (rigidbody2D.velocity.x < 20)
+        if (isLight)
         {
-            if (g)
+            if (rigidbody2D.velocity.x < 10 && rigidbody2D.velocity.x>-10)
             {
-                move.x = anlogmove.x * 17;
-                Debug.Log(AnologeStick.position);
+                if (g)
+                {
+                    move.x = anlogmove.x * 17;
+                    // Debug.Log(AnologeStick.position);
+                }
+                else
+                {
+                    move.x = anlogmove.x * 2;
+                }
             }
-            else
+            if (ButtonB.state && g)
             {
-                move.x = anlogmove.x * 2;
+                // g = false;
+                coll.sharedMaterial = airPhyMat;
+                ButtonB.state = false;
+                move.y = 500;
             }
         }
-        if (ButtonB.state&&g)
+        else
         {
-           // g = false;
-            coll.sharedMaterial = airPhyMat;
-            ButtonB.state = false;
-            move.y = 500;
+            if (rigidbody2D.velocity.x < 2 && rigidbody2D.velocity.x>2)
+            {
+                if (g)
+                {
+                    move.x = anlogmove.x * 3;
+                    // Debug.Log(AnologeStick.position);
+                }
+                else
+                {
+                    move.x = anlogmove.x * 2;
+                }
+            }
+            if (ButtonB.state && g)
+            {
+                // g = false;
+                coll.sharedMaterial = airPhyMat;
+                ButtonB.state = false;
+                move.y = 100;
+            }
         }
         rigidbody2D.AddForce(move);
+        Debug.Log(move);
 	}
 
     void OnTriggerEnter2D(Collider2D other)
