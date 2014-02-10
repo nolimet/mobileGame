@@ -697,7 +697,12 @@ MonoBehaviour:
   deadZone: {x: .5, y: .5}
   normalize: 0
   tapCount: 0
-  gui: {fileID: 0}
+  defaultRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 0
+    height: 0
   guiCenter: {x: 0, y: 0}
   released: 0
 --- !u!131 &1140164620
@@ -1607,7 +1612,7 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1965143433}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f43242eb413a7854faa4905b218a75fa, type: 3}
   m_Name: 

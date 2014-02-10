@@ -27,8 +27,8 @@ public var tapCount : int;									// Current tap count
 
 private var lastFingerId = -1;								// Finger last used for this joystick
 private var tapTimeWindow : float;							// How much time there is left for a tap to occur
-public var gui : GUITexture;								// Joystick graphic
-private var defaultRect : Rect;								// Default position / extents of the joystick graphic
+private var gui : GUITexture;								// Joystick graphic
+public var defaultRect : Rect;								// Default position / extents of the joystick graphic
 private var guiBoundary : Boundary = Boundary();			// Boundary for joystick graphic
 private var guiTouchOffset : Vector2;						// Offset to apply to touch input
 public var guiCenter : Vector2;		                        // Center of joystick graphic
@@ -152,6 +152,19 @@ function Update()
 	    // Get a value between -1 and 1
 	    position.x = ( gui.pixelInset.x + guiTouchOffset.x - guiCenter.x ) / guiTouchOffset.x;
 	    position.y = ( gui.pixelInset.y + guiTouchOffset.y - guiCenter.y ) / guiTouchOffset.y;
+
+	    if(position.x>1){
+	        position.x=1;
+	    }
+	    if(position.y>1){
+	        position.y=1;
+	    }
+	    if(position.x<-1){
+	        position.x=-1;
+	    }
+	    if(position.y<-1){
+	        position.y=-1;
+	    }
 	
 	    // Adjust for dead zone	
 	    var absoluteX = Mathf.Abs( position.x );

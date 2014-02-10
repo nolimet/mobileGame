@@ -11,7 +11,7 @@ public class MoveGUIObject : MonoBehaviour {
 	}
 	
 	// Update is called once per frame
-	void Update () {
+	void LateUpdate () {
         if (Input.touchCount != 0)
         {
             int count = Input.touchCount;
@@ -20,6 +20,7 @@ public class MoveGUIObject : MonoBehaviour {
 		{
 			Touch touch = Input.GetTouch(i);			
 			Vector2 guiTouchPos  = touch.position;
+          //  Debug.Log(guiTouchPos);
 	
 			// Latch the finger if this is a new touch
 			if (( movedObject.released) && ( lastFingerId == -1 || lastFingerId != touch.fingerId ) )
@@ -34,11 +35,16 @@ public class MoveGUIObject : MonoBehaviour {
 				// for multiple touches
 				if ( touch.tapCount > tapCount )
 					tapCount = touch.tapCount;
-					
-				// Change the location of the joystick graphic to match where the touch is
-			    movedObject.guiCenter.x = guiTouchPos.x;
-			    movedObject.guiCenter.y = guiTouchPos.y;
-                movedObject.released = false;
+                if (!movedObject.released)
+                {
+                    // Change the location of the joystick graphic to match where the touch is
+                    movedObject.defaultRect.x = guiTouchPos.x;
+                    movedObject.defaultRect.y = guiTouchPos.y;
+                    movedObject.guiCenter.x = guiTouchPos.x ;//+ 50;
+                    movedObject.guiCenter.y = guiTouchPos.y ;//+ 50;
+                    Debug.Log(guiTouchPos);
+                    movedObject.released = false;
+                }
 				
 				if ( touch.phase == TouchPhase.Ended || touch.phase == TouchPhase.Canceled ){
                     movedObject.Reset();				
