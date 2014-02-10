@@ -70,6 +70,7 @@ public function Reset()
 	gui.pixelInset = defaultRect;
 	lastFingerId = -1;
 	released=false;
+	Debug.Log(released);
     
 }
 	
@@ -92,7 +93,7 @@ function Update()
 	var count = Input.touchCount;
 	
     // Adjust the tap time window while it still available
-	if(released==false)
+	if(released)
 	{
 	    if ( tapTimeWindow > 0 )
 		    tapTimeWindow -= Time.deltaTime;

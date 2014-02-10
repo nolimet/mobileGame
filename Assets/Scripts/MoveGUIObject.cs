@@ -42,8 +42,8 @@ public class MoveGUIObject : MonoBehaviour {
                     movedObject.defaultRect.y = guiTouchPos.y;
                     movedObject.guiCenter.x = guiTouchPos.x ;//+ 50;
                     movedObject.guiCenter.y = guiTouchPos.y ;//+ 50;
-                    Debug.Log(guiTouchPos);
-                    movedObject.released = false;
+                    // Debug.Log(guiTouchPos);
+                    movedObject.released = true;
                 }
 				
 				if ( touch.phase == TouchPhase.Ended || touch.phase == TouchPhase.Canceled ){

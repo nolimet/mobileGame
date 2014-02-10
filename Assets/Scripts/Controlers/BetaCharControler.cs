@@ -23,6 +23,12 @@ public class BetaCharControler : MonoBehaviour {
 	void Update () {
         Vector2 move = new Vector2();
         Vector2 anlogmove = AnologeStick.position+new Vector2(Input.GetAxis("Horizontal"),Input.GetAxis("Vertical"));
+        if (anlogmove.x == 0)
+        {
+            Vector2 tempvel = rigidbody2D.velocity;
+            tempvel.x = 0;
+            rigidbody2D.velocity = tempvel;
+        }
         if (isLight)
         {
             if (rigidbody2D.velocity.x < 10 && rigidbody2D.velocity.x>-10)
@@ -68,7 +74,7 @@ public class BetaCharControler : MonoBehaviour {
             }
         }
         rigidbody2D.AddForce(move);
-        Debug.Log(move);
+        //Debug.Log(move);
 	}
 
     void OnTriggerEnter2D(Collider2D other)
