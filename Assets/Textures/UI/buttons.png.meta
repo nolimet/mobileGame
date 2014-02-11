@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 7654eaec057419b4ca051a48c085b86f
+guid: 0d313dbcd002d2e4085dc2d7a54f3ea3
 TextureImporter:
   serializedVersion: 2
   mipmaps:
@@ -30,12 +30,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: .5, y: .5}
-  spritePixelsToUnits: 64
+  spritePixelsToUnits: 100
   alphaIsTransparency: 1
   textureType: 8
   buildTargetSettings:
@@ -44,6 +44,33 @@ TextureImporter:
     textureFormat: -2
     compressionQuality: 50
   spriteSheet:
-    sprites: []
+    sprites:
+    - name: buttons_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 404
+        width: 800
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: buttons_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 202
+        width: 800
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: buttons_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 800
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
   spritePackingTag: 
   userData: 

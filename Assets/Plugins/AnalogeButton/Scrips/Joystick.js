@@ -70,7 +70,7 @@ public function Reset()
 	gui.pixelInset = defaultRect;
 	lastFingerId = -1;
 	released=false;
-	Debug.Log(released);
+	//Debug.Log(released);
     
 }
 	
@@ -93,8 +93,8 @@ function Update()
 	var count = Input.touchCount;
 	
     // Adjust the tap time window while it still available
-	if(released)
-	{
+	//if(released)
+	//{
 	    if ( tapTimeWindow > 0 )
 		    tapTimeWindow -= Time.deltaTime;
 	    else
@@ -148,7 +148,7 @@ function Update()
 					    Reset();					
 			    }			
 		    }
-	    }
+	   // }
 	
 	    // Get a value between -1 and 1
 	    position.x = ( gui.pixelInset.x + guiTouchOffset.x - guiCenter.x ) / guiTouchOffset.x;

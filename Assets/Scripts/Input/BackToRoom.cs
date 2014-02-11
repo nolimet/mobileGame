@@ -10,7 +10,7 @@ public class BackToRoom : MonoBehaviour {
     {
         if (Input.GetKeyDown(KeyCode.Escape))
         {
-            Application.LoadLevel(LoadLevel);
+            GlobalStatics.load(LoadLevel);
         }
     }
 }

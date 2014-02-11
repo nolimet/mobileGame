@@ -4,6 +4,7 @@ using System.Collections;
 public class Click : MonoBehaviour {
     public int LoadLevel;
     public bool ExitGame;
+    public bool isButton;
 
     void Update()
     {
@@ -30,7 +31,7 @@ public class Click : MonoBehaviour {
         }
         else
         {
-            Application.LoadLevel(LoadLevel);
+            GlobalStatics.load(LoadLevel);
         }
         Debug.Log("clicked");
     }

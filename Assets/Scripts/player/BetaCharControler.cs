@@ -27,7 +27,7 @@ public class BetaCharControler : MonoBehaviour {
         {
             Vector2 tempvel = rigidbody2D.velocity;
             tempvel.x = 0;
-            rigidbody2D.velocity = tempvel;
+          //  rigidbody2D.velocity = tempvel;
         }
         if (isLight)
         {
