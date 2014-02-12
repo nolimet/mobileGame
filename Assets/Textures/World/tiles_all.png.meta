@@ -1,0 +1,292 @@
+fileFormatVersion: 2
+guid: 6d01b90a50021ac459e19fa6e34a6c67
+TextureImporter:
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings:
+  - buildTarget: iPhone
+    maxTextureSize: 1024
+    textureFormat: -2
+    compressionQuality: 50
+  spriteSheet:
+    sprites:
+    - name: tiles_all_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 510
+        width: 98
+        height: 100
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: tiles_all_1
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 510
+        width: 98
+        height: 100
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: tiles_all_2
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 510
+        width: 98
+        height: 100
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: tiles_all_3
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 510
+        width: 98
+        height: 100
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: tiles_all_4
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 510
+        width: 98
+        height: 100
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: tiles_all_5
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 407
+        width: 95
+        height: 101
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: tiles_all_6
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 306
+        width: 99
+        height: 202
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: tiles_all_7
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 306
+        width: 99
+        height: 202
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: tiles_all_8
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 306
+        width: 99
+        height: 202
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: tiles_all_9
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 407
+        width: 95
+        height: 100
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: tiles_all_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 305
+        width: 98
+        height: 101
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: tiles_all_11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 204
+        width: 95
+        height: 100
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: tiles_all_12
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 204
+        width: 96
+        height: 101
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: tiles_all_13
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 204
+        width: 95
+        height: 101
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: tiles_all_14
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 204
+        width: 96
+        height: 101
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: tiles_all_15
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 204
+        width: 94
+        height: 101
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: tiles_all_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 102
+        width: 101
+        height: 100
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: tiles_all_17
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 102
+        width: 101
+        height: 100
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: tiles_all_18
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 102
+        width: 101
+        height: 100
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: tiles_all_19
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 102
+        width: 101
+        height: 100
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: tiles_all_20
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 102
+        width: 101
+        height: 100
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: tiles_all_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 101
+        height: 100
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: tiles_all_22
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 0
+        width: 101
+        height: 100
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: tiles_all_23
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 0
+        width: 101
+        height: 100
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: tiles_all_24
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 0
+        width: 101
+        height: 100
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: tiles_all_25
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 0
+        width: 101
+        height: 100
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: tiles_all_26
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 306
+        width: 94
+        height: 100
+      alignment: 0
+      pivot: {x: .5, y: .5}
+  spritePackingTag: 
+  userData: 
