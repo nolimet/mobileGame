@@ -1,0 +1,265 @@
+fileFormatVersion: 2
+guid: 7f77f63801c7fc84fbcde3204a3e3054
+TextureImporter:
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings:
+  - buildTarget: iPhone
+    maxTextureSize: 1024
+    textureFormat: -2
+    compressionQuality: 50
+  spriteSheet:
+    sprites:
+    - name: bunny_base_walk_002_0
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 1853
+        width: 160
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: bunny_base_walk_002_1
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 1853
+        width: 160
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: bunny_base_walk_002_2
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 1849
+        width: 160
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: bunny_base_walk_002_3
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 1849
+        width: 162
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: bunny_base_walk_002_4
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 1849
+        width: 162
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: bunny_base_walk_002_5
+      rect:
+        serializedVersion: 2
+        x: 955
+        y: 1831
+        width: 162
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: bunny_base_walk_002_6
+      rect:
+        serializedVersion: 2
+        x: 1135
+        y: 1815
+        width: 164
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: bunny_base_walk_002_7
+      rect:
+        serializedVersion: 2
+        x: 1317
+        y: 1805
+        width: 168
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: bunny_base_walk_002_8
+      rect:
+        serializedVersion: 2
+        x: 1503
+        y: 1797
+        width: 170
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: bunny_base_walk_002_9
+      rect:
+        serializedVersion: 2
+        x: 1691
+        y: 1785
+        width: 184
+        height: 204
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: bunny_base_walk_002_10
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 1565
+        width: 188
+        height: 204
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: bunny_base_walk_002_11
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 1567
+        width: 194
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: bunny_base_walk_002_12
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 1575
+        width: 196
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: bunny_base_walk_002_13
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 1579
+        width: 200
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: bunny_base_walk_002_14
+      rect:
+        serializedVersion: 2
+        x: 903
+        y: 1575
+        width: 210
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: bunny_base_walk_002_15
+      rect:
+        serializedVersion: 2
+        x: 1131
+        y: 1591
+        width: 204
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: bunny_base_walk_002_16
+      rect:
+        serializedVersion: 2
+        x: 1353
+        y: 1601
+        width: 202
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: bunny_base_walk_002_17
+      rect:
+        serializedVersion: 2
+        x: 1573
+        y: 1609
+        width: 202
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: bunny_base_walk_002_18
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 1397
+        width: 204
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: bunny_base_walk_002_19
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 1405
+        width: 206
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: bunny_base_walk_002_20
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 1401
+        width: 172
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: bunny_base_walk_002_21
+      rect:
+        serializedVersion: 2
+        x: 697
+        y: 1391
+        width: 162
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: bunny_base_walk_002_22
+      rect:
+        serializedVersion: 2
+        x: 877
+        y: 1391
+        width: 160
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: bunny_base_walk_002_23
+      rect:
+        serializedVersion: 2
+        x: 1053
+        y: 1399
+        width: 162
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+  spritePackingTag: 
+  userData: 
