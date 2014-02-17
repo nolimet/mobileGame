@@ -42,58 +42,32 @@ public class Button : MonoBehaviour {
         }
 	}*/
     public bool state = false;
-
-    public bool ShowGUI = true;
-     
     void  Start (){
-     
-    ShowGUI = true;
      
     }
 
     void Update()
     {
-
-        //The 'ShowGUI' enables you do either view or not view the actual GUI
-
-        if (ShowGUI == true)
+        if (Input.touchCount > 0)
         {
+            for (int i = 0; i < Input.touchCount; i++)
+            {
 
-            guiTexture.enabled = true;
+                Touch touch = Input.GetTouch(i);
 
+                if (touch.phase == TouchPhase.Began && guiTexture.HitTest(touch.position))
+                {
+
+                    state = true;
+
+                }
+            }
         }
         else
         {
 
-            guiTexture.enabled = false;
+            state = false;
 
-        }
-
-        if (ShowGUI == true)
-        {
-
-            if (Input.touchCount > 0)
-            {
-
-                for (int i = 0; i < Input.touchCount; i++)
-                {
-
-                    Touch touch = Input.GetTouch(i);
-
-                    if (touch.phase == TouchPhase.Began && guiTexture.HitTest(touch.position))
-                    {
-
-                        state = true;
-
-                    }
-                }
-            }
-            else
-            {
-
-                state = false;
-
-            }
         }
     }
     void OnMouseDown()
