@@ -7,12 +7,12 @@ public class ObjectScript : MonoBehaviour
 	private float addGravity = 2f;
 	//private bool gravityOff = false;
 	//private bool flying = false;
-	private bool g = true;
+	private bool g;
 
 	// Use this for initialization
 	void Start () 
 	{
-		
+        g = true;
 	}
 	
 	// Update is called once per frame

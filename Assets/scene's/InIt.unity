@@ -217,4 +217,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   goToLevel: 1
-  WaitTime: 5
+  WaitTime: 2
