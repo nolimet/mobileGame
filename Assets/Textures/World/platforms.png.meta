@@ -1,0 +1,486 @@
+fileFormatVersion: 2
+guid: 1d25b99c15a89574eb9308c77afcaeeb
+TextureImporter:
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 4096
+  textureSettings:
+    filterMode: 0
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: platforms_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 667
+        width: 217
+        height: 53
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: platforms_1
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 667
+        width: 217
+        height: 53
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: platforms_2
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 654
+        width: 218
+        height: 66
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: platforms_3
+      rect:
+        serializedVersion: 2
+        x: 875
+        y: 652
+        width: 218
+        height: 68
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: platforms_4
+      rect:
+        serializedVersion: 2
+        x: 1198
+        y: 445
+        width: 82
+        height: 275
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: platforms_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 613
+        width: 217
+        height: 53
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: platforms_6
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 612
+        width: 436
+        height: 54
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: platforms_7
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 586
+        width: 218
+        height: 66
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: platforms_8
+      rect:
+        serializedVersion: 2
+        x: 875
+        y: 574
+        width: 218
+        height: 66
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: platforms_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 558
+        width: 217
+        height: 53
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: platforms_10
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 558
+        width: 218
+        height: 53
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: platforms_11
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 558
+        width: 218
+        height: 53
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: platforms_12
+      rect:
+        serializedVersion: 2
+        x: 884
+        y: 507
+        width: 218
+        height: 66
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: platforms_13
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 504
+        width: 217
+        height: 53
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: platforms_14
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 504
+        width: 218
+        height: 53
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: platforms_15
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 416
+        width: 222
+        height: 140
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: platforms_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 449
+        width: 217
+        height: 54
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: platforms_17
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 449
+        width: 218
+        height: 54
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: platforms_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 402
+        width: 217
+        height: 47
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: platforms_19
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 381
+        width: 217
+        height: 66
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: platforms_20
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 362
+        width: 218
+        height: 53
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: platforms_21
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 376
+        width: 218
+        height: 66
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: platforms_22
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 330
+        width: 218
+        height: 66
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: platforms_23
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 327
+        width: 218
+        height: 53
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: platforms_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 276
+        width: 217
+        height: 53
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: platforms_25
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 256
+        width: 82
+        height: 49
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: platforms_26
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 256
+        width: 82
+        height: 49
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: platforms_27
+      rect:
+        serializedVersion: 2
+        x: 942
+        y: 256
+        width: 82
+        height: 49
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: platforms_28
+      rect:
+        serializedVersion: 2
+        x: 1027
+        y: 256
+        width: 82
+        height: 49
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: platforms_29
+      rect:
+        serializedVersion: 2
+        x: 1113
+        y: 256
+        width: 82
+        height: 49
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: platforms_30
+      rect:
+        serializedVersion: 2
+        x: 1198
+        y: 256
+        width: 82
+        height: 49
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: platforms_31
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 82
+        height: 275
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: platforms_32
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 0
+        width: 82
+        height: 275
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: platforms_33
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 0
+        width: 82
+        height: 275
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: platforms_34
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 0
+        width: 83
+        height: 275
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: platforms_35
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 192
+        width: 225
+        height: 61
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: platforms_36
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 193
+        width: 225
+        height: 57
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: platforms_37
+      rect:
+        serializedVersion: 2
+        x: 827
+        y: 189
+        width: 225
+        height: 61
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: platforms_38
+      rect:
+        serializedVersion: 2
+        x: 1055
+        y: 190
+        width: 225
+        height: 56
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: platforms_39
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 95
+        width: 225
+        height: 61
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: platforms_40
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 96
+        width: 225
+        height: 56
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: platforms_41
+      rect:
+        serializedVersion: 2
+        x: 827
+        y: 94
+        width: 225
+        height: 61
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: platforms_42
+      rect:
+        serializedVersion: 2
+        x: 1055
+        y: 95
+        width: 225
+        height: 56
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: platforms_43
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 0
+        width: 225
+        height: 62
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: platforms_44
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 1
+        width: 225
+        height: 57
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: platforms_45
+      rect:
+        serializedVersion: 2
+        x: 827
+        y: 0
+        width: 225
+        height: 61
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: platforms_46
+      rect:
+        serializedVersion: 2
+        x: 1055
+        y: 1
+        width: 225
+        height: 56
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: platforms_47
+      rect:
+        serializedVersion: 2
+        x: 663
+        y: 444
+        width: 219
+        height: 139
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: platforms_48
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 667
+        width: 220
+        height: 53
+      alignment: 0
+      pivot: {x: .5, y: .5}
+  spritePackingTag: 
+  userData: 
