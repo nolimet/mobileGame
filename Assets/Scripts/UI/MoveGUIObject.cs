@@ -2,9 +2,9 @@
 using System.Collections;
 
 public class MoveGUIObject : MonoBehaviour {
-
+/*
     private int lastFingerId;
-    public Joystick movedObject;
+    //public Joystick movedObject;
     public int tapCount;	
 	// Use this for initialization
 	void Start () {
@@ -53,4 +53,5 @@ public class MoveGUIObject : MonoBehaviour {
         }
         }
 	}
+ * */
 }

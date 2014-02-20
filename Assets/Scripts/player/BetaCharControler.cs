@@ -7,6 +7,8 @@ public class BetaCharControler : MonoBehaviour {
     public Joystick AnologeStick;
     public Button ButtonA;
     public Button ButtonB;
+    public ButtonRestonrelease RightButton;
+    public ButtonRestonrelease LeftButton;
 	private GravityScript gravityScr;
 	
     //others
@@ -24,74 +26,80 @@ public class BetaCharControler : MonoBehaviour {
 		gravityScr = GetComponent<GravityScript>();
     }
 	// Update is called once per frame
-	void LateUpdate () 
+	void Update () 
 	{
         Vector2 move = new Vector2();
-        anlogmove = AnologeStick.position + new Vector2(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"));
+        float ButtonMove = 0;
+        if (LeftButton.state)
+        {
+            ButtonMove -= 1;
+        }
+        if (RightButton.state)
+        {
+            ButtonMove += 1;
+        }
 
-	        if (anlogmove.x == 0)
-	        {
-	            Vector2 tempvel = rigidbody2D.velocity;
-	            tempvel.x = 0;
-	          //  rigidbody2D.velocity = tempvel;
-	        }
-	            if (rigidbody2D.velocity.x < 10 && rigidbody2D.velocity.x>-10)
-	            {
-	                if (g)
-	                {
-	                    move.x = anlogmove.x * 17;
-	                    // Debug.Log(AnologeStick.position);
-	                }
-	                else
-	                {
-	                    move.x = anlogmove.x * 2;
-	                }
-	            }
-                if (ButtonB.state && g)
+        anlogmove = new Vector2(Input.GetAxis("Horizontal")+ButtonMove,0);
+
+		Debug.Log(anlogmove);
+            if (rigidbody2D.velocity.x < 10 && rigidbody2D.velocity.x>-10)
+            {
+                if (g)
                 {
-                    // g = false;
-                    coll.sharedMaterial = airPhyMat;
-                    ButtonB.state = false;
-                    move.y = 500;
+                    move.x = anlogmove.x * 17;
+                    // Debug.Log(AnologeStick.position);
                 }
                 else
                 {
-                    if (rigidbody2D.velocity.x < 2 && rigidbody2D.velocity.x > 2)
-                    {
-                        if (g)
-                        {
-                            move.x = anlogmove.x * 3;
-                            // Debug.Log(AnologeStick.position);
-                        }
-                        else
-                        {
-                            move.x = anlogmove.x * 2;
-                        }
-                    }
-                    if (ButtonB.state && g)
-                    {
-                        // g = false;
-                        coll.sharedMaterial = airPhyMat;
-                        ButtonB.state = false;
-                        move.y = 100;
-                    }
+                    move.x = anlogmove.x * 2;
                 }
-           if (ButtonA.state && GlobalStatics.gravityOff == false && g)
-            {
-                Vector3 fly = new Vector3(transform.position.x, transform.position.y + addGravity, transform.position.z);
-                transform.position = fly;
-                rigidbody2D.gravityScale = 0;
-                //flying = true;
-                move.x =0;
-                GlobalStatics.gravityOff = true;
             }
-            else if (ButtonA.state && GlobalStatics.gravityOff)
+        if (ButtonB.state && g)
+        {
+            // g = false;
+            coll.sharedMaterial = airPhyMat;
+            ButtonB.state = false;
+            move.y = 500;
+        }
+			else if (Input.GetKeyDown(KeyCode.Space)&& g)
+			{
+				// g = false;
+				coll.sharedMaterial = airPhyMat;
+				ButtonB.state = false;
+				move.y = 500;
+			}
+        else
+        {
+            if (rigidbody2D.velocity.x < 2 && rigidbody2D.velocity.x > 2)
             {
-                GlobalStatics.gravityOff = false;
-                rigidbody2D.gravityScale = 1;
-                //flying = false;
+                if (g)
+                {
+                    move.x = anlogmove.x * 3;
+                    // Debug.Log(AnologeStick.position);
+                }
+                else
+                {
+                    move.x = anlogmove.x * 2;
+                }
             }
-	        rigidbody2D.AddForce(move);
+
+        }
+   if (ButtonA.state && GlobalStatics.gravityOff == false && g)
+    {
+        Vector3 fly = new Vector3(transform.position.x, transform.position.y + addGravity, transform.position.z);
+        transform.position = fly;
+        rigidbody2D.gravityScale = 0;
+        //flying = true;
+        move.x =0;
+        GlobalStatics.gravityOff = true;
+    }
+    else if (ButtonA.state && GlobalStatics.gravityOff)
+    {
+        GlobalStatics.gravityOff = false;
+        rigidbody2D.gravityScale = 1;
+        //flying = false;
+    }
+        rigidbody2D.AddForce(move);
 		//}
         //Debug.Log(move);
 	}

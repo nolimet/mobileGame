@@ -12,8 +12,8 @@
 // A simple class for bounding how far the GUITexture will move
 class Boundary 
 {
-	var min:Vector2 = Vector2.zero;
-	var max:Vector2 = Vector2.zero;
+	var min : Vector2 = Vector2.zero;
+	var max : Vector2 = Vector2.zero;
 }
 
 static private var joysticks : Joystick[];					// A static collection of all joysticks
@@ -28,11 +28,10 @@ public var tapCount : int;									// Current tap count
 private var lastFingerId = -1;								// Finger last used for this joystick
 private var tapTimeWindow : float;							// How much time there is left for a tap to occur
 private var gui : GUITexture;								// Joystick graphic
-public var defaultRect : Rect;								// Default position / extents of the joystick graphic
+private var defaultRect : Rect;								// Default position / extents of the joystick graphic
 private var guiBoundary : Boundary = Boundary();			// Boundary for joystick graphic
 private var guiTouchOffset : Vector2;						// Offset to apply to touch input
-public var guiCenter : Vector2;		                        // Center of joystick graphic
-public var released = false;
+private var guiCenter : Vector2;							// Center of joystick graphic
 
 function Start()
 {
@@ -64,14 +63,11 @@ function Disable()
 	enumeratedJoysticks = false;
 }
 
-public function Reset()
+function Reset()
 {
 	// Release the finger control and set the joystick back to the default position
 	gui.pixelInset = defaultRect;
 	lastFingerId = -1;
-	released=false;
-	//Debug.Log(released);
-    
 }
 	
 function LatchedFinger( fingerId : int )
@@ -92,105 +88,88 @@ function Update()
 		
 	var count = Input.touchCount;
 	
-    // Adjust the tap time window while it still available
-	//if(released)
-	//{
-	    if ( tapTimeWindow > 0 )
-		    tapTimeWindow -= Time.deltaTime;
-	    else
-		    tapCount = 0;
+	// Adjust the tap time window while it still available
+	if ( tapTimeWindow > 0 )
+		tapTimeWindow -= Time.deltaTime;
+	else
+		tapCount = 0;
 	
-	    if ( count == 0 )
-		    Reset();
-	    else
-	    {
-	        for(var i : int = 0;i < count; i++)
-	        {
-			    var touch : Touch = Input.GetTouch(i);			
-			    var guiTouchPos : Vector2 = touch.position - guiTouchOffset;
+	if ( count == 0 )
+		Reset();
+	else
+	{
+		for(var i : int = 0;i < count; i++)
+		{
+			var touch : Touch = Input.GetTouch(i);			
+			var guiTouchPos : Vector2 = touch.position - guiTouchOffset;
 	
-	            // Latch the finger if this is a new touch
-			    if ( gui.HitTest( touch.position ) && ( lastFingerId == -1 || lastFingerId != touch.fingerId ) )
-	               {
-				    lastFingerId = touch.fingerId;
+			// Latch the finger if this is a new touch
+			if ( gui.HitTest( touch.position ) && ( lastFingerId == -1 || lastFingerId != touch.fingerId ) )
+			{
+				lastFingerId = touch.fingerId;
 				
-	            // Accumulate taps if it is within the time window
-				    if ( tapTimeWindow > 0 ){
-					    tapCount++;
-	                    }
-				    else
-				    {
-					    tapCount = 1;
-					    tapTimeWindow = tapTimeDelta;
-				    }
+				// Accumulate taps if it is within the time window
+				if ( tapTimeWindow > 0 )
+					tapCount++;
+				else
+				{
+					tapCount = 1;
+					tapTimeWindow = tapTimeDelta;
+				}
 											
-				    // Tell other joysticks we've latched this finger
-				    for ( var j : Joystick in joysticks )
-				    {
-					    if ( j != this )
-						    j.LatchedFinger( touch.fingerId );
-				    }						
-			    }				
+				// Tell other joysticks we've latched this finger
+				for ( var j : Joystick in joysticks )
+				{
+					if ( j != this )
+						j.LatchedFinger( touch.fingerId );
+				}						
+			}				
 	
-			    if ( lastFingerId == touch.fingerId )
-			    {	
-				    // Override the tap count with what the iPhone SDK reports if it is greater
-				    // This is a workaround, since the iPhone SDK does not currently track taps
-				    // for multiple touches
-				    if ( touch.tapCount > tapCount )
-					    tapCount = touch.tapCount;
+			if ( lastFingerId == touch.fingerId )
+			{	
+				// Override the tap count with what the iPhone SDK reports if it is greater
+				// This is a workaround, since the iPhone SDK does not currently track taps
+				// for multiple touches
+				if ( touch.tapCount > tapCount )
+					tapCount = touch.tapCount;
 					
-				    // Change the location of the joystick graphic to match where the touch is
-				    gui.pixelInset.x = Mathf.Clamp( guiTouchPos.x, guiBoundary.min.x, guiBoundary.max.x );
-				    gui.pixelInset.y = Mathf.Clamp( guiTouchPos.y, guiBoundary.min.y, guiBoundary.max.y );		
+				// Change the location of the joystick graphic to match where the touch is
+				gui.pixelInset.x = Mathf.Clamp( guiTouchPos.x, guiBoundary.min.x, guiBoundary.max.x );
+				gui.pixelInset.y = Mathf.Clamp( guiTouchPos.y, guiBoundary.min.y, guiBoundary.max.y );		
 				
-				    if ( touch.phase == TouchPhase.Ended || touch.phase == TouchPhase.Canceled )
-					    Reset();					
-			    }			
-		    }
-	   // }
+				if ( touch.phase == TouchPhase.Ended || touch.phase == TouchPhase.Canceled )
+					Reset();					
+			}			
+		}
+	}
 	
-	    // Get a value between -1 and 1
-	    position.x = ( gui.pixelInset.x + guiTouchOffset.x - guiCenter.x ) / guiTouchOffset.x;
-	    position.y = ( gui.pixelInset.y + guiTouchOffset.y - guiCenter.y ) / guiTouchOffset.y;
-
-	    if(position.x>1){
-	        position.x=1;
-	    }
-	    if(position.y>1){
-	        position.y=1;
-	    }
-	    if(position.x<-1){
-	        position.x=-1;
-	    }
-	    if(position.y<-1){
-	        position.y=-1;
-	    }
+	// Get a value between -1 and 1
+	position.x = ( gui.pixelInset.x + guiTouchOffset.x - guiCenter.x ) / guiTouchOffset.x;
+	position.y = ( gui.pixelInset.y + guiTouchOffset.y - guiCenter.y ) / guiTouchOffset.y;
 	
-	    // Adjust for dead zone	
-	    var absoluteX = Mathf.Abs( position.x );
-	    var absoluteY = Mathf.Abs( position.y );
+	// Adjust for dead zone	
+	var absoluteX = Mathf.Abs( position.x );
+	var absoluteY = Mathf.Abs( position.y );
 	
-	    if ( absoluteX < deadZone.x )
-	    {
-		    // Report the joystick as being at the center if it is within the dead zone
-		    position.x = 0;
-	    }
-	    else if ( normalize )
-	    {
-		    // Rescale the output after taking the dead zone into account
-		    position.x = Mathf.Sign( position.x ) * ( absoluteX - deadZone.x ) / ( 1 - deadZone.x );
-	    }
+	if ( absoluteX < deadZone.x )
+	{
+		// Report the joystick as being at the center if it is within the dead zone
+		position.x = 0;
+	}
+	else if ( normalize )
+	{
+		// Rescale the output after taking the dead zone into account
+		position.x = Mathf.Sign( position.x ) * ( absoluteX - deadZone.x ) / ( 1 - deadZone.x );
+	}
 		
-	    if ( absoluteY < deadZone.y )
-	    {
-		    // Report the joystick as being at the center if it is within the dead zone
-		    position.y = 0;
-	    }
-	    else if ( normalize )
-	    {
-		    // Rescale the output after taking the dead zone into account
-		    position.y = Mathf.Sign( position.y ) * ( absoluteY - deadZone.y ) / ( 1 - deadZone.y );
-	    }
-    }
+	if ( absoluteY < deadZone.y )
+	{
+		// Report the joystick as being at the center if it is within the dead zone
+		position.y = 0;
+	}
+	else if ( normalize )
+	{
+		// Rescale the output after taking the dead zone into account
+		position.y = Mathf.Sign( position.y ) * ( absoluteY - deadZone.y ) / ( 1 - deadZone.y );
+	}
 }
