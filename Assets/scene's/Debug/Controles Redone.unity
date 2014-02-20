@@ -1034,66 +1034,66 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 995399504}
-  - {fileID: 1972057408}
-  - {fileID: 2066091206}
-  - {fileID: 2034492731}
-  - {fileID: 1659839732}
-  - {fileID: 2008394636}
-  - {fileID: 1349862291}
-  - {fileID: 1387196809}
   - {fileID: 913576405}
-  - {fileID: 941895762}
-  - {fileID: 1864526930}
-  - {fileID: 1135382094}
-  - {fileID: 135466633}
-  - {fileID: 481134781}
-  - {fileID: 883079186}
-  - {fileID: 121236943}
-  - {fileID: 2007492474}
-  - {fileID: 1206438894}
-  - {fileID: 476307576}
-  - {fileID: 125763445}
   - {fileID: 1919066684}
+  - {fileID: 1349862291}
   - {fileID: 113822696}
-  - {fileID: 871200092}
-  - {fileID: 1192525448}
-  - {fileID: 1055899523}
-  - {fileID: 54941439}
+  - {fileID: 2066091206}
+  - {fileID: 476307576}
+  - {fileID: 121236943}
+  - {fileID: 481134781}
+  - {fileID: 135466633}
+  - {fileID: 1972057408}
   - {fileID: 1763797326}
   - {fileID: 1062825870}
-  - {fileID: 1555196254}
+  - {fileID: 941895762}
+  - {fileID: 2007492474}
+  - {fileID: 871200092}
   - {fileID: 1718634925}
+  - {fileID: 2008394636}
+  - {fileID: 54941439}
+  - {fileID: 125763445}
+  - {fileID: 883079186}
+  - {fileID: 2034492731}
+  - {fileID: 1387196809}
+  - {fileID: 1055899523}
+  - {fileID: 1206438894}
+  - {fileID: 1192525448}
+  - {fileID: 1659839732}
+  - {fileID: 1555196254}
+  - {fileID: 1135382094}
+  - {fileID: 995399504}
+  - {fileID: 1864526930}
+  - {fileID: 1193533582}
   - {fileID: 1063351898}
+  - {fileID: 685994100}
+  - {fileID: 423217809}
+  - {fileID: 1823506154}
+  - {fileID: 767624554}
+  - {fileID: 368185449}
   - {fileID: 327207565}
-  - {fileID: 1812136664}
-  - {fileID: 2084027387}
-  - {fileID: 330374959}
   - {fileID: 1950008939}
   - {fileID: 573258816}
-  - {fileID: 2034456339}
-  - {fileID: 1370151456}
-  - {fileID: 836541293}
-  - {fileID: 938112211}
-  - {fileID: 767624554}
-  - {fileID: 247018829}
-  - {fileID: 283369674}
-  - {fileID: 237053684}
-  - {fileID: 267030324}
   - {fileID: 1807890155}
-  - {fileID: 685994100}
   - {fileID: 433360501}
-  - {fileID: 1823506154}
-  - {fileID: 368185449}
+  - {fileID: 247018829}
   - {fileID: 1349612583}
-  - {fileID: 86482840}
-  - {fileID: 1329662133}
-  - {fileID: 620828794}
   - {fileID: 388305138}
-  - {fileID: 1193533582}
+  - {fileID: 2034456339}
+  - {fileID: 1329662133}
+  - {fileID: 267030324}
   - {fileID: 1048606269}
+  - {fileID: 86482840}
   - {fileID: 1501821265}
-  - {fileID: 423217809}
+  - {fileID: 836541293}
+  - {fileID: 1812136664}
+  - {fileID: 2084027387}
+  - {fileID: 237053684}
+  - {fileID: 330374959}
+  - {fileID: 938112211}
+  - {fileID: 283369674}
+  - {fileID: 1370151456}
+  - {fileID: 620828794}
   m_Father: {fileID: 118731375}
 --- !u!1 &181842005
 GameObject:
@@ -1159,11 +1159,11 @@ Transform:
   m_LocalPosition: {x: -6.40310621, y: 15.3232079, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 1972733856}
-  - {fileID: 458020849}
   - {fileID: 1604632888}
-  - {fileID: 1291894612}
+  - {fileID: 1972733856}
   - {fileID: 1025864660}
+  - {fileID: 458020849}
+  - {fileID: 1291894612}
   m_Father: {fileID: 0}
 --- !u!1001 &211626864
 Prefab:
@@ -3188,7 +3188,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: -6
   m_SortingLayerID: 0
-  m_Sprite: {fileID: 21300000, guid: 9246db2d616df5343bc158cd0daeb18d, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 20cdacf70ff6ab34d8880692f1f5455a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!4 &790209735
 Transform:
@@ -4063,7 +4063,7 @@ Transform:
   m_PrefabInternal: {fileID: 1286507936}
   m_GameObject: {fileID: 1025864657}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 13.5219421, y: -31.4824142, z: 0}
+  m_LocalPosition: {x: 13.4823837, y: -32.51091, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1225362154}
@@ -5309,11 +5309,11 @@ Prefab:
     m_Modifications:
     - target: {fileID: 400000, guid: 3d569bb6c7a4a7f468c43fcd1f2a719e, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 13.5219421
+      value: 13.4823837
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 3d569bb6c7a4a7f468c43fcd1f2a719e, type: 2}
       propertyPath: m_LocalPosition.y
-      value: -31.4824142
+      value: -32.51091
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 3d569bb6c7a4a7f468c43fcd1f2a719e, type: 2}
       propertyPath: m_LocalPosition.z
@@ -6798,7 +6798,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 1482952569}
   m_Enabled: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Size: {x: 1, y: 1}
   m_Center: {x: 0, y: 0}
 --- !u!212 &1482952572
