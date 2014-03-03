@@ -11,14 +11,22 @@ public class BetaCharControler : MonoBehaviour {
     public ButtonRestonrelease LeftButton;
 	private GravityScript gravityScr;
 	
-    //others
+    //materials
     public PhysicsMaterial2D airPhyMat;
-    public bool g = false;
     private PhysicsMaterial2D orPhyMat;
     private BoxCollider2D coll;
-	private float addGravity = 2f;
+
+    //bools
+    public bool g = false;
+
+    //vectors
     public Vector2 anlogmove = new Vector2();
-	//private bool flying = false;
+
+    //floats and ints
+    private int health = 100;
+    private float addGravity = 2f;
+
+
     void Start()
     {
         coll = GetComponent<BoxCollider2D>();;
@@ -84,14 +92,13 @@ public class BetaCharControler : MonoBehaviour {
             }
 
         }
-   if (ButtonA.state && GlobalStatics.gravityOff == false && g)
+   if (ButtonA.state && g || Input.GetKeyDown(KeyCode.LeftShift))
     {
-        Vector3 fly = new Vector3(transform.position.x, transform.position.y + addGravity, transform.position.z);
-        transform.position = fly;
-        rigidbody2D.gravityScale = 0;
-        //flying = true;
-        move.x =0;
-        GlobalStatics.gravityOff = true;
+        Object[] objects = FindObjectsOfType (typeof(GameObject));
+        foreach (GameObject go in objects)
+        {
+            go.SendMessage("GraviSwitch", SendMessageOptions.DontRequireReceiver);
+        }
     }
     else if (ButtonA.state && GlobalStatics.gravityOff)
     {
@@ -122,5 +129,18 @@ public class BetaCharControler : MonoBehaviour {
 			GlobalStatics.playerOnGround = g;
             coll.sharedMaterial = airPhyMat;
         }
+    }
+
+    public void GetHit(int Damage)
+    {
+        health -= Damage;
+        if (health <= 0)
+        {
+            GameOver();
+        }
+    }
+    void GameOver()
+    {
+        Application.LoadLevel(Application.loadedLevel);
     }
 }
