@@ -21,7 +21,7 @@ public class FlyInObject : MonoBehaviour {
 
         Vector2 temp1 = origen + MoveAmount;
         Vector2 temp2 = transform.position;
-        Debug.Log(Vector2.Distance(temp2, temp1));
+       // Debug.Log(Vector2.Distance(temp2, temp1));
         if (Vector2.Distance(temp2, temp1) > 0.1f)
         {
             Vector2 dir = temp1 - temp2;

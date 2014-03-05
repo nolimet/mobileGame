@@ -3,12 +3,12 @@ using System.Collections;
 
 public class Spikes : MonoBehaviour {
 
-    void OnCollisionEnter2D(Collider2D coll)
+    void OnCollisionEnter2D(Collision2D coll)
     {
-        if (coll.tag == TagManager.player)
+        if (coll.gameObject.tag == TagManager.player)
         {
             BetaCharControler player = coll.gameObject.GetComponent<BetaCharControler>();
-            
+            player.GetHit(4);
         }
     }
 }

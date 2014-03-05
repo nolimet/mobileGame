@@ -13,4 +13,16 @@ public class GlobalStatics :MonoBehaviour {
         levelToLoad = level;
         Application.LoadLevelAdditive(2);
     }
+
+    public static Color randomColor()
+    {
+       // float numb = 0.0039215686274509803921568627451f;
+        Color output = new Color();
+        output.b = 1 * Random.value;
+        output.g = 1 * Random.value;
+        output.r = 1 * Random.value;
+        output.a = 1;
+
+        return output;
+    }
 }

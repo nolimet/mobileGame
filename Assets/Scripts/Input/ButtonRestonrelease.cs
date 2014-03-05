@@ -70,7 +70,7 @@ public class ButtonRestonrelease : MonoBehaviour
             state = false;
 
         }
-        Debug.Log(state);
+        //Debug.Log(state);
     }
     void OnMouseDown()
     {

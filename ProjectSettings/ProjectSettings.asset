@@ -112,7 +112,7 @@ PlayerSettings:
   m_BuildTargetIcons:
   - m_BuildTarget: 
     m_Icons:
-    - m_Icon: {fileID: 2800000, guid: bbeb160924968fa4fa02021e9f688d3a, type: 3}
+    - m_Icon: {fileID: 2800000, guid: 24d13b21cb6e74643a80df2a2a17ea76, type: 3}
       m_Size: 128
   m_BuildTargetBatching:
   - m_BuildTarget: Android
@@ -161,7 +161,8 @@ PlayerSettings:
   ps3TrialMode: 0
   flashStrippingLevel: 2
   spritePackerPolicy: 
-  scriptingDefineSymbols: {}
+  scriptingDefineSymbols:
+    2: 
   metroPackageName: mobileGame
   metroPackageLogo: 
   metroPackageVersion: 

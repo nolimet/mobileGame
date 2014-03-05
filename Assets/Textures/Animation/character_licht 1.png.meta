@@ -1,0 +1,139 @@
+fileFormatVersion: 2
+guid: 93da923ec01a2f1429f7faca286f136b
+TextureImporter:
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings:
+  - buildTarget: iPhone
+    maxTextureSize: 1024
+    textureFormat: -2
+    compressionQuality: 50
+  spriteSheet:
+    sprites:
+    - name: character_licht 1_0
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 134
+        width: 62
+        height: 63
+      alignment: 9
+      pivot: {x: .747333169, y: .137593582}
+    - name: character_licht 1_1
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 98
+        width: 142
+        height: 80
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: character_licht 1_2
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 57
+        width: 18
+        height: 55
+      alignment: 9
+      pivot: {x: .594658017, y: .902728558}
+    - name: character_licht 1_3
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 56
+        width: 21
+        height: 56
+      alignment: 9
+      pivot: {x: .175456643, y: .925962865}
+    - name: character_licht 1_4
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 51
+        width: 19
+        height: 27
+      alignment: 9
+      pivot: {x: .553805292, y: .815528035}
+    - name: character_licht 1_5
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 23
+        width: 51
+        height: 36
+      alignment: 9
+      pivot: {x: .172593057, y: .812372863}
+    - name: character_licht 1_6
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 23
+        width: 21
+        height: 24
+      alignment: 9
+      pivot: {x: .694725037, y: .854969025}
+    - name: character_licht 1_7
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 3
+        width: 23
+        height: 18
+      alignment: 9
+      pivot: {x: .722240925, y: .746112585}
+    - name: character_licht 1_8
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 0
+        width: 72
+        height: 16
+      alignment: 9
+      pivot: {x: .902297974, y: .649086773}
+    - name: character_licht 1_9
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 61
+        width: 50
+        height: 39
+      alignment: 9
+      pivot: {x: .840769947, y: .797081769}
+  spritePackingTag: 
+  userData: 

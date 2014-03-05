@@ -25,6 +25,7 @@ public class BetaCharControler : MonoBehaviour {
     //floats and ints
     private int health = 100;
     private float addGravity = 2f;
+    private float graviCoolDown = 0f;
 
 
     void Start()
@@ -49,7 +50,7 @@ public class BetaCharControler : MonoBehaviour {
 
         anlogmove = new Vector2(Input.GetAxis("Horizontal")+ButtonMove,0);
 
-		Debug.Log(anlogmove);
+		//Debug.Log(anlogmove);
             if (rigidbody2D.velocity.x < 10 && rigidbody2D.velocity.x>-10)
             {
                 if (g)
@@ -92,23 +93,17 @@ public class BetaCharControler : MonoBehaviour {
             }
 
         }
-   if (ButtonA.state && g || Input.GetKeyDown(KeyCode.LeftShift))
-    {
-        Object[] objects = FindObjectsOfType (typeof(GameObject));
-        foreach (GameObject go in objects)
+        if (ButtonA.state && g && graviCoolDown <= 0 || Input.GetKeyDown(KeyCode.LeftShift) && g && graviCoolDown <= 0)
         {
-            go.SendMessage("GraviSwitch", SendMessageOptions.DontRequireReceiver);
+            graviCoolDown = 0.2f;
+            Object[] objects = FindObjectsOfType(typeof(GameObject));
+            foreach (GameObject go in objects)
+            {
+                go.SendMessage("GraviSwitch", SendMessageOptions.DontRequireReceiver);
+            }
         }
-    }
-    else if (ButtonA.state && GlobalStatics.gravityOff)
-    {
-        GlobalStatics.gravityOff = false;
-        rigidbody2D.gravityScale = 1;
-        //flying = false;
-    }
+        graviCoolDown -= Time.deltaTime;
         rigidbody2D.AddForce(move);
-		//}
-        //Debug.Log(move);
 	}
 
     void OnTriggerEnter2D(Collider2D other)

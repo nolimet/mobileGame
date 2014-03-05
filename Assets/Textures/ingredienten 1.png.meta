@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: d2330e4cbd00bc64a9648c636a2c8253
+guid: 35962897471f59e4ebe4b7390305d253
 TextureImporter:
   serializedVersion: 2
   mipmaps:
@@ -23,7 +23,7 @@ TextureImporter:
   textureFormat: -1
   maxTextureSize: 1024
   textureSettings:
-    filterMode: -1
+    filterMode: 0
     aniso: 1
     mipBias: -1
     wrapMode: 1
@@ -45,64 +45,91 @@ TextureImporter:
     compressionQuality: 50
   spriteSheet:
     sprites:
-    - name: ingredienten_0
+    - name: ingredienten 1_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 100
+        y: 110
         width: 100
         height: 58
       alignment: 0
       pivot: {x: 0, y: 0}
-    - name: ingredienten_1
+    - name: ingredienten 1_1
       rect:
         serializedVersion: 2
-        x: 100
-        y: 100
+        x: 110
+        y: 110
         width: 100
         height: 68
       alignment: 0
       pivot: {x: 0, y: 0}
-    - name: ingredienten_2
+    - name: ingredienten 1_2
       rect:
         serializedVersion: 2
-        x: 224
-        y: 100
+        x: 244
+        y: 110
         width: 55
         height: 100
       alignment: 0
       pivot: {x: 0, y: 0}
-    - name: ingredienten_3
+    - name: ingredienten 1_3
       rect:
         serializedVersion: 2
-        x: 299
-        y: 100
+        x: 329
+        y: 110
         width: 101
         height: 59
       alignment: 0
       pivot: {x: 0, y: 0}
-    - name: ingredienten_4
+    - name: ingredienten 1_4
       rect:
         serializedVersion: 2
-        x: 400
-        y: 100
+        x: 439
+        y: 110
         width: 100
         height: 97
       alignment: 0
       pivot: {x: 0, y: 0}
-    - name: ingredienten_5
+    - name: ingredienten 1_5
       rect:
         serializedVersion: 2
-        x: 99
+        x: 21
         y: 0
-        width: 101
+        width: 79
         height: 100
       alignment: 0
       pivot: {x: 0, y: 0}
-    - name: ingredienten_6
+    - name: ingredienten 1_6
       rect:
         serializedVersion: 2
-        x: 399
+        x: 110
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: ingredienten 1_7
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 0
+        width: 100
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: ingredienten 1_8
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 0
+        width: 101
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: ingredienten 1_9
+      rect:
+        serializedVersion: 2
+        x: 438
         y: 0
         width: 101
         height: 69
