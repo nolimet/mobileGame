@@ -131,11 +131,7 @@ public class BetaCharControler : MonoBehaviour {
         health -= Damage;
         if (health <= 0)
         {
-            GameOver();
+            GlobalStatics.GameOver();
         }
-    }
-    void GameOver()
-    {
-        Application.LoadLevel(Application.loadedLevel);
-    }
+    }  
 }

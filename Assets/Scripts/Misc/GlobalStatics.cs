@@ -25,4 +25,10 @@ public class GlobalStatics :MonoBehaviour {
 
         return output;
     }
+
+    public static void GameOver()
+    {
+        levelToLoad = Application.loadedLevel;
+        Application.LoadLevelAdditive(3);
+    }
 }
