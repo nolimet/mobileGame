@@ -347,7 +347,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 78db514b836da284daf2f7081abedad2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  LoadLevel: 3
+  LoadLevel: 4
   ExitGame: 0
   isButton: 0
 --- !u!1 &1272413881
@@ -1838,6 +1838,7 @@ MonoBehaviour:
   - {fileID: 21300006, guid: f97b68d6a54e9534c81e2aa481d2f25b, type: 3}
   - {fileID: 21300008, guid: f97b68d6a54e9534c81e2aa481d2f25b, type: 3}
   - {fileID: 21300010, guid: f97b68d6a54e9534c81e2aa481d2f25b, type: 3}
+  - {fileID: 21300014, guid: f97b68d6a54e9534c81e2aa481d2f25b, type: 3}
 --- !u!212 &1857410582
 SpriteRenderer:
   m_ObjectHideFlags: 0

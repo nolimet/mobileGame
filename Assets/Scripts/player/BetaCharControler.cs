@@ -9,7 +9,7 @@ public class BetaCharControler : MonoBehaviour {
     public Button ButtonB;
     public ButtonRestonrelease RightButton;
     public ButtonRestonrelease LeftButton;
-	private GravityScript gravityScr;
+	//private GravityScript gravityScr;
 	
     //materials
     public PhysicsMaterial2D airPhyMat;
@@ -23,16 +23,17 @@ public class BetaCharControler : MonoBehaviour {
     public Vector2 anlogmove = new Vector2();
 
     //floats and ints
-    private int health = 100;
-    private float addGravity = 2f;
-    private float graviCoolDown = 0f;
+    private int health = 100; //player health 
+   // private float addGravity = 2f;  //what was that for again?
+    private float graviCoolDown = 0f; //
+    private int currentTouchingObjects = 0;
 
 
     void Start()
     {
         coll = GetComponent<BoxCollider2D>();;
         orPhyMat = coll.sharedMaterial;
-		gravityScr = GetComponent<GravityScript>();
+		//gravityScr = GetComponent<GravityScript>();
     }
 	// Update is called once per frame
 	void Update () 
@@ -108,6 +109,7 @@ public class BetaCharControler : MonoBehaviour {
 
     void OnTriggerEnter2D(Collider2D other)
     {
+        currentTouchingObjects += 1;
         if (other.gameObject.tag == TagManager.floor)
         {
             g = true;
@@ -118,10 +120,36 @@ public class BetaCharControler : MonoBehaviour {
 
     void OnTriggerExit2D(Collider2D other)
     {
-        if (other.gameObject.tag == TagManager.floor)
+        currentTouchingObjects -= 1;
+        if (other.gameObject.tag == TagManager.floor && currentTouchingObjects <=0)
         {
+            currentTouchingObjects = 0;
             g = false;
 			GlobalStatics.playerOnGround = g;
+            coll.sharedMaterial = airPhyMat;
+        }
+    }
+
+    //alt Collions
+    void OnCollisionEnter2D(Collision2D other)
+    {
+        currentTouchingObjects += 1;
+        if (other.gameObject.tag == TagManager.floor)
+        {
+            g = true;
+            GlobalStatics.playerOnGround = g;
+            coll.sharedMaterial = orPhyMat;
+        }
+    }
+
+    void OnCollisionExit2D(Collision2D other)
+    {
+        currentTouchingObjects -= 1;
+        if (other.gameObject.tag == TagManager.floor && currentTouchingObjects <= 0)
+        {
+            currentTouchingObjects = 0;
+            g = false;
+            GlobalStatics.playerOnGround = g;
             coll.sharedMaterial = airPhyMat;
         }
     }

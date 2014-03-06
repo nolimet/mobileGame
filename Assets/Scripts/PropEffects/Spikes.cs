@@ -8,7 +8,7 @@ public class Spikes : MonoBehaviour {
         if (coll.gameObject.tag == TagManager.player)
         {
             BetaCharControler player = coll.gameObject.GetComponent<BetaCharControler>();
-            player.GetHit(4);
+            player.GetHit(999999999);
         }
     }
 }

@@ -3,7 +3,7 @@ using System.Collections;
 
 public class ObjectScript : MonoBehaviour 
 {
-	public Button ButtonA;
+	/*public Button ButtonA;
 	private float addGravity = 2f;
 	//private bool gravityOff = false;
 	//private bool flying = false;
@@ -49,5 +49,5 @@ public class ObjectScript : MonoBehaviour
 		{
 			g = false;
 		}
-	}
+	}*/
 }
