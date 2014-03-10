@@ -9,7 +9,14 @@ public class CameraManager : MonoBehaviour {
 	public float accurcy = 0.1f;
     public bool lockXAxis = false;
 	private bool paused;
-	
+
+    void Start()
+    {
+        Vector3 temp = Target.position;
+        temp = Target.transform.position;
+        temp.z = transform.position.z;
+        transform.position = temp;
+    }
 	void OnPauseGame ()
 	{
 		paused = true;
