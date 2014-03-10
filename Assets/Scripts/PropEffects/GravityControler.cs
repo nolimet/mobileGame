@@ -27,10 +27,16 @@ public class GravityControler : MonoBehaviour {
         {
             if (!timelineDone&&Timeline < 0.2f)
             {
-                rigidbody2D.AddForce(new Vector2(0, 20));
-                rigidbody2D.AddTorque(1f);
+                rigidbody2D.AddForce(new Vector2(0, 10));
             }
-
+            else if (!timelineDone && Timeline < 0.3f)
+            {
+                rigidbody.velocity = Vector3.zero;
+            }
+            else if(!timelineDone)
+            {
+                timelineDone = true;
+            }
             Timeline += Time.deltaTime;
         }
 	}
