@@ -12,10 +12,23 @@ public class CameraManager : MonoBehaviour {
 
     void Start()
     {
+        if (Target == null)
+        {
+            Object[] objects = FindObjectsOfType(typeof(GameObject));
+            foreach (GameObject go in objects)
+            {
+                if (go.tag == TagManager.player)
+                {
+                    Target = go.GetComponent<Transform>();
+                }
+            }
+        }
+
         Vector3 temp = Target.position;
         temp = Target.transform.position;
         temp.z = transform.position.z;
         transform.position = temp;
+            
     }
 	void OnPauseGame ()
 	{

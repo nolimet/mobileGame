@@ -4,7 +4,7 @@ using System.Collections;
 public class BetaCharControler : MonoBehaviour {
 
     //scriptlinks
-    public Joystick AnologeStick;
+    //public Joystick AnologeStick;
     public Button ButtonA;
     public Button ButtonB;
     public ButtonRestonrelease RightButton;

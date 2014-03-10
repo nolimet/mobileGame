@@ -45,7 +45,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 907
+        y: 1862
         width: 330
         height: 89
       alignment: 0
@@ -54,7 +54,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 333
-        y: 907
+        y: 1862
         width: 330
         height: 82
       alignment: 0
@@ -63,7 +63,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 665
-        y: 908
+        y: 1863
         width: 331
         height: 80
       alignment: 0
@@ -72,7 +72,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1000
-        y: 910
+        y: 1865
         width: 330
         height: 80
       alignment: 0
@@ -81,7 +81,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1332
-        y: 916
+        y: 1871
         width: 330
         height: 80
       alignment: 0
@@ -90,7 +90,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1665
-        y: 895
+        y: 1850
         width: 331
         height: 101
       alignment: 0
@@ -99,7 +99,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 2042
-        y: 877
+        y: 1832
         width: 330
         height: 100
       alignment: 0
@@ -108,7 +108,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 816
+        y: 1771
         width: 330
         height: 89
       alignment: 0
@@ -117,7 +117,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 333
-        y: 816
+        y: 1771
         width: 330
         height: 82
       alignment: 0
@@ -126,7 +126,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 663
-        y: 826
+        y: 1781
         width: 331
         height: 80
       alignment: 0
@@ -135,7 +135,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 998
-        y: 828
+        y: 1783
         width: 330
         height: 80
       alignment: 0
@@ -144,7 +144,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1330
-        y: 834
+        y: 1789
         width: 330
         height: 80
       alignment: 0
@@ -153,7 +153,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1665
-        y: 791
+        y: 1746
         width: 331
         height: 101
       alignment: 0
@@ -162,7 +162,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 2042
-        y: 772
+        y: 1727
         width: 330
         height: 101
       alignment: 0
@@ -171,7 +171,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 720
+        y: 1675
         width: 330
         height: 89
       alignment: 0
@@ -180,7 +180,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 333
-        y: 720
+        y: 1675
         width: 330
         height: 82
       alignment: 0
@@ -189,7 +189,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 663
-        y: 743
+        y: 1698
         width: 331
         height: 80
       alignment: 0
@@ -198,7 +198,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 995
-        y: 745
+        y: 1700
         width: 331
         height: 80
       alignment: 0
@@ -207,7 +207,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1330
-        y: 747
+        y: 1702
         width: 330
         height: 80
       alignment: 0
@@ -216,7 +216,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1665
-        y: 671
+        y: 1626
         width: 331
         height: 101
       alignment: 0
@@ -224,17 +224,17 @@ TextureImporter:
     - name: platforms_20
       rect:
         serializedVersion: 2
-        x: 2044
-        y: 454
+        x: 2035
+        y: 1619
         width: 330
-        height: 210
+        height: 98
       alignment: 0
       pivot: {x: .5, y: .5}
     - name: platforms_21
       rect:
         serializedVersion: 2
         x: 0
-        y: 628
+        y: 1583
         width: 330
         height: 89
       alignment: 0
@@ -243,7 +243,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 333
-        y: 628
+        y: 1583
         width: 330
         height: 82
       alignment: 0
@@ -252,7 +252,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 666
-        y: 660
+        y: 1615
         width: 331
         height: 80
       alignment: 0
@@ -261,7 +261,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 998
-        y: 662
+        y: 1617
         width: 331
         height: 80
       alignment: 0
@@ -270,7 +270,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1333
-        y: 665
+        y: 1620
         width: 330
         height: 80
       alignment: 0
@@ -279,7 +279,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1690
-        y: 457
+        y: 1412
         width: 336
         height: 212
       alignment: 0
@@ -288,7 +288,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 536
+        y: 1491
         width: 330
         height: 89
       alignment: 0
@@ -297,7 +297,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 333
-        y: 536
+        y: 1491
         width: 330
         height: 82
       alignment: 0
@@ -306,7 +306,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 995
-        y: 553
+        y: 1508
         width: 331
         height: 79
       alignment: 0
@@ -315,7 +315,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1349
-        y: 556
+        y: 1511
         width: 330
         height: 79
       alignment: 0
@@ -324,7 +324,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 444
+        y: 1399
         width: 330
         height: 89
       alignment: 0
@@ -333,7 +333,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 333
-        y: 444
+        y: 1399
         width: 330
         height: 82
       alignment: 0
@@ -342,7 +342,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 676
-        y: 434
+        y: 1389
         width: 331
         height: 80
       alignment: 0
@@ -351,7 +351,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1015
-        y: 434
+        y: 1389
         width: 331
         height: 80
       alignment: 0
@@ -360,7 +360,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1356
-        y: 451
+        y: 1406
         width: 331
         height: 71
       alignment: 0
@@ -369,7 +369,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1705
-        y: 354
+        y: 1309
         width: 331
         height: 100
       alignment: 0
@@ -378,7 +378,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 17
-        y: 357
+        y: 1312
         width: 120
         height: 73
       alignment: 0
@@ -387,7 +387,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 140
-        y: 357
+        y: 1312
         width: 120
         height: 73
       alignment: 0
@@ -396,7 +396,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 262
-        y: 357
+        y: 1312
         width: 121
         height: 73
       alignment: 0
@@ -405,7 +405,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 385
-        y: 357
+        y: 1312
         width: 121
         height: 73
       alignment: 0
@@ -414,7 +414,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 508
-        y: 357
+        y: 1312
         width: 121
         height: 73
       alignment: 0
@@ -423,7 +423,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 645
-        y: 357
+        y: 1312
         width: 120
         height: 73
       alignment: 0
@@ -432,7 +432,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 817
-        y: 8
+        y: 963
         width: 125
         height: 418
       alignment: 0
@@ -441,7 +441,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 993
-        y: 8
+        y: 963
         width: 125
         height: 418
       alignment: 0
@@ -450,7 +450,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1159
-        y: 8
+        y: 963
         width: 125
         height: 418
       alignment: 0
@@ -459,7 +459,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1342
-        y: 14
+        y: 969
         width: 124
         height: 418
       alignment: 0
@@ -468,7 +468,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1519
-        y: 0
+        y: 955
         width: 124
         height: 417
       alignment: 0
@@ -477,16 +477,16 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 2049
-        y: 349
+        y: 1305
         width: 330
-        height: 100
+        height: 99
       alignment: 0
       pivot: {x: 0, y: 0}
     - name: platforms_49
       rect:
         serializedVersion: 2
         x: 0
-        y: 156
+        y: 1111
         width: 201
         height: 200
       alignment: 0
@@ -495,7 +495,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 202
-        y: 156
+        y: 1111
         width: 201
         height: 200
       alignment: 0
@@ -504,7 +504,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 405
-        y: 156
+        y: 1111
         width: 201
         height: 200
       alignment: 0
@@ -513,7 +513,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 609
-        y: 156
+        y: 1111
         width: 201
         height: 200
       alignment: 0
@@ -522,7 +522,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1643
-        y: 151
+        y: 1106
         width: 201
         height: 200
       alignment: 0
@@ -530,10 +530,1000 @@ TextureImporter:
     - name: platforms_54
       rect:
         serializedVersion: 2
-        x: 2035
-        y: 665
-        width: 330
-        height: 97
+        x: 1854
+        y: 1188
+        width: 50
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: platforms_55
+      rect:
+        serializedVersion: 2
+        x: 1909
+        y: 1189
+        width: 50
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: platforms_56
+      rect:
+        serializedVersion: 2
+        x: 1962
+        y: 1189
+        width: 50
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: platforms_57
+      rect:
+        serializedVersion: 2
+        x: 2016
+        y: 1189
+        width: 50
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: platforms_58
+      rect:
+        serializedVersion: 2
+        x: 2070
+        y: 1188
+        width: 50
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: platforms_59
+      rect:
+        serializedVersion: 2
+        x: 1854
+        y: 1086
+        width: 50
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: platforms_60
+      rect:
+        serializedVersion: 2
+        x: 1909
+        y: 1085
+        width: 50
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: platforms_61
+      rect:
+        serializedVersion: 2
+        x: 1962
+        y: 1084
+        width: 50
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: platforms_62
+      rect:
+        serializedVersion: 2
+        x: 2016
+        y: 1084
+        width: 50
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: platforms_63
+      rect:
+        serializedVersion: 2
+        x: 2070
+        y: 1084
+        width: 50
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: platforms_64
+      rect:
+        serializedVersion: 2
+        x: 1853
+        y: 981
+        width: 50
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: platforms_65
+      rect:
+        serializedVersion: 2
+        x: 1908
+        y: 981
+        width: 50
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: platforms_66
+      rect:
+        serializedVersion: 2
+        x: 1961
+        y: 981
+        width: 50
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: platforms_67
+      rect:
+        serializedVersion: 2
+        x: 2016
+        y: 981
+        width: 50
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: platforms_68
+      rect:
+        serializedVersion: 2
+        x: 2069
+        y: 981
+        width: 50
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: platforms_69
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 816
+        width: 101
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: platforms_70
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 816
+        width: 101
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: platforms_71
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 816
+        width: 101
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: platforms_72
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 816
+        width: 101
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: platforms_73
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 816
+        width: 101
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: platforms_74
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 678
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: platforms_75
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 678
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: platforms_76
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 678
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: platforms_77
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 678
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: platforms_78
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 678
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: platforms_79
+      rect:
+        serializedVersion: 2
+        x: 913
+        y: 677
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: platforms_80
+      rect:
+        serializedVersion: 2
+        x: 1052
+        y: 678
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: platforms_81
+      rect:
+        serializedVersion: 2
+        x: 1189
+        y: 677
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: platforms_82
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 678
+        width: 50
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: platforms_83
+      rect:
+        serializedVersion: 2
+        x: 1972
+        y: 677
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: platforms_84
+      rect:
+        serializedVersion: 2
+        x: 2111
+        y: 678
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: platforms_85
+      rect:
+        serializedVersion: 2
+        x: 2249
+        y: 677
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: platforms_86
+      rect:
+        serializedVersion: 2
+        x: 2379
+        y: 678
+        width: 51
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: platforms_87
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 546
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: platforms_88
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 546
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: platforms_89
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 546
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: platforms_90
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 546
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: platforms_91
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 546
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: platforms_92
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 565
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: platforms_93
+      rect:
+        serializedVersion: 2
+        x: 1052
+        y: 563
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: platforms_94
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 563
+        width: 50
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: platforms_95
+      rect:
+        serializedVersion: 2
+        x: 1971
+        y: 565
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: platforms_96
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 397
+        width: 98
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: platforms_97
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 397
+        width: 98
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: platforms_98
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 397
+        width: 98
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: platforms_99
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 397
+        width: 98
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: platforms_100
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 397
+        width: 98
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: platforms_101
+      rect:
+        serializedVersion: 2
+        x: 913
+        y: 442
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: platforms_102
+      rect:
+        serializedVersion: 2
+        x: 1052
+        y: 443
+        width: 101
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: platforms_103
+      rect:
+        serializedVersion: 2
+        x: 1189
+        y: 442
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: platforms_104
+      rect:
+        serializedVersion: 2
+        x: 1316
+        y: 439
+        width: 50
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: platforms_105
+      rect:
+        serializedVersion: 2
+        x: 1430
+        y: 442
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: platforms_106
+      rect:
+        serializedVersion: 2
+        x: 1569
+        y: 443
+        width: 101
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: platforms_107
+      rect:
+        serializedVersion: 2
+        x: 1707
+        y: 442
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: platforms_108
+      rect:
+        serializedVersion: 2
+        x: 1832
+        y: 441
+        width: 50
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: platforms_109
+      rect:
+        serializedVersion: 2
+        x: 1972
+        y: 442
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: platforms_110
+      rect:
+        serializedVersion: 2
+        x: 2111
+        y: 443
+        width: 101
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: platforms_111
+      rect:
+        serializedVersion: 2
+        x: 2249
+        y: 442
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: platforms_112
+      rect:
+        serializedVersion: 2
+        x: 2375
+        y: 439
+        width: 50
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: platforms_113
+      rect:
+        serializedVersion: 2
+        x: 2489
+        y: 442
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: platforms_114
+      rect:
+        serializedVersion: 2
+        x: 2628
+        y: 443
+        width: 102
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: platforms_115
+      rect:
+        serializedVersion: 2
+        x: 2766
+        y: 442
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: platforms_116
+      rect:
+        serializedVersion: 2
+        x: 2891
+        y: 441
+        width: 50
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: platforms_117
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 265
+        width: 95
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: platforms_118
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 265
+        width: 95
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: platforms_119
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 265
+        width: 95
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: platforms_120
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 265
+        width: 95
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: platforms_121
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 265
+        width: 95
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: platforms_122
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 330
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: platforms_123
+      rect:
+        serializedVersion: 2
+        x: 1052
+        y: 328
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: platforms_124
+      rect:
+        serializedVersion: 2
+        x: 1316
+        y: 325
+        width: 50
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: platforms_125
+      rect:
+        serializedVersion: 2
+        x: 1429
+        y: 330
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: platforms_126
+      rect:
+        serializedVersion: 2
+        x: 1570
+        y: 328
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: platforms_127
+      rect:
+        serializedVersion: 2
+        x: 1832
+        y: 327
+        width: 50
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: platforms_128
+      rect:
+        serializedVersion: 2
+        x: 1971
+        y: 330
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: platforms_129
+      rect:
+        serializedVersion: 2
+        x: 2488
+        y: 330
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: platforms_130
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 131
+        width: 98
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: platforms_131
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 131
+        width: 98
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: platforms_132
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 131
+        width: 98
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: platforms_133
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 131
+        width: 98
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: platforms_134
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 131
+        width: 98
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: platforms_135
+      rect:
+        serializedVersion: 2
+        x: 913
+        y: 177
+        width: 101
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: platforms_136
+      rect:
+        serializedVersion: 2
+        x: 1052
+        y: 177
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: platforms_137
+      rect:
+        serializedVersion: 2
+        x: 1189
+        y: 177
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: platforms_138
+      rect:
+        serializedVersion: 2
+        x: 1316
+        y: 179
+        width: 50
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: platforms_139
+      rect:
+        serializedVersion: 2
+        x: 1430
+        y: 171
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: platforms_140
+      rect:
+        serializedVersion: 2
+        x: 1569
+        y: 171
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: platforms_141
+      rect:
+        serializedVersion: 2
+        x: 1707
+        y: 171
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: platforms_142
+      rect:
+        serializedVersion: 2
+        x: 1833
+        y: 170
+        width: 50
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: platforms_143
+      rect:
+        serializedVersion: 2
+        x: 1972
+        y: 177
+        width: 101
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: platforms_144
+      rect:
+        serializedVersion: 2
+        x: 2111
+        y: 177
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: platforms_145
+      rect:
+        serializedVersion: 2
+        x: 2249
+        y: 177
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: platforms_146
+      rect:
+        serializedVersion: 2
+        x: 2375
+        y: 179
+        width: 50
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: platforms_147
+      rect:
+        serializedVersion: 2
+        x: 2489
+        y: 171
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: platforms_148
+      rect:
+        serializedVersion: 2
+        x: 2628
+        y: 171
+        width: 102
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: platforms_149
+      rect:
+        serializedVersion: 2
+        x: 2766
+        y: 171
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: platforms_150
+      rect:
+        serializedVersion: 2
+        x: 2892
+        y: 170
+        width: 50
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: platforms_151
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 95
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: platforms_152
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 0
+        width: 95
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: platforms_153
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 0
+        width: 95
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: platforms_154
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 0
+        width: 95
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: platforms_155
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 0
+        width: 95
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: platforms_156
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 65
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: platforms_157
+      rect:
+        serializedVersion: 2
+        x: 1052
+        y: 63
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: platforms_158
+      rect:
+        serializedVersion: 2
+        x: 1316
+        y: 64
+        width: 50
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: platforms_159
+      rect:
+        serializedVersion: 2
+        x: 1429
+        y: 59
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: platforms_160
+      rect:
+        serializedVersion: 2
+        x: 1570
+        y: 57
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: platforms_161
+      rect:
+        serializedVersion: 2
+        x: 1833
+        y: 55
+        width: 50
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: platforms_162
+      rect:
+        serializedVersion: 2
+        x: 1971
+        y: 65
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: platforms_163
+      rect:
+        serializedVersion: 2
+        x: 2488
+        y: 59
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: platforms_164
+      rect:
+        serializedVersion: 2
+        x: 2054
+        y: 1409
+        width: 325
+        height: 210
       alignment: 0
       pivot: {x: .5, y: .5}
   spritePackingTag: 
