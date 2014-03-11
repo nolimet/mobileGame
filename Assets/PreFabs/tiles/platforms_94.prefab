@@ -9,8 +9,8 @@ GameObject:
   m_Component:
   - 4: {fileID: 400000}
   - 212: {fileID: 21200000}
-  - 60: {fileID: 6000000}
   - 114: {fileID: 11400000}
+  - 61: {fileID: 6100000}
   m_Layer: 0
   m_Name: platforms_94
   m_TagString: Untagged
@@ -24,26 +24,22 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100000}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 6.80000019, y: -3.5, z: -0}
+  m_LocalRotation: {x: 0, y: -1, z: 0, w: -4.37113883e-08}
+  m_LocalPosition: {x: 95.5999985, y: -2.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
---- !u!60 &6000000
-PolygonCollider2D:
+--- !u!61 &6100000
+BoxCollider2D:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100000}
   m_Enabled: 1
-  m_Material: {fileID: 6200000, guid: b08b726981476774aaf04dc949efa27d, type: 2}
+  m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Poly:
-    m_Paths:
-    - - {x: -.625, y: 1.25}
-      - {x: -.625, y: -1.25}
-      - {x: .625, y: -1.25}
-      - {x: .625, y: 1.25}
+  m_Size: {x: 1.25, y: 2.5}
+  m_Center: {x: 0, y: 0}
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -55,7 +51,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eeb6277e64c41f044ae9b0caba2a9083, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  xStep: .200000003
+  xStep: .100000001
   yStep: .5
   zStep: 0
 --- !u!212 &21200000

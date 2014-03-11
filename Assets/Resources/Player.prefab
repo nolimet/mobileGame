@@ -44,7 +44,7 @@ GameObject:
   - 4: {fileID: 400004}
   - 114: {fileID: 11400004}
   - 50: {fileID: 5000000}
-  - 61: {fileID: 6100000}
+  - 58: {fileID: 5800000}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -150,7 +150,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100004}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.54356682, y: -28.5589714, z: 0}
+  m_LocalPosition: {x: -4.65910864, y: -28.1276054, z: 0}
   m_LocalScale: {x: 1.20000005, y: 1.20000005, z: 1}
   m_Children:
   - {fileID: 400006}
@@ -219,16 +219,16 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
---- !u!61 &6100000
-BoxCollider2D:
+--- !u!58 &5800000
+CircleCollider2D:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100004}
   m_Enabled: 1
-  m_Material: {fileID: 6200000, guid: 066bd1ef5cf12e6438c7834de35786bd, type: 2}
+  m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Size: {x: 1.74000001, y: 1.66999996}
+  m_Radius: .5
   m_Center: {x: 0, y: 0}
 --- !u!95 &9500000
 Animator:
@@ -281,7 +281,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f01891d2de6bc24419d89b5dd8ece3b6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  AnologeStick: {fileID: 0}
   ButtonA: {fileID: 0}
   ButtonB: {fileID: 0}
   RightButton: {fileID: 0}
@@ -289,6 +288,7 @@ MonoBehaviour:
   airPhyMat: {fileID: 6200000, guid: 9d948cd3cb26fbb469c0c82ad74f1c05, type: 2}
   g: 0
   anlogmove: {x: 0, y: 0}
+  deathHeight: -20
 --- !u!114 &11400006
 MonoBehaviour:
   m_ObjectHideFlags: 1

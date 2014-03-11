@@ -19,5 +19,7 @@ EditorBuildSettings:
     path: Assets/scene's/Debug/Controles Debug.unity
   - enabled: 0
     path: Assets/scene's/Debug/Controles Redone.unity
-  - enabled: 1
+  - enabled: 0
     path: Assets/scene's/levels/Tutorial jump.unity
+  - enabled: 1
+    path: Assets/scene's/Debug/GraviTest.unity

@@ -7,6 +7,7 @@ public class BetaCharControler : MonoBehaviour {
     //public Joystick AnologeStick;
     public Button ButtonA;
     public Button ButtonB;
+    public GameObject ButtonC;
     public ButtonRestonrelease RightButton;
     public ButtonRestonrelease LeftButton;
 	//private GravityScript gravityScr;
@@ -67,14 +68,14 @@ public class BetaCharControler : MonoBehaviour {
             }
         if (ButtonB.state && g)
         {
-            // g = false;
+            currentTouchingObjects = 0;
             coll.sharedMaterial = airPhyMat;
             ButtonB.state = false;
             move.y = 500;
         }
 			else if (Input.GetKeyDown(KeyCode.Space)&& g)
 			{
-				// g = false;
+                currentTouchingObjects = 0;
 				coll.sharedMaterial = airPhyMat;
 				ButtonB.state = false;
 				move.y = 500;
@@ -98,6 +99,7 @@ public class BetaCharControler : MonoBehaviour {
         if (ButtonA.state && g && graviCoolDown <= 0 || Input.GetKeyDown(KeyCode.LeftShift) && g && graviCoolDown <= 0)
         {
             graviCoolDown = 0.2f;
+            ButtonC.SetActive(false);
             Object[] objects = FindObjectsOfType(typeof(GameObject));
             foreach (GameObject go in objects)
             {

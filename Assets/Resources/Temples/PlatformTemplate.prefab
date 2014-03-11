@@ -10,13 +10,12 @@ GameObject:
   - 4: {fileID: 400000}
   - 212: {fileID: 21200000}
   - 60: {fileID: 6000000}
-  - 60: {fileID: 6000002}
   m_Layer: 0
   m_Name: PlatformTemplate
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &100002
 GameObject:
@@ -32,7 +31,7 @@ GameObject:
   m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &400000
 Transform:
@@ -58,46 +57,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 400000}
 --- !u!60 &6000000
-PolygonCollider2D:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100000}
-  m_Enabled: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Poly:
-    m_Paths:
-    - - {x: 2.41250014, y: -.699999988}
-      - {x: 2.98749995, y: -.5}
-      - {x: 3.3125, y: -.325000018}
-      - {x: 3.76250005, y: -.174999997}
-      - {x: 4.13750029, y: .200000003}
-      - {x: 4.13750029, y: .225000009}
-      - {x: 4.13750029, y: .699999988}
-      - {x: 3.88750005, y: .925000012}
-      - {x: 3.61249995, y: 1.02499998}
-      - {x: 3.4375, y: 1.02499998}
-      - {x: -3.41250014, y: 1.02499998}
-      - {x: -3.61249995, y: 1}
-      - {x: -3.9625001, y: .900000036}
-      - {x: -4.13750029, y: .675000012}
-      - {x: -4.13750029, y: .349999994}
-      - {x: -4.0875001, y: .174999997}
-      - {x: -3.9625001, y: .0500000007}
-      - {x: -3.61249995, y: -.100000001}
-      - {x: -3.16250014, y: -.325000018}
-      - {x: -2.7125001, y: -.525000036}
-      - {x: -2.3125, y: -.450000018}
-      - {x: -1.98750007, y: -.775000036}
-      - {x: -1.73750007, y: -.875}
-      - {x: -.987500012, y: -1}
-      - {x: -.4375, y: -1}
-      - {x: -.3125, y: -.975000024}
-      - {x: -.0625, y: -.800000012}
-      - {x: .6875, y: -.775000036}
-      - {x: 1.38750005, y: -.675000012}
---- !u!60 &6000002
 PolygonCollider2D:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -169,7 +128,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_SortingLayerID: 0
-  m_Sprite: {fileID: 21300014, guid: 73a3e84f6b500f64aa3a5846e9f109de, type: 3}
+  m_Sprite: {fileID: 21300016, guid: 1d25b99c15a89574eb9308c77afcaeeb, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1001 &100100000
 Prefab:
