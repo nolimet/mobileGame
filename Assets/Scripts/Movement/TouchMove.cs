@@ -3,7 +3,7 @@ using System.Collections;
 
 public class TouchMove : MonoBehaviour {
 
-    private bool Selected=false;
+    public bool Selected=false;
     public float speed = 0.1F;
     public void Select()
     {

@@ -29,8 +29,14 @@ public class BetaCharControler : MonoBehaviour {
     private float graviCoolDown = 0f; //
     private int currentTouchingObjects = 0;
     public float deathHeight = -20f;
+    private bool Awoken = false;
+    private float waitAfterAwake = 1f;
 
-
+    void Awake()
+    {
+        waitAfterAwake = 1f;
+        Awoken = false;
+    }
     void Start()
     {
         coll = GetComponent<CircleCollider2D>();;
@@ -40,21 +46,23 @@ public class BetaCharControler : MonoBehaviour {
 	// Update is called once per frame
 	void Update () 
 	{
-        Vector2 move = new Vector2();
-        float ButtonMove = 0;
-        if (LeftButton.state)
+        if (Awoken)
         {
-            ButtonMove -= 1;
-        }
-        if (RightButton.state)
-        {
-            ButtonMove += 1;
-        }
+            Vector2 move = new Vector2();
+            float ButtonMove = 0;
+            if (LeftButton.state)
+            {
+                ButtonMove -= 1;
+            }
+            if (RightButton.state)
+            {
+                ButtonMove += 1;
+            }
 
-        anlogmove = new Vector2(Input.GetAxis("Horizontal")+ButtonMove,0);
+            anlogmove = new Vector2(Input.GetAxis("Horizontal") + ButtonMove, 0);
 
-		//Debug.Log(anlogmove);
-            if (rigidbody2D.velocity.x < 10 && rigidbody2D.velocity.x>-10)
+            //Debug.Log(anlogmove);
+            if (rigidbody2D.velocity.x < 10 && rigidbody2D.velocity.x > -10)
             {
                 if (g)
                 {
@@ -66,52 +74,57 @@ public class BetaCharControler : MonoBehaviour {
                     move.x = anlogmove.x * 2;
                 }
             }
-        if (ButtonB.state && g)
-        {
-            currentTouchingObjects = 0;
-            coll.sharedMaterial = airPhyMat;
-            ButtonB.state = false;
-            move.y = 500;
-        }
-			else if (Input.GetKeyDown(KeyCode.Space)&& g)
-			{
+            if (ButtonB.state && g)
+            {
                 currentTouchingObjects = 0;
-				coll.sharedMaterial = airPhyMat;
-				ButtonB.state = false;
-				move.y = 500;
-			}
+                coll.sharedMaterial = airPhyMat;
+                ButtonB.state = false;
+                move.y = 500;
+            }
+            else if (Input.GetKeyDown(KeyCode.Space) && g)
+            {
+                currentTouchingObjects = 0;
+                coll.sharedMaterial = airPhyMat;
+                ButtonB.state = false;
+                move.y = 500;
+            }
+            else
+            {
+                if (rigidbody2D.velocity.x < 2 && rigidbody2D.velocity.x > 2)
+                {
+                    if (g)
+                    {
+                        move.x = anlogmove.x * 3;
+                        // Debug.Log(AnologeStick.position);
+                    }
+                    else
+                    {
+                        move.x = anlogmove.x * 2;
+                    }
+                }
+
+            }
+            if (ButtonA.state && g || Input.GetKeyDown(KeyCode.LeftShift) && g)
+            {
+                //graviCoolDown = 1f;
+                // ButtonC.SetActive(false);
+                GlobalStatics.GraviChange();
+            }
+            // graviCoolDown -= Time.deltaTime;
+            rigidbody2D.AddForce(move);
+
+            if (transform.position.y < deathHeight)
+            {
+                GlobalStatics.GameOver();
+            }
+        }
         else
         {
-            if (rigidbody2D.velocity.x < 2 && rigidbody2D.velocity.x > 2)
+            waitAfterAwake -= Time.deltaTime;
+            if (waitAfterAwake <= 0f)
             {
-                if (g)
-                {
-                    move.x = anlogmove.x * 3;
-                    // Debug.Log(AnologeStick.position);
-                }
-                else
-                {
-                    move.x = anlogmove.x * 2;
-                }
+                Awoken = true;
             }
-
-        }
-        if (ButtonA.state && g && graviCoolDown <= 0 || Input.GetKeyDown(KeyCode.LeftShift) && g && graviCoolDown <= 0)
-        {
-            graviCoolDown = 0.2f;
-            ButtonC.SetActive(false);
-            Object[] objects = FindObjectsOfType(typeof(GameObject));
-            foreach (GameObject go in objects)
-            {
-                go.SendMessage("GraviSwitch", SendMessageOptions.DontRequireReceiver);
-            }
-        }
-        graviCoolDown -= Time.deltaTime;
-        rigidbody2D.AddForce(move);
-
-        if (transform.position.y < -20)
-        {
-            GlobalStatics.GameOver();
         }
 	}
 

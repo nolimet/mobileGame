@@ -25,13 +25,13 @@ public class GravityControler : MonoBehaviour {
 	void Update () {
         if (GraviSwitchEnabled)
         {
-            if (!timelineDone&&Timeline < 0.2f)
+            if (!timelineDone&&Timeline < 0.3f)
             {
                 rigidbody2D.AddForce(new Vector2(0, 10));
             }
-            else if (!timelineDone && Timeline < 0.3f)
+            else if (!timelineDone && Timeline < 0.4f)
             {
-                rigidbody.velocity = Vector3.zero;
+                rigidbody2D.velocity = Vector2.zero;
             }
             else if(!timelineDone)
             {

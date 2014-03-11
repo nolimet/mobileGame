@@ -6,13 +6,29 @@ public class GraviManager : MonoBehaviour {
     public Button ButtonC;
     public GameObject Controles;
     public GameObject ButtonCG;
+    public Camera MainCamera;
+    public Camera SecondaryCamera;
+    public BetaCharControler player;
 
-    private bool GraviSwitchEnabled = false;
+    public bool GraviSwitchEnabled = false;
+    void Start()
+    {
+        Controles.SetActive(!GraviSwitchEnabled);
+        ButtonCG.SetActive(GraviSwitchEnabled);
+        MainCamera.enabled = !GraviSwitchEnabled;
+        SecondaryCamera.enabled = GraviSwitchEnabled;
+        player.enabled = !GraviSwitchEnabled;
+    }
 
     public void GraviSwitch()
     {
         GraviSwitchEnabled = !GraviSwitchEnabled;
         Controles.SetActive(!GraviSwitchEnabled);
+        ButtonCG.SetActive(GraviSwitchEnabled);
+        MainCamera.enabled = !GraviSwitchEnabled;
+        SecondaryCamera.enabled = GraviSwitchEnabled;
+        player.enabled = !GraviSwitchEnabled;
+        Debug.Log(GraviSwitchEnabled);
         
     }
 	// Update is called once per frame
@@ -20,15 +36,23 @@ public class GraviManager : MonoBehaviour {
     {
         if (GraviSwitchEnabled)
         {
+            if (ButtonC.state)
+            {
+                GlobalStatics.GraviChange();
+            }
             RaycastHit hit = new RaycastHit();
             for (int i = 0; i < Input.touchCount; ++i)
             {
                 if (Input.GetTouch(i).phase.Equals(TouchPhase.Began))
                 {
-                    Ray ray = Camera.main.ScreenPointToRay(Input.GetTouch(i).position);
-                    if (Physics.Raycast(ray, out hit))
+                    int l = Camera.allCameras.Length;
+                    for (int j = 0; j > l; j++)
                     {
-                        hit.transform.gameObject.SendMessage("Selected");
+                        Ray ray = SecondaryCamera.ScreenPointToRay(Input.GetTouch(i).position);
+                        if (Physics.Raycast(ray, out hit))
+                        {
+                            hit.transform.gameObject.SendMessage("Selected");
+                        }
                     }
                 }
             }

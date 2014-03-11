@@ -283,6 +283,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ButtonA: {fileID: 0}
   ButtonB: {fileID: 0}
+  ButtonC: {fileID: 0}
   RightButton: {fileID: 0}
   LeftButton: {fileID: 0}
   airPhyMat: {fileID: 6200000, guid: 9d948cd3cb26fbb469c0c82ad74f1c05, type: 2}
