@@ -106,6 +106,7 @@ public class BetaCharControler : MonoBehaviour {
             }
             if (ButtonA.state && g || Input.GetKeyDown(KeyCode.LeftShift) && g)
             {
+                ButtonA.state = false;
                 //graviCoolDown = 1f;
                 // ButtonC.SetActive(false);
                 GlobalStatics.GraviChange();

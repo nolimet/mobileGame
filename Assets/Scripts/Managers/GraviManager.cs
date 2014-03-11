@@ -28,7 +28,7 @@ public class GraviManager : MonoBehaviour {
         MainCamera.enabled = !GraviSwitchEnabled;
         SecondaryCamera.enabled = GraviSwitchEnabled;
         player.enabled = !GraviSwitchEnabled;
-        Debug.Log(GraviSwitchEnabled);
+        //Debug.Log(GraviSwitchEnabled);
         
     }
 	// Update is called once per frame
@@ -38,6 +38,7 @@ public class GraviManager : MonoBehaviour {
         {
             if (ButtonC.state)
             {
+                ButtonC.state = false;
                 GlobalStatics.GraviChange();
             }
             RaycastHit hit = new RaycastHit();
