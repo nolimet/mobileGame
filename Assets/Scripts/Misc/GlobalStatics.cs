@@ -7,6 +7,7 @@ public class GlobalStatics :MonoBehaviour {
     public static int levelToLoad = 0;
 	public static bool gravityOff = false;
 	public static bool playerOnGround = false;
+    public static bool loadedLevel = false;
 
     public static void load(int level)
     {
@@ -28,7 +29,11 @@ public class GlobalStatics :MonoBehaviour {
 
     public static void GameOver()
     {
-        levelToLoad = Application.loadedLevel;
-        Application.LoadLevelAdditive(3);
+        if (!loadedLevel)
+        {
+            levelToLoad = Application.loadedLevel;
+            Application.LoadLevelAdditive(3);
+            loadedLevel = true;
+        }
     }
 }

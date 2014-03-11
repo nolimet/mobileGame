@@ -1,14 +1,14 @@
 ﻿using UnityEngine;
 using System.Collections;
+public class GameOverScreen1 : MonoBehaviour {
 
-public class GameOverScreen : MonoBehaviour {
-
-    private float waitTime = 15;
+    private float waitTime = 2F;
 
 	void Update () {
         waitTime -= Time.deltaTime;
-        if (waitTime <= 0)
+        if (waitTime <= 0 || Input.touchCount>0)
         {
+            GlobalStatics.loadedLevel = false;
             Application.LoadLevel(GlobalStatics.levelToLoad);
         }
 	}

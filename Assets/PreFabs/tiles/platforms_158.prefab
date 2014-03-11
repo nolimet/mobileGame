@@ -36,7 +36,7 @@ PolygonCollider2D:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100000}
   m_Enabled: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: b08b726981476774aaf04dc949efa27d, type: 2}
   m_IsTrigger: 0
   m_Poly:
     m_Paths:

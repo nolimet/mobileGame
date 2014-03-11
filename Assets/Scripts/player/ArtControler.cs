@@ -19,20 +19,20 @@ public class ArtControler : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        if (parentControler.rigidbody2D.velocity.x > 0)
+        if (parentControler.rigidbody2D.velocity.x > 0.1f)
         {
             Quaternion temprot = transform.rotation;
             temprot.y = 180;
             transform.rotation = temprot;
         }
-        if (parentControler.rigidbody2D.velocity.x < 0)
+        if (parentControler.rigidbody2D.velocity.x < -0.1f)
         {
             Quaternion temprot = transform.rotation;
 
             temprot.y = 0;
             transform.rotation = temprot;
         }
-        if (parentControler.anlogmove.x > 0 || parentControler.anlogmove.x < 0)
+        if (parentControler.anlogmove.x > 0.1f || parentControler.anlogmove.x < -0.1f)
         {
             ani.SetBool("walking", true);
         }

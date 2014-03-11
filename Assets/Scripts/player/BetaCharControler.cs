@@ -14,7 +14,7 @@ public class BetaCharControler : MonoBehaviour {
     //materials
     public PhysicsMaterial2D airPhyMat;
     private PhysicsMaterial2D orPhyMat;
-    private BoxCollider2D coll;
+    private CircleCollider2D coll;
 
     //bools
     public bool g = false;
@@ -27,11 +27,12 @@ public class BetaCharControler : MonoBehaviour {
    // private float addGravity = 2f;  //what was that for again?
     private float graviCoolDown = 0f; //
     private int currentTouchingObjects = 0;
+    public float deathHeight = -20f;
 
 
     void Start()
     {
-        coll = GetComponent<BoxCollider2D>();;
+        coll = GetComponent<CircleCollider2D>();;
         orPhyMat = coll.sharedMaterial;
 		//gravityScr = GetComponent<GravityScript>();
     }
@@ -105,6 +106,11 @@ public class BetaCharControler : MonoBehaviour {
         }
         graviCoolDown -= Time.deltaTime;
         rigidbody2D.AddForce(move);
+
+        if (transform.position.y < -20)
+        {
+            GlobalStatics.GameOver();
+        }
 	}
 
     void OnTriggerEnter2D(Collider2D other)
