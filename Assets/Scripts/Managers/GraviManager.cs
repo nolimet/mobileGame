@@ -41,19 +41,21 @@ public class GraviManager : MonoBehaviour {
                 ButtonC.state = false;
                 GlobalStatics.GraviChange();
             }
-            RaycastHit hit = new RaycastHit();
+            RaycastHit2D hit = new RaycastHit2D();
+            Touch touch;
             for (int i = 0; i < Input.touchCount; ++i)
             {
                 if (Input.GetTouch(i).phase.Equals(TouchPhase.Began))
                 {
-                    int l = Camera.allCameras.Length;
-                    for (int j = 0; j > l; j++)
+                    touch = Input.GetTouch(i);
+                    Ray ray = SecondaryCamera.ViewportPointToRay(new Vector3(touch.position.x, touch.position.y, 0));
+                    hit = Physics2D.GetRayIntersection(ray);
+                    //Debug.Log("test");
+                    Debug.Log(hit.collider.name);
+                    if (hit.collider != null)
                     {
-                        Ray ray = SecondaryCamera.ScreenPointToRay(Input.GetTouch(i).position);
-                        if (Physics.Raycast(ray, out hit))
-                        {
-                            hit.transform.gameObject.SendMessage("Selected");
-                        }
+                        Debug.Log("STEVE!!");
+                        hit.transform.gameObject.SendMessage("Selected");
                     }
                 }
             }
