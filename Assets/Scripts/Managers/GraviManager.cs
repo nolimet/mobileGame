@@ -49,13 +49,13 @@ public class GraviManager : MonoBehaviour {
                 {
                     touch = Input.GetTouch(i);
                     Ray ray = SecondaryCamera.ViewportPointToRay(new Vector3(touch.position.x, touch.position.y, 0));
-                    hit = Physics2D.GetRayIntersection(ray);
+                    hit = Physics2D.Raycast(SecondaryCamera.ScreenToWorldPoint(touch.position), Vector2.zero);
                     //Debug.Log("test");
-                    Debug.Log(hit.collider.name);
+                    //Debug.Log(hit.collider.name);
                     if (hit.collider != null)
                     {
                         Debug.Log("STEVE!!");
-                        hit.transform.gameObject.SendMessage("Selected");
+                        hit.transform.gameObject.SendMessage("Select", SendMessageOptions.DontRequireReceiver);
                     }
                 }
             }

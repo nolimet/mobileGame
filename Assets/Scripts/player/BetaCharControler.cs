@@ -74,20 +74,21 @@ public class BetaCharControler : MonoBehaviour {
                     move.x = anlogmove.x * 2;
                 }
             }
-            if (ButtonB.state && g)
+            if (ButtonB.state && g && graviCoolDown < 0f || Input.GetAxis("Fire1") > 0 && g && graviCoolDown < 0f)
             {
                 currentTouchingObjects = 0;
                 coll.sharedMaterial = airPhyMat;
                 ButtonB.state = false;
                 move.y = 500;
+                graviCoolDown = 0.1f;
             }
-            else if (Input.GetKeyDown(KeyCode.Space) && g)
+           /* else if (Input.GetKeyDown(KeyCode.Space) && g)
             {
                 currentTouchingObjects = 0;
                 coll.sharedMaterial = airPhyMat;
                 ButtonB.state = false;
                 move.y = 500;
-            }
+            }*/
             else
             {
                 if (rigidbody2D.velocity.x < 2 && rigidbody2D.velocity.x > 2)
@@ -111,7 +112,7 @@ public class BetaCharControler : MonoBehaviour {
                 // ButtonC.SetActive(false);
                 GlobalStatics.GraviChange();
             }
-            // graviCoolDown -= Time.deltaTime;
+            graviCoolDown -= Time.deltaTime;
             rigidbody2D.AddForce(move);
 
             if (transform.position.y < deathHeight)
