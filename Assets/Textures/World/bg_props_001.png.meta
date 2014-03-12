@@ -1,0 +1,148 @@
+fileFormatVersion: 2
+guid: 49ee6595aff57004b998edb27eca8a80
+TextureImporter:
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings:
+  - buildTarget: iPhone
+    maxTextureSize: 1024
+    textureFormat: -2
+    compressionQuality: 50
+  spriteSheet:
+    sprites:
+    - name: bg_props_001_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 190
+        width: 260
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: bg_props_001_1
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 192
+        width: 287
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: bg_props_001_2
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 188
+        width: 207
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: bg_props_001_3
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 1
+        width: 171
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: bg_props_001_4
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 92
+        width: 121
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: bg_props_001_5
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 159
+        width: 51
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: bg_props_001_6
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 118
+        width: 33
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: bg_props_001_7
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 117
+        width: 25
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: bg_props_001_8
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 3
+        width: 189
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: bg_props_001_9
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 4
+        width: 124
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: bg_props_001_10
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 6
+        width: 123
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+  spritePackingTag: 
+  userData: 

@@ -5,13 +5,17 @@ public class TouchMove : GravityControler {
 
     public bool Selected=false;
     public float speed = 0.1F;
+    public ParticleSystem Sparkels;
     public void Select()
     {
         if (GlobalStatics.SelectedAObject == Selected)
         {
             Selected = !Selected;
             GlobalStatics.SelectedAObject = !GlobalStatics.SelectedAObject;
+            Sparkels.enableEmission = Selected;
         }
+        Debug.Log(Selected);
+        Debug.Log(GlobalStatics.SelectedAObject);
     }
 
     
