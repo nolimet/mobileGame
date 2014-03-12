@@ -1,19 +1,26 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class TouchMove : MonoBehaviour {
+public class TouchMove : GravityControler {
 
     public bool Selected=false;
     public float speed = 0.1F;
     public void Select()
     {
-        Selected = !Selected;
-        Debug.Log(Selected);
+        if (GlobalStatics.SelectedAObject == Selected)
+        {
+            Selected = !Selected;
+            GlobalStatics.SelectedAObject = !GlobalStatics.SelectedAObject;
+        }
     }
 
-    public void GraviSwitch()
+    
+    public override void GraviSwitch()
     {
+        base.GraviSwitch();
         Selected = false;
+        GlobalStatics.SelectedAObject = false;
+        rigidbody2D.isKinematic = !rigidbody2D.isKinematic;
     }
 
     void Update()

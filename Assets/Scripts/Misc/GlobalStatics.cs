@@ -7,6 +7,7 @@ public class GlobalStatics :MonoBehaviour {
     public static int levelToLoad = 0;
 	public static bool playerOnGround = false;
     public static bool loadedLevel = false;
+    public static bool SelectedAObject = false;
 
     public static void load(int level)
     {

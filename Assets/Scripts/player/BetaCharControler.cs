@@ -74,7 +74,7 @@ public class BetaCharControler : MonoBehaviour {
                     move.x = anlogmove.x * 2;
                 }
             }
-            if (ButtonB.state && g && graviCoolDown < 0f || Input.GetAxis("Fire1") > 0 && g && graviCoolDown < 0f)
+            if (ButtonB.state && g && graviCoolDown < 0f || Input.GetKeyDown(KeyCode.Space)&& g && graviCoolDown < 0f)
             {
                 currentTouchingObjects = 0;
                 coll.sharedMaterial = airPhyMat;

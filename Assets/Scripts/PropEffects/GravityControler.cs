@@ -7,7 +7,7 @@ public class GravityControler : MonoBehaviour {
     private bool timelineDone;
     private bool GraviSwitchEnabled = false;
 
-   public void GraviSwitch()
+   public virtual void GraviSwitch()
     {
         if (GraviSwitchEnabled)
         {

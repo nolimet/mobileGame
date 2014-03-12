@@ -33,6 +33,5 @@ public class Click : MonoBehaviour {
         {
             GlobalStatics.load(LoadLevel);
         }
-        Debug.Log("clicked");
     }
 }

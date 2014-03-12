@@ -13,7 +13,6 @@ public class LoadScreen : MonoBehaviour {
 
     void Update()
     {
-        Debug.Log(count);
         if (count > 1)
         {
             textgui.text = "Loading Level . . .";

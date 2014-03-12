@@ -54,7 +54,7 @@ public class GraviManager : MonoBehaviour {
                     //Debug.Log(hit.collider.name);
                     if (hit.collider != null)
                     {
-                        Debug.Log("STEVE!!");
+                        //Debug.Log("STEVE!!");
                         hit.transform.gameObject.SendMessage("Select", SendMessageOptions.DontRequireReceiver);
                     }
                 }
