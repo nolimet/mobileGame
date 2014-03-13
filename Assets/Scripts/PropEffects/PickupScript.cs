@@ -6,7 +6,7 @@ public class PickupScript : MonoBehaviour {
     public int NextRoom;
     private bool loadNextRoom;
     private Vector2 origen;
-    private float wait = 2F;
+    private float wait = 1F;
 	// Use this for initialization
 	void Start () {
 	    origen = transform.position;
@@ -41,5 +41,18 @@ public class PickupScript : MonoBehaviour {
                 Destroy(this.gameObject, 0.5f);
             }
         }
+	}
+	void OnTriggerEnter2D(Collider2D other){
+		if (other.gameObject.tag == TagManager.player)
+		{
+			if (changeRoom)
+			{
+				loadNextRoom = true;
+			}
+			else
+			{
+				Destroy(this.gameObject, 0.5f);
+			}
+		}
 	}
 }

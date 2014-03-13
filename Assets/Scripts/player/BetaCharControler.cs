@@ -25,8 +25,8 @@ public class BetaCharControler : MonoBehaviour {
 
     //floats and ints
     private int health = 100; //player health 
-   // private float addGravity = 2f;  //what was that for again?
-    private float graviCoolDown = 0f; //
+
+    private float graviCoolDown = 0f; // against dubble presses
     private int currentTouchingObjects = 0;
     public float deathHeight = -20f;
     private bool Awoken = false;
@@ -41,139 +41,103 @@ public class BetaCharControler : MonoBehaviour {
     {
         coll = GetComponent<CircleCollider2D>();;
         orPhyMat = coll.sharedMaterial;
-		//gravityScr = GetComponent<GravityScript>();
     }
-	// Update is called once per frame
-	void Update () 
-	{
-        if (Awoken)
+
+    void FixedUpdate()
+    {
+        Vector2 move = new Vector2();
+        float ButtonMove = 0;
+        if (LeftButton.state)
         {
-            Vector2 move = new Vector2();
-            float ButtonMove = 0;
-            if (LeftButton.state)
-            {
-                ButtonMove -= 1;
-            }
-            if (RightButton.state)
-            {
-                ButtonMove += 1;
-            }
+            ButtonMove -= 1;
+        }
+        if (RightButton.state)
+        {
+            ButtonMove += 1;
+        }
 
-            anlogmove = new Vector2(Input.GetAxis("Horizontal") + ButtonMove, 0);
+        anlogmove = new Vector2(Input.GetAxis("Horizontal") + ButtonMove, 0);
 
-            //Debug.Log(anlogmove);
-            if (rigidbody2D.velocity.x < 10 && rigidbody2D.velocity.x > -10)
+        //speed limiter;
+        if (rigidbody2D.velocity.x < 10 && rigidbody2D.velocity.x > -10)
+        {
+            if (g)
+            {
+                move.x = anlogmove.x * 14;
+            }
+            else
+            {
+                move.x = anlogmove.x * 2;
+            }
+        }
+        //Jump
+        if (ButtonB.state && g && graviCoolDown < 0f || Input.GetKeyDown(KeyCode.Space) && g && graviCoolDown < 0f)
+        {
+            coll.sharedMaterial = airPhyMat;
+            ButtonB.state = false;
+            g = false;
+            GlobalStatics.playerOnGround = g;
+            move.y = 500;
+            graviCoolDown = 0.1f;
+        }
+        else
+        {
+            /*if (rigidbody2D.velocity.x < 2 && rigidbody2D.velocity.x > 2)
             {
                 if (g)
                 {
-                    move.x = anlogmove.x * 17;
+                    move.x = anlogmove.x * 3;
                     // Debug.Log(AnologeStick.position);
                 }
                 else
                 {
                     move.x = anlogmove.x * 2;
                 }
-            }
-            if (ButtonB.state && g && graviCoolDown < 0f || Input.GetKeyDown(KeyCode.Space)&& g && graviCoolDown < 0f)
-            {
-                currentTouchingObjects = 0;
-                coll.sharedMaterial = airPhyMat;
-                ButtonB.state = false;
-                move.y = 500;
-                graviCoolDown = 0.1f;
-            }
-           /* else if (Input.GetKeyDown(KeyCode.Space) && g)
-            {
-                currentTouchingObjects = 0;
-                coll.sharedMaterial = airPhyMat;
-                ButtonB.state = false;
-                move.y = 500;
             }*/
-            else
+            if (rigidbody2D.velocity.y < -0.5f || rigidbody2D.velocity.y > 1f)
             {
-                if (rigidbody2D.velocity.x < 2 && rigidbody2D.velocity.x > 2)
-                {
-                    if (g)
-                    {
-                        move.x = anlogmove.x * 3;
-                        // Debug.Log(AnologeStick.position);
-                    }
-                    else
-                    {
-                        move.x = anlogmove.x * 2;
-                    }
-                }
-
-            }
-            if (ButtonA.state && g || Input.GetKeyDown(KeyCode.LeftShift) && g)
-            {
-                ButtonA.state = false;
-                //graviCoolDown = 1f;
-                // ButtonC.SetActive(false);
-                GlobalStatics.GraviChange();
-            }
-            graviCoolDown -= Time.deltaTime;
-            rigidbody2D.AddForce(move);
-
-            if (transform.position.y < deathHeight)
-            {
-                GlobalStatics.GameOver();
+                g = false;
+                GlobalStatics.playerOnGround = g;
+                coll.sharedMaterial = airPhyMat;
             }
         }
-        else
+        if (ButtonA.state && g || Input.GetKeyDown(KeyCode.LeftShift) && g)
         {
-            waitAfterAwake -= Time.deltaTime;
-            if (waitAfterAwake <= 0f)
-            {
-                Awoken = true;
-            }
+            ButtonA.state = false;
+            GlobalStatics.GraviChange();
+        }
+
+        graviCoolDown -= Time.fixedDeltaTime;
+        rigidbody2D.AddForce(move);
+        Debug.Log(Time.fixedDeltaTime);
+    }
+
+	void Update () 
+	{
+        if (transform.position.y < deathHeight)
+        {
+            GlobalStatics.GameOver();
         }
 	}
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        currentTouchingObjects += 1;
         if (other.gameObject.tag == TagManager.floor)
         {
             g = true;
 			GlobalStatics.playerOnGround = g;
             coll.sharedMaterial = orPhyMat;
-        }
-    }
-
-    void OnTriggerExit2D(Collider2D other)
-    {
-        currentTouchingObjects -= 1;
-        if (other.gameObject.tag == TagManager.floor && currentTouchingObjects <=0)
-        {
-            currentTouchingObjects = 0;
-            g = false;
-			GlobalStatics.playerOnGround = g;
-            coll.sharedMaterial = airPhyMat;
         }
     }
 
     //alt Collions
     void OnCollisionEnter2D(Collision2D other)
     {
-        currentTouchingObjects += 1;
         if (other.gameObject.tag == TagManager.floor)
         {
             g = true;
             GlobalStatics.playerOnGround = g;
             coll.sharedMaterial = orPhyMat;
-        }
-    }
-
-    void OnCollisionExit2D(Collision2D other)
-    {
-        currentTouchingObjects -= 1;
-        if (other.gameObject.tag == TagManager.floor && currentTouchingObjects <= 0)
-        {
-            currentTouchingObjects = 0;
-            g = false;
-            GlobalStatics.playerOnGround = g;
-            coll.sharedMaterial = airPhyMat;
         }
     }
 
