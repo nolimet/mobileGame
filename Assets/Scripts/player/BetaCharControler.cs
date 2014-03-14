@@ -27,16 +27,8 @@ public class BetaCharControler : MonoBehaviour {
     private int health = 100; //player health 
 
     private float graviCoolDown = 0f; // against dubble presses
-    private int currentTouchingObjects = 0;
     public float deathHeight = -20f;
-    private bool Awoken = false;
-    private float waitAfterAwake = 1f;
-
-    void Awake()
-    {
-        waitAfterAwake = 1f;
-        Awoken = false;
-    }
+    private float jumpTimer = 0f;
     void Start()
     {
         coll = GetComponent<CircleCollider2D>();;
@@ -71,14 +63,20 @@ public class BetaCharControler : MonoBehaviour {
             }
         }
         //Jump
-        if (ButtonB.state && g && graviCoolDown < 0f || Input.GetKeyDown(KeyCode.Space) && g && graviCoolDown < 0f)
+       // if (ButtonB.state && g && graviCoolDown < 0f || Input.GetKeyDown(KeyCode.Space) && g && graviCoolDown < 0f)
+        if(LeftButton.state&&RightButton.state&&g&&graviCoolDown<0f || Input.GetKeyDown(KeyCode.Space) && g && graviCoolDown < 0f)
         {
-            coll.sharedMaterial = airPhyMat;
-            ButtonB.state = false;
-            g = false;
-            GlobalStatics.playerOnGround = g;
-            move.y = 500;
-            graviCoolDown = 0.1f;
+            jumpTimer += Time.fixedDeltaTime;
+            if (jumpTimer > 0.1f)
+            {
+                jumpTimer = 0;
+                coll.sharedMaterial = airPhyMat;
+                ButtonB.state = false;
+                g = false;
+                GlobalStatics.playerOnGround = g;
+                move.y = 500;
+                graviCoolDown = 0.1f;
+            }
         }
         else
         {

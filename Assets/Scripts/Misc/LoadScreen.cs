@@ -6,10 +6,10 @@ public class LoadScreen : MonoBehaviour {
     GUIText textgui;
     float count = 0;
 	// Use this for initialization
-	void Start () {
-       Application.LoadLevel(GlobalStatics.levelToLoad);
+    void Start()
+    {
         textgui = GetComponent<GUIText>();
-	}
+    }
 
     void Update()
     {
@@ -21,6 +21,7 @@ public class LoadScreen : MonoBehaviour {
         else if (count > 0.75)
         {
             textgui.text = "Loading Level . .";
+            Application.LoadLevel(GlobalStatics.levelToLoad);
         }
         else if (count > 0.5)
         {

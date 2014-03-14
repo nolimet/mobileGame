@@ -12,7 +12,9 @@ public class TouchMove : GravityControler {
         {
             Selected = !Selected;
             GlobalStatics.SelectedAObject = !GlobalStatics.SelectedAObject;
-            Sparkels.enableEmission = Selected;
+            Sparkels.enableEmission = !Selected;
+            rigidbody2D.velocity = Vector2.zero;
+            rigidbody2D.isKinematic = !rigidbody2D.isKinematic;
         }
         Debug.Log(Selected);
         Debug.Log(GlobalStatics.SelectedAObject);
@@ -23,8 +25,11 @@ public class TouchMove : GravityControler {
     {
         base.GraviSwitch();
         Selected = false;
+        rigidbody2D.velocity = Vector2.zero;
+        rigidbody2D.isKinematic = true;
         GlobalStatics.SelectedAObject = false;
-        rigidbody2D.isKinematic = !rigidbody2D.isKinematic;
+        Sparkels.enableEmission = true;
+        
     }
 
     void Update()
