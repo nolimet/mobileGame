@@ -48,7 +48,7 @@ public class GraviManager : MonoBehaviour {
                 if (Input.GetTouch(i).phase.Equals(TouchPhase.Began))
                 {
                     touch = Input.GetTouch(i);
-                    Ray ray = SecondaryCamera.ViewportPointToRay(new Vector3(touch.position.x, touch.position.y, 0));
+                    //Ray ray = SecondaryCamera.ViewportPointToRay(new Vector3(touch.position.x, touch.position.y, 0));
                     hit = Physics2D.Raycast(SecondaryCamera.ScreenToWorldPoint(touch.position), Vector2.zero);
                     //Debug.Log("test");
                     //Debug.Log(hit.collider.name);

@@ -37,6 +37,7 @@ public class BetaCharControler : MonoBehaviour {
 
     void FixedUpdate()
     {
+        Debug.Log("left: " + LeftButton.state+ " right: " + RightButton.state);
         Vector2 move = new Vector2();
         float ButtonMove = 0;
         if (LeftButton.state)
@@ -63,8 +64,8 @@ public class BetaCharControler : MonoBehaviour {
             }
         }
         //Jump
-       // if (ButtonB.state && g && graviCoolDown < 0f || Input.GetKeyDown(KeyCode.Space) && g && graviCoolDown < 0f)
-        if(LeftButton.state&&RightButton.state&&g&&graviCoolDown<0f || Input.GetKeyDown(KeyCode.Space) && g && graviCoolDown < 0f)
+        if (ButtonB.state && g && graviCoolDown < 0f || Input.GetKeyDown(KeyCode.Space) && g && graviCoolDown < 0f)
+        //if(LeftButton.state&&RightButton.state&&g&&graviCoolDown<0f || Input.GetKeyDown(KeyCode.Space) && g && graviCoolDown < 0f)
         {
             jumpTimer += Time.fixedDeltaTime;
             if (jumpTimer > 0.1f)
@@ -91,7 +92,7 @@ public class BetaCharControler : MonoBehaviour {
                 {
                     move.x = anlogmove.x * 2;
                 }
-            }*/
+           }*/ 
             if (rigidbody2D.velocity.y < -0.5f || rigidbody2D.velocity.y > 1f)
             {
                 g = false;
@@ -107,7 +108,7 @@ public class BetaCharControler : MonoBehaviour {
 
         graviCoolDown -= Time.fixedDeltaTime;
         rigidbody2D.AddForce(move);
-        Debug.Log(Time.fixedDeltaTime);
+        //Debug.Log(Time.fixedDeltaTime);
     }
 
 	void Update () 
