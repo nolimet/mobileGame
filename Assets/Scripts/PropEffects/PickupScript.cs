@@ -5,6 +5,7 @@ public class PickupScript : MonoBehaviour {
     public bool changeRoom;
     public int NextRoom;
     private bool loadNextRoom;
+    private bool loading = false;
     private Vector2 origen;
     private float wait = 1F;
 	// Use this for initialization
@@ -19,7 +20,7 @@ public class PickupScript : MonoBehaviour {
         temp.y += Mathf.PingPong(Time.time/2, 0.5f) - 0.25f;
         transform.position = temp;
 
-        if (loadNextRoom)
+        if (loadNextRoom&&!loading)
         {
             wait -= Time.deltaTime;
             if (wait < 0)
@@ -35,6 +36,7 @@ public class PickupScript : MonoBehaviour {
             if (changeRoom)
             {
                 loadNextRoom = true;
+                loading = true;
             }
             else
             {
@@ -48,6 +50,7 @@ public class PickupScript : MonoBehaviour {
 			if (changeRoom)
 			{
 				loadNextRoom = true;
+                loading = true;
 			}
 			else
 			{

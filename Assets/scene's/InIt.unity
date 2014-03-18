@@ -83,6 +83,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 213792811}
   - 212: {fileID: 213792810}
+  - 114: {fileID: 213792812}
   m_Layer: 0
   m_Name: splashscreen
   m_TagString: Untagged
@@ -112,7 +113,7 @@ SpriteRenderer:
   m_SortingOrder: 0
   m_SortingLayerID: 0
   m_Sprite: {fileID: 21300000, guid: 3820f6b85c29c35418d8c599f334767f, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
 --- !u!4 &213792811
 Transform:
   m_ObjectHideFlags: 0
@@ -124,6 +125,18 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
+--- !u!114 &213792812
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 213792809}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 488207e6b2c609f4f94873a7f93750ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timeScale: 1
 --- !u!1 &1093079625
 GameObject:
   m_ObjectHideFlags: 0

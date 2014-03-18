@@ -27,6 +27,19 @@ public class GlobalStatics :MonoBehaviour {
         return output;
     }
 
+    public static Color RGBAColour(int R,int G,int B,float A)
+    {
+        float numb = 0.0039215686274509803921568627451f;
+        Color output = new Color();
+        
+        output.r = R * numb;
+        output.g = G * numb;
+        output.b = B * numb;
+        output.a = A * numb;
+
+        return output;
+    }
+
     public static void GameOver()
     {
         if (!loadedLevel)

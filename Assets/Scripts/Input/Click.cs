@@ -6,6 +6,14 @@ public class Click : MonoBehaviour {
     public bool ExitGame;
     public bool isButton;
 
+    void Start()
+    {
+        if (LoadLevel == -1)
+        {
+            Destroy(this);
+        }
+    }
+
     void Update()
     {
         // Code for OnMouseDown in the iPhone. Unquote to test.
