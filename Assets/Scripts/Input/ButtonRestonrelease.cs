@@ -72,6 +72,9 @@ public class ButtonRestonrelease : MonoBehaviour
 
         }
         //Debug.Log(state);
+        if(Input.touchCount==0){
+            state = false;
+        }
     }
     void OnMouseDown()
     {

@@ -9,7 +9,7 @@ public class FlyInObject : MonoBehaviour {
     private bool locked =false;
 	// Use this for initialization
 	void Start () {
-        origen = transform.position;
+        origen = transform.localPosition;
 	}
 	
 	// Update is called once per frame
@@ -23,7 +23,7 @@ public class FlyInObject : MonoBehaviour {
             }
 
             Vector2 temp1 = origen + MoveAmount;
-            Vector2 temp2 = transform.position;
+            Vector2 temp2 = transform.localPosition;
             // Debug.Log(Vector2.Distance(temp2, temp1));
             if (Vector2.Distance(temp2, temp1) > 0.1f)
             {

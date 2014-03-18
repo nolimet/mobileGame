@@ -1,0 +1,436 @@
+fileFormatVersion: 2
+guid: d906e0134247aff4ba76aa8a1fc6fa8d
+TextureImporter:
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings:
+  - buildTarget: iPhone
+    maxTextureSize: 1024
+    textureFormat: -2
+    compressionQuality: 50
+  spriteSheet:
+    sprites:
+    - name: knoppen2_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 556
+        width: 50
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: knoppen2_1
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 556
+        width: 51
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: knoppen2_2
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 556
+        width: 51
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: knoppen2_3
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 556
+        width: 51
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: knoppen2_4
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 556
+        width: 62
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: knoppen2_5
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 556
+        width: 51
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: knoppen2_6
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 556
+        width: 51
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: knoppen2_7
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 556
+        width: 56
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: knoppen2_8
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 556
+        width: 51
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: knoppen2_9
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 556
+        width: 51
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: knoppen2_10
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 555
+        width: 65
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: knoppen2_11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 438
+        width: 50
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: knoppen2_12
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 438
+        width: 51
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: knoppen2_13
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 438
+        width: 51
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: knoppen2_14
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 438
+        width: 51
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: knoppen2_15
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 438
+        width: 62
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: knoppen2_16
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 438
+        width: 51
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: knoppen2_17
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 438
+        width: 51
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: knoppen2_18
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 438
+        width: 56
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: knoppen2_19
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 438
+        width: 51
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: knoppen2_20
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 438
+        width: 51
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: knoppen2_21
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 431
+        width: 95
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: knoppen2_22
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 320
+        width: 50
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: knoppen2_23
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 320
+        width: 51
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: knoppen2_24
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 320
+        width: 51
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: knoppen2_25
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 320
+        width: 51
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: knoppen2_26
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 320
+        width: 62
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: knoppen2_27
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 320
+        width: 51
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: knoppen2_28
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 320
+        width: 51
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: knoppen2_29
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 320
+        width: 56
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: knoppen2_30
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 320
+        width: 51
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: knoppen2_31
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 320
+        width: 51
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: knoppen2_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 202
+        width: 50
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: knoppen2_33
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 202
+        width: 51
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: knoppen2_34
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 202
+        width: 51
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: knoppen2_35
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 202
+        width: 51
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: knoppen2_36
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 202
+        width: 62
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: knoppen2_37
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 202
+        width: 51
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: knoppen2_38
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 202
+        width: 51
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: knoppen2_39
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 202
+        width: 56
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: knoppen2_40
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 202
+        width: 51
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: knoppen2_41
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 202
+        width: 51
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: knoppen2_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 801
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+  spritePackingTag: 
+  userData: 

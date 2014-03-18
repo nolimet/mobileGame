@@ -5,6 +5,8 @@ public class LoadScreen : MonoBehaviour {
 
     GUIText textgui;
     float count = 0;
+   public
+ float speed = 1;
 	// Use this for initialization
     void Start()
     {
@@ -13,23 +15,26 @@ public class LoadScreen : MonoBehaviour {
 
     void Update()
     {
-        if (count > 1)
+        if (count > speed * 1)
         {
-            textgui.text = "Loading Level . . .";
+            textgui.text = ". . . Loading Level . . .";
             count = 0;
         }
-        else if (count > 0.75)
+        else if (count > speed*0.75)
         {
-            textgui.text = "Loading Level . .";
-            Application.LoadLevel(GlobalStatics.levelToLoad);
+            textgui.text = ". . Loading Level . .";
         }
-        else if (count > 0.5)
+        else if (count > speed * 0.5)
         {
-            textgui.text = "Loading Level .";
+            textgui.text = ". Loading Level .";
         }
-        else if (count > 0.25)
+        else if (count > speed * 0.25)
         {
             textgui.text = "Loading Level";
+        }
+        if (count > speed * 2)
+        {
+            Application.LoadLevel(GlobalStatics.levelToLoad);
         }
         count += Time.deltaTime/2;
     }

@@ -2,23 +2,29 @@
 using System.Collections;
 
 public class MoveToV2 : MonoBehaviour {
-
-    public TriggerV2[] Triggers;
+    public int menuID;
+    //public TriggerV2[] Triggers;
+    //public MenuManger
     private Vector2 origen;
     public Vector2 moveAmount;
     public bool move; //true it goes to new pos. False it goes to origen
 	// Use this for initialization
 	void Start () {
-        if (Triggers.Length == 0)
+       /* if (Triggers.Length == 0)
         {
             Debug.LogError("NO TIGGERS IN Triggers");
-        }
+        }*/
         origen = transform.position;
+        if (move)
+        {
+            origen -= moveAmount;
+        }
+        Debug.Log(origen);
 	}
 	
 	// Update is called once per frame
 	void Update () {
-        int l = Triggers.Length;
+       /* int l = Triggers.Length;
         for (int i = 0; i < l; i++)
         {
             if (Triggers[i].State)
@@ -28,7 +34,8 @@ public class MoveToV2 : MonoBehaviour {
                 move = !move;
 
             }
-        }
+        }*/
+       // if(
 
         if (move)
         {
