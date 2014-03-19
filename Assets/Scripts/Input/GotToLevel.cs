@@ -8,11 +8,16 @@ public class GotToLevel : MonoBehaviour {
     {
         if (GoToLevel == -1)
         {
-            Destroy(this.gameObject);
+         //   Destroy(this.gameObject);
+            SpriteRenderer spr = GetComponent<SpriteRenderer>();
+            spr.color = Color.gray;
         }
     }
     public void IWillDo()
     {
-        GlobalStatics.load(GoToLevel);
+        if (GoToLevel != -1)
+        {
+            GlobalStatics.load(GoToLevel);
+        }
     }
 }

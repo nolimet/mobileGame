@@ -37,7 +37,7 @@ public class BetaCharControler : MonoBehaviour {
 
     void FixedUpdate()
     {
-        Debug.Log("left: " + LeftButton.state+ " right: " + RightButton.state);
+        //Debug.Log("left: " + LeftButton.state+ " right: " + RightButton.state);
         Vector2 move = new Vector2();
         float ButtonMove = 0;
         if (LeftButton.state)

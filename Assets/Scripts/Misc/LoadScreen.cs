@@ -4,7 +4,8 @@ using System.Collections;
 public class LoadScreen : MonoBehaviour {
 
     GUIText textgui;
-    float count = 0;
+    float count = 0f;
+    float loadCount = 0f;
    public
  float speed = 1;
 	// Use this for initialization
@@ -18,7 +19,8 @@ public class LoadScreen : MonoBehaviour {
         if (count > speed * 1)
         {
             textgui.text = ". . . Loading Level . . .";
-            count = 0;
+            count = 0f;
+            
         }
         else if (count > speed*0.75)
         {
@@ -32,10 +34,11 @@ public class LoadScreen : MonoBehaviour {
         {
             textgui.text = "Loading Level";
         }
-        if (count > speed * 2)
+        if (loadCount > speed * 2)
         {
             Application.LoadLevel(GlobalStatics.levelToLoad);
         }
-        count += Time.deltaTime/2;
+        count += Time.deltaTime;
+        loadCount += Time.deltaTime;
     }
 }
