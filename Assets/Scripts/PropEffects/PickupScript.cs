@@ -26,17 +26,19 @@ public class PickupScript : MonoBehaviour {
             if (wait < 0)
             {
                 GlobalStatics.load(NextRoom);
+                loading = true;
             }
         }
-	}
+	}   
 
 	void OnCollisionEnter2D(Collision2D coll) {
         if (coll.gameObject.tag == TagManager.player)
         {
+            Debug.Log("hitplayer");
             if (changeRoom)
             {
                 loadNextRoom = true;
-                loading = true;
+                
             }
             else
             {
@@ -47,10 +49,10 @@ public class PickupScript : MonoBehaviour {
 	void OnTriggerEnter2D(Collider2D other){
 		if (other.gameObject.tag == TagManager.player)
 		{
+            Debug.Log("hitplayer");
 			if (changeRoom)
 			{
 				loadNextRoom = true;
-                loading = true;
 			}
 			else
 			{

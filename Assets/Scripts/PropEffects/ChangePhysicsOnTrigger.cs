@@ -7,6 +7,8 @@ public class ChangePhysicsOnTrigger : MonoBehaviour {
     public bool onlyOnce;
     public bool changeMass;
     public float newMass;
+
+    public ParticleSystem Sparkels;
    // private float checkInterval;
    // public float addRot;
    // private float origen;
@@ -19,6 +21,10 @@ public class ChangePhysicsOnTrigger : MonoBehaviour {
             if (changeMass)
             {
                 rigidbody2D.mass = newMass;
+            }
+            if (Sparkels != null)
+            {
+                Sparkels.enableEmission = false;
             }
             rigidbody2D.isKinematic = false;
         }

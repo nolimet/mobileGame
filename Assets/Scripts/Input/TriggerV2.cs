@@ -10,4 +10,8 @@ public class TriggerV2 : MonoBehaviour {
     {
         State = true;
     }
+    void OnClick()
+    {
+        State = true;
+    }
 }
