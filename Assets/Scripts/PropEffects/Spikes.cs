@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using Player;
 namespace PropEffects
 {
     public class Spikes : MonoBehaviour
