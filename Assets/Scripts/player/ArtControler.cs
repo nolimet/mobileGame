@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
-
+namespace Player.art{
 public class ArtControler : MonoBehaviour {
 
     public int typeIndex = 0;
@@ -44,4 +44,5 @@ public class ArtControler : MonoBehaviour {
          ani.SetBool("ground", parentControler.g);
          ani.SetBool("WalkJump", parentControler.ButtonB.state);
 	}
+}
 }

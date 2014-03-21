@@ -1,14 +1,17 @@
 ﻿using UnityEngine;
 using System.Collections;
-
-public class Spikes : MonoBehaviour {
-
-    void OnCollisionEnter2D(Collision2D coll)
+namespace PropEffects
+{
+    public class Spikes : MonoBehaviour
     {
-        if (coll.gameObject.tag == TagManager.player)
+
+        void OnCollisionEnter2D(Collision2D coll)
         {
-            BetaCharControler player = coll.gameObject.GetComponent<BetaCharControler>();
-            player.GetHit(999999999);
+            if (coll.gameObject.tag == TagManager.player)
+            {
+                BetaCharControler player = coll.gameObject.GetComponent<BetaCharControler>();
+                player.GetHit(999999999);
+            }
         }
     }
 }
