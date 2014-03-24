@@ -23,5 +23,10 @@ namespace EnemyAI
         {
 
         }
+
+        virtual public void OnCollisionEnter2D(Collision2D col)
+        {
+
+        }
     }
 }

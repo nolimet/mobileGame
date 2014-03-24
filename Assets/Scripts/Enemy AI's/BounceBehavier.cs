@@ -69,5 +69,13 @@ namespace EnemyAI
                 }
             }
         }
+        public override void OnCollisionEnter2D(Collision2D col)
+        {
+            base.OnCollisionEnter2D(col);
+            if (col.gameObject.tag == TagManager.deadly)
+            {
+                Kill();
+            }
+        }
     }
 }
