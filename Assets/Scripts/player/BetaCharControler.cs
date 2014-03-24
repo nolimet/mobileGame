@@ -80,6 +80,16 @@ namespace Player
                     move.y = 500;
                     graviCoolDown = 0.1f;
                 }
+                else if (Input.GetKeyDown(KeyCode.Space))
+                {
+                    jumpTimer = 0;
+                    coll.sharedMaterial = airPhyMat;
+                    ButtonB.state = false;
+                    g = false;
+                    GlobalStatics.playerOnGround = g;
+                    move.y = 500;
+                    graviCoolDown = 0.1f;
+                }
             }
             else
             {
