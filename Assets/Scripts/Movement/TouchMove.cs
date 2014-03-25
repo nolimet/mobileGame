@@ -8,7 +8,7 @@ namespace Movement
         public bool Selected = false;
         public float speed = 0.1F;
         public ParticleSystem Sparkels;
-        public void Select()
+        public virtual void Select()
         {
             if (GlobalStatics.SelectedAObject == Selected)
             {
@@ -18,8 +18,8 @@ namespace Movement
                 rigidbody2D.velocity = Vector2.zero;
                 rigidbody2D.isKinematic = !rigidbody2D.isKinematic;
             }
-            Debug.Log(Selected);
-            Debug.Log(GlobalStatics.SelectedAObject);
+            Debug.Log("Object Selected: " +this.name+" ,State: " +Selected);
+            Debug.Log("Global State: "+GlobalStatics.SelectedAObject);
         }
 
 
@@ -34,7 +34,7 @@ namespace Movement
 
         }
 
-        void Update()
+        protected virtual void Update()
         {
             if (Selected)
             {

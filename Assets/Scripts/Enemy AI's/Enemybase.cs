@@ -8,6 +8,8 @@ namespace EnemyAI
         public float SpeedUp = 0.1f;
         public float MaxSpeed = 2f;
 
+        public float health = 100f;
+
 
         virtual public void Start()
         {

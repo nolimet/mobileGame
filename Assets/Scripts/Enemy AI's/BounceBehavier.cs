@@ -35,8 +35,7 @@ namespace EnemyAI
             {
                 Kill();
                 kill = false;
-                SpeedUp = 0f;
-                rigidbody2D.velocity = Vector2.zero;
+               
             }
         }
 
@@ -44,6 +43,8 @@ namespace EnemyAI
         {
             animator.SetBool("Death", true);
             Destroy(this.gameObject, deathclock);
+            SpeedUp = 0f;
+            rigidbody2D.velocity = Vector2.zero;
         }
 
         public override void OnTriggerEnter2D(Collider2D other)

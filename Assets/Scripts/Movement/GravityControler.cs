@@ -5,9 +5,14 @@ namespace Movement
     public class GravityControler : MonoBehaviour
     {
 
-        private float Timeline = 0f;
-        private bool timelineDone;
-        private bool GraviSwitchEnabled = false;
+        //private float Timeline = 0f;
+       // private bool timelineDone;
+        protected bool GraviSwitchEnabled = false;
+
+        protected virtual void Start()
+        {
+
+        }
 
         public virtual void GraviSwitch()
         {
@@ -18,13 +23,13 @@ namespace Movement
             else
             {
                 rigidbody2D.gravityScale = 0;
-                Timeline = 0;
-                timelineDone = false;
+                //Timeline = 0;
+                //timelineDone = false;
             }
             GraviSwitchEnabled = !GraviSwitchEnabled;
         }
-
-        void Update()
+        
+        /* protected virtual void Update()
         {
             if (GraviSwitchEnabled)
             {
@@ -42,6 +47,6 @@ namespace Movement
                 }
                 Timeline += Time.deltaTime;
             }
-        }
+        }*/
     }
 }

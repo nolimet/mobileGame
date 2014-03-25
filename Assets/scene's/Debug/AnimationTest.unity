@@ -274,6 +274,7 @@ GameObject:
   - 4: {fileID: 965109500}
   - 212: {fileID: 965109499}
   - 114: {fileID: 965109501}
+  - 95: {fileID: 965109502}
   m_Layer: 0
   m_Name: Leg
   m_TagString: Untagged
@@ -333,6 +334,20 @@ MonoBehaviour:
   - {fileID: 357598518}
   - {fileID: 1187171863}
   - {fileID: 1294283125}
+--- !u!95 &965109502
+Animator:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 965109498}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: eb0229ee6def9484baf2b004b7ecf6b4, type: 2}
+  m_CullingMode: 0
+  m_ApplyRootMotion: 1
+  m_AnimatePhysics: 0
+  m_HasTransformHierarchy: 1
 --- !u!1 &1152872715
 GameObject:
   m_ObjectHideFlags: 0
@@ -587,6 +602,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1755413073}
   - 212: {fileID: 1755413074}
+  - 111: {fileID: 1755413075}
   m_Layer: 0
   m_Name: MainBody
   m_TagString: Untagged
@@ -631,6 +647,21 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_Sprite: {fileID: 21300002, guid: 93da923ec01a2f1429f7faca286f136b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
+--- !u!111 &1755413075
+Animation:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1755413072}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: f07aafd2422ab654e97d954f9b349616, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: f07aafd2422ab654e97d954f9b349616, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
 --- !u!1 &1919143127
 GameObject:
   m_ObjectHideFlags: 0

@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
-namespace Movement
+namespace menu
 {
     public class SlowRotate : MonoBehaviour
     {
