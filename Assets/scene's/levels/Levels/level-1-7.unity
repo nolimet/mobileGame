@@ -7083,8 +7083,10 @@ Transform:
   - {fileID: 1611563908}
   - {fileID: 1294539956}
   - {fileID: 1711161117}
+  - {fileID: 428953774}
   - {fileID: 1632761384}
   - {fileID: 1616112516}
+  - {fileID: 1797002779}
   - {fileID: 302051944}
   - {fileID: 418668806}
   - {fileID: 1281564608}
@@ -7100,6 +7102,7 @@ Transform:
   - {fileID: 1902999202}
   - {fileID: 312077995}
   - {fileID: 719583542}
+  - {fileID: 1122770729}
   - {fileID: 580530952}
   - {fileID: 247530515}
   - {fileID: 260663528}
@@ -7120,9 +7123,6 @@ Transform:
   - {fileID: 1026873010}
   - {fileID: 1030115505}
   - {fileID: 1568477688}
-  - {fileID: 428953774}
-  - {fileID: 1797002779}
-  - {fileID: 1122770729}
   - {fileID: 408510120}
   m_Father: {fileID: 0}
 --- !u!1 &580530951
@@ -7239,6 +7239,10 @@ Prefab:
     - target: {fileID: 400000, guid: d4d270368042f514db90a9b70c3069d9, type: 2}
       propertyPath: m_LocalRotation.w
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: d4d270368042f514db90a9b70c3069d9, type: 2}
+      propertyPath: NextRoom
+      value: 13
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d4d270368042f514db90a9b70c3069d9, type: 2}
@@ -16766,8 +16770,8 @@ Animator:
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: 42b29b572cbfd5748933c3b0320f8889, type: 2}
   m_CullingMode: 0
-  m_ApplyRootMotion: 1
-  m_AnimatePhysics: 0
+  m_ApplyRootMotion: 0
+  m_AnimatePhysics: 1
   m_HasTransformHierarchy: 1
 --- !u!114 &1434780815
 MonoBehaviour:
@@ -20574,7 +20578,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   changeRoom: 1
-  NextRoom: 5
+  NextRoom: 13
 --- !u!212 &1782475827
 SpriteRenderer:
   m_ObjectHideFlags: 0

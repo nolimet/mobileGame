@@ -11886,7 +11886,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11400000, guid: d4d270368042f514db90a9b70c3069d9, type: 2}
       propertyPath: NextRoom
-      value: 9
+      value: 11
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d4d270368042f514db90a9b70c3069d9, type: 2}
@@ -32971,7 +32971,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   changeRoom: 1
-  NextRoom: 9
+  NextRoom: 11
 --- !u!212 &1782475827
 SpriteRenderer:
   m_ObjectHideFlags: 0
