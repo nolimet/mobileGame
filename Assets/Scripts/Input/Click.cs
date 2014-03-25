@@ -16,7 +16,7 @@ public class Click : MonoBehaviour {
 
     void Update()
     {
-        // Code for OnMouseDown in the iPhone. Unquote to test.
+        // Code for _OnTouchDown in the iPhone. Unquote to test.
         RaycastHit hit = new RaycastHit();
         for (int i = 0; i < Input.touchCount; ++i)
         {
@@ -26,12 +26,12 @@ public class Click : MonoBehaviour {
                 Ray ray = Camera.main.ScreenPointToRay(Input.GetTouch(i).position);
                 if (Physics.Raycast(ray, out hit))
                 {
-                    hit.transform.gameObject.SendMessage("OnMouseDown");
+                    hit.transform.gameObject.SendMessage("_OnTouchDown");
                 }
             }
         }
     }
-    void OnMouseDown()
+    void _OnTouchDown()
     {
         if (ExitGame && !Application.isWebPlayer && !Application.isEditor)
         {

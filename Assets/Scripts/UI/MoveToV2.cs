@@ -17,7 +17,7 @@ namespace menu
             {
                 origen -= moveAmount;
             }
-            Debug.Log(origen);
+            Debug.Log(this.name+ " moves " + origen);
         }
 
         // Update is called once per frame

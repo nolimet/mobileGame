@@ -1,16 +1,16 @@
 ﻿using UnityEngine;
 using System.Collections;
-using UnityEditor;
+//using UnityEditor;
 namespace debug
 {
-    [ExecuteInEditMode()]
+   // [ExecuteInEditMode()]
     public class Snapper : MonoBehaviour
     {
         public float xStep = 0.5f;
         public float yStep = 0.5f;
         public float zStep;
 
-        void Update () 
+        /*void Update () 
         {
             if(!gameObject.activeInHierarchy) return;
 		
@@ -32,6 +32,6 @@ namespace debug
             pos.z = ((float)gridSteps) * zStep;
 		
             transform.position = pos;
-        }
+        }*/
     }
 }

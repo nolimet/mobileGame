@@ -1233,7 +1233,7 @@ GameObject:
   m_Layer: 0
   m_Name: ID 1 World Selector
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: -1376725286, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -1264,11 +1264,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 477249409}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7648982b0ab147440a18f73e56ac9800, type: 3}
+  m_Script: {fileID: 11500000, guid: bddf0e95a8bbea842bcbc90a4e1c5a22, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  menuID: 0
-  moveAmount: {x: -22.5, y: 0}
+  menuID: 1
+  moveAmount: {x: -23, y: 0}
   move: 0
 --- !u!1 &494280131
 GameObject:
@@ -1861,7 +1861,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 662992368}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -13.5002003, z: 0}
+  m_LocalPosition: {x: 0, y: -14, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1308403101}
@@ -1895,11 +1895,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 662992368}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7648982b0ab147440a18f73e56ac9800, type: 3}
+  m_Script: {fileID: 11500000, guid: bddf0e95a8bbea842bcbc90a4e1c5a22, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  menuID: 0
-  moveAmount: {x: 0, y: 13.5}
+  menuID: 3
+  moveAmount: {x: 0, y: 14}
   move: 0
 --- !u!1 &723720258
 GameObject:
@@ -2408,6 +2408,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 949550475}
   - 114: {fileID: 949550474}
+  - 114: {fileID: 949550476}
   m_Layer: 0
   m_Name: MenuManager
   m_TagString: Untagged
@@ -2459,6 +2460,17 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
+--- !u!114 &949550476
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 949550473}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e907d7154bddb094dba914c7bef7f7b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &950870105
 GameObject:
   m_ObjectHideFlags: 0
@@ -2901,10 +2913,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1045936695}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7648982b0ab147440a18f73e56ac9800, type: 3}
+  m_Script: {fileID: 11500000, guid: bddf0e95a8bbea842bcbc90a4e1c5a22, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  menuID: 0
+  menuID: 4
   moveAmount: {x: 0, y: 16}
   move: 0
 --- !u!1 &1067351247
@@ -2994,7 +3006,7 @@ GameObject:
   m_Layer: 0
   m_Name: ID 0 Start
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: -1376725286, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -3021,11 +3033,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1072972885}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7648982b0ab147440a18f73e56ac9800, type: 3}
+  m_Script: {fileID: 11500000, guid: bddf0e95a8bbea842bcbc90a4e1c5a22, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   menuID: 0
-  moveAmount: {x: 24.5, y: 0}
+  moveAmount: {x: 25, y: 0}
   move: 1
 --- !u!1 &1146138258
 GameObject:
@@ -3189,7 +3201,6 @@ GameObject:
   - 92: {fileID: 1272413884}
   - 124: {fileID: 1272413883}
   - 81: {fileID: 1272413882}
-  - 114: {fileID: 1272413887}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -3260,17 +3271,6 @@ Transform:
   - {fileID: 1332978737}
   - {fileID: 1625247440}
   m_Father: {fileID: 0}
---- !u!114 &1272413887
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1272413881}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e907d7154bddb094dba914c7bef7f7b4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1298249556
 GameObject:
   m_ObjectHideFlags: 0
@@ -3469,10 +3469,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1323494923}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7648982b0ab147440a18f73e56ac9800, type: 3}
+  m_Script: {fileID: 11500000, guid: bddf0e95a8bbea842bcbc90a4e1c5a22, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  menuID: 0
+  menuID: 6
   moveAmount: {x: 0, y: 20}
   move: 0
 --- !u!1 &1332978734
@@ -4714,10 +4714,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1350757141}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7648982b0ab147440a18f73e56ac9800, type: 3}
+  m_Script: {fileID: 11500000, guid: bddf0e95a8bbea842bcbc90a4e1c5a22, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  menuID: 0
+  menuID: 5
   moveAmount: {x: 0, y: 18}
   move: 0
 --- !u!1 &1357516529
@@ -5220,7 +5220,7 @@ GameObject:
   m_Layer: 0
   m_Name: ID 2 Options
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: -1376725286, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -5246,11 +5246,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1577769315}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7648982b0ab147440a18f73e56ac9800, type: 3}
+  m_Script: {fileID: 11500000, guid: bddf0e95a8bbea842bcbc90a4e1c5a22, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   menuID: 2
-  moveAmount: {x: 0, y: -12.75}
+  moveAmount: {x: 0, y: -13.5}
   move: 0
 --- !u!1 &1625247438
 GameObject:

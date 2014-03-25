@@ -76,12 +76,12 @@ public class ButtonRestonrelease : MonoBehaviour
             state = false;
         }
     }
-    void OnMouseDown()
+    void _OnTouchDown()
     {
         state = true;
     }
 
-    void OnMouseUp()
+    void _OnTouchUp()
     {
         state = false;
     }
@@ -167,12 +167,12 @@ public class ButtonRestonrelease : MonoBehaviour
         }
         
     }
-    void OnMouseDown()
+    void _OnTouchDown()
     {
         state = true;
     }
 
-    void OnMouseUp()
+    void _OnTouchUp()
     {
         state = false;
     }

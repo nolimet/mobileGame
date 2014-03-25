@@ -70,12 +70,12 @@ public class Button : MonoBehaviour {
 
         }
     }
-    void OnMouseDown()
+    void _OnTouchDown()
     {
         state = true;
     }
 
-    void OnMouseUp()
+    void _OnTouchUp()
     {
         state = false;
     }
