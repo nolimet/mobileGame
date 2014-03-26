@@ -742,7 +742,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 2.5250001, y: 2.5250001}
   m_Center: {x: 0, y: 0}
 --- !u!114 &17047874
 MonoBehaviour:
@@ -1299,7 +1299,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 2.5250001, y: 2.5250001}
   m_Center: {x: 0, y: 0}
 --- !u!114 &48104935
 MonoBehaviour:
@@ -2873,7 +2873,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 2.5250001, y: 2.5250001}
   m_Center: {x: 0, y: 0}
 --- !u!114 &118696370
 MonoBehaviour:
@@ -3561,7 +3561,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 2.5250001, y: 2.5250001}
   m_Center: {x: 0, y: 0}
 --- !u!114 &156512493
 MonoBehaviour:
@@ -3801,7 +3801,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 2.5250001, y: 2.5250001}
   m_Center: {x: 0, y: 0}
 --- !u!114 &161298998
 MonoBehaviour:
@@ -8728,7 +8728,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 2.5250001, y: 2.5250001}
   m_Center: {x: 0, y: 0}
 --- !u!114 &341566400
 MonoBehaviour:
@@ -14673,7 +14673,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 2.5250001, y: 2.5250001}
   m_Center: {x: 0, y: 0}
 --- !u!114 &577780449
 MonoBehaviour:
@@ -15750,7 +15750,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 2.5250001, y: 2.5250001}
   m_Center: {x: 0, y: 0}
 --- !u!114 &608586684
 MonoBehaviour:
@@ -18230,7 +18230,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 2.5250001, y: 2.5250001}
   m_Center: {x: 0, y: 0}
 --- !u!114 &704613093
 MonoBehaviour:
@@ -31282,7 +31282,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 2.5250001, y: 2.5250001}
   m_Center: {x: 0, y: 0}
 --- !u!114 &1238583668
 MonoBehaviour:
@@ -35595,7 +35595,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 2.5250001, y: 2.5250001}
   m_Center: {x: 0, y: 0}
 --- !u!114 &1455789052
 MonoBehaviour:
@@ -39207,7 +39207,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 2.5250001, y: 2.5250001}
   m_Center: {x: 0, y: 0}
 --- !u!114 &1571252588
 MonoBehaviour:
@@ -51236,7 +51236,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 2.5250001, y: 2.5250001}
   m_Center: {x: 0, y: 0}
 --- !u!114 &2005730530
 MonoBehaviour:
