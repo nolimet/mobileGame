@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 49ee6595aff57004b998edb27eca8a80
+guid: d999849822ff185489f6e98a4121ab44
 TextureImporter:
   serializedVersion: 2
   mipmaps:
@@ -23,7 +23,7 @@ TextureImporter:
   textureFormat: -1
   maxTextureSize: 1024
   textureSettings:
-    filterMode: -1
+    filterMode: 0
     aniso: 1
     mipBias: -1
     wrapMode: 1
@@ -35,7 +35,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: .5, y: .5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 50
   alphaIsTransparency: 1
   textureType: 8
   buildTargetSettings:
@@ -45,103 +45,130 @@ TextureImporter:
     compressionQuality: 50
   spriteSheet:
     sprites:
-    - name: bg_props_001_0
+    - name: background_props_new_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 190
-        width: 260
-        height: 139
+        y: 276
+        width: 55
+        height: 190
       alignment: 0
       pivot: {x: 0, y: 0}
-    - name: bg_props_001_1
+    - name: background_props_new_1
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 253
+        width: 139
+        height: 213
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: background_props_new_2
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 166
+        width: 101
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: background_props_new_3
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 391
+        width: 68
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: background_props_new_4
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 391
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: background_props_new_5
+      rect:
+        serializedVersion: 2
+        x: 759
+        y: 380
+        width: 76
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: background_props_new_6
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 310
+        width: 143
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: background_props_new_7
       rect:
         serializedVersion: 2
         x: 260
-        y: 192
-        width: 287
-        height: 137
+        y: 164
+        width: 140
+        height: 216
       alignment: 0
       pivot: {x: 0, y: 0}
-    - name: bg_props_001_2
+    - name: background_props_new_8
       rect:
         serializedVersion: 2
-        x: 547
-        y: 188
-        width: 207
-        height: 134
+        x: 592
+        y: 166
+        width: 99
+        height: 169
       alignment: 0
       pivot: {x: 0, y: 0}
-    - name: bg_props_001_3
+    - name: background_props_new_9
       rect:
         serializedVersion: 2
-        x: 41
-        y: 1
-        width: 171
-        height: 186
+        x: 728
+        y: 166
+        width: 107
+        height: 120
       alignment: 0
       pivot: {x: 0, y: 0}
-    - name: bg_props_001_4
+    - name: background_props_new_10
       rect:
         serializedVersion: 2
-        x: 242
-        y: 92
-        width: 121
+        x: 874
+        y: 165
+        width: 117
         height: 83
       alignment: 0
       pivot: {x: 0, y: 0}
-    - name: bg_props_001_5
+    - name: background_props_new_11
       rect:
         serializedVersion: 2
-        x: 419
-        y: 159
-        width: 51
-        height: 16
+        x: 0
+        y: 0
+        width: 283
+        height: 152
       alignment: 0
       pivot: {x: 0, y: 0}
-    - name: bg_props_001_6
+    - name: background_props_new_12
       rect:
         serializedVersion: 2
-        x: 428
-        y: 118
-        width: 33
-        height: 19
-      alignment: 0
-      pivot: {x: 0, y: 0}
-    - name: bg_props_001_7
-      rect:
-        serializedVersion: 2
-        x: 503
-        y: 117
-        width: 25
-        height: 24
-      alignment: 0
-      pivot: {x: 0, y: 0}
-    - name: bg_props_001_8
-      rect:
-        serializedVersion: 2
-        x: 555
+        x: 338
         y: 3
-        width: 189
-        height: 139
+        width: 315
+        height: 149
       alignment: 0
       pivot: {x: 0, y: 0}
-    - name: bg_props_001_9
+    - name: background_props_new_13
       rect:
         serializedVersion: 2
-        x: 234
-        y: 4
-        width: 124
-        height: 39
-      alignment: 0
-      pivot: {x: 0, y: 0}
-    - name: bg_props_001_10
-      rect:
-        serializedVersion: 2
-        x: 377
+        x: 695
         y: 6
-        width: 123
-        height: 88
+        width: 228
+        height: 145
       alignment: 0
       pivot: {x: 0, y: 0}
   spritePackingTag: 

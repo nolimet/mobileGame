@@ -32,7 +32,7 @@ public class AudioControler : MonoBehaviour {
             }
             if (parentControler.rigidbody2D.velocity.x == 0f && parentControler.rigidbody2D.velocity.y==0f)
             {
-
+                playSound(idleSound);
             }
         }
 	}

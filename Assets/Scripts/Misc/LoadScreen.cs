@@ -35,6 +35,7 @@ namespace misc
             else if (count > speed * 0.25)
             {
                 textgui.text = "Loading Level";
+                Application.LoadLevel(GlobalStatics.levelToLoad);
             }
             if (loadCount > speed * 2)
             {

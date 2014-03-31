@@ -85,6 +85,7 @@ GameObject:
   - 212: {fileID: 27622776}
   - 114: {fileID: 27622775}
   - 61: {fileID: 27622774}
+  - 114: {fileID: 27622777}
   m_Layer: 0
   m_Name: knoppen2_2
   m_TagString: Untagged
@@ -126,6 +127,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   GoToLevel: 12
+  Disabled: 1
 --- !u!212 &27622776
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -149,6 +151,20 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_Sprite: {fileID: 21300012, guid: d906e0134247aff4ba76aa8a1fc6fa8d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
+--- !u!114 &27622777
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 27622772}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88d54fd67bf68d04994dc12a6868fbbb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  World: 1
+  Level: 6
+  startingRoom: 0
 --- !u!1 &30757795
 GameObject:
   m_ObjectHideFlags: 0
@@ -405,6 +421,7 @@ GameObject:
   - 212: {fileID: 124414327}
   - 114: {fileID: 124414326}
   - 61: {fileID: 124414325}
+  - 114: {fileID: 124414328}
   m_Layer: 0
   m_Name: knoppen2_2
   m_TagString: Untagged
@@ -446,6 +463,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   GoToLevel: -1
+  Disabled: 0
 --- !u!212 &124414327
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -469,6 +487,20 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_Sprite: {fileID: 21300040, guid: d906e0134247aff4ba76aa8a1fc6fa8d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
+--- !u!114 &124414328
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 124414323}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88d54fd67bf68d04994dc12a6868fbbb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  World: 2
+  Level: 9
+  startingRoom: 0
 --- !u!1 &134729054
 GameObject:
   m_ObjectHideFlags: 0
@@ -480,6 +512,7 @@ GameObject:
   - 212: {fileID: 134729058}
   - 114: {fileID: 134729057}
   - 61: {fileID: 134729056}
+  - 114: {fileID: 134729059}
   m_Layer: 0
   m_Name: knoppen2_2
   m_TagString: Untagged
@@ -521,6 +554,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   GoToLevel: -1
+  Disabled: 0
 --- !u!212 &134729058
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -544,6 +578,20 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_Sprite: {fileID: 21300072, guid: d906e0134247aff4ba76aa8a1fc6fa8d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
+--- !u!114 &134729059
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 134729054}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88d54fd67bf68d04994dc12a6868fbbb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  World: 4
+  Level: 4
+  startingRoom: 0
 --- !u!1 &137656958
 GameObject:
   m_ObjectHideFlags: 0
@@ -684,6 +732,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   GoToLevel: 4
+  Disabled: 0
 --- !u!1 &192927868
 GameObject:
   m_ObjectHideFlags: 0
@@ -695,6 +744,7 @@ GameObject:
   - 212: {fileID: 192927872}
   - 114: {fileID: 192927871}
   - 61: {fileID: 192927870}
+  - 114: {fileID: 192927873}
   m_Layer: 0
   m_Name: knoppen2_0
   m_TagString: Untagged
@@ -736,6 +786,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   GoToLevel: -1
+  Disabled: 0
 --- !u!212 &192927872
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -759,6 +810,20 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_Sprite: {fileID: 21300064, guid: d906e0134247aff4ba76aa8a1fc6fa8d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
+--- !u!114 &192927873
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 192927868}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88d54fd67bf68d04994dc12a6868fbbb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  World: 4
+  Level: 0
+  startingRoom: 0
 --- !u!1 &218626586
 GameObject:
   m_ObjectHideFlags: 0
@@ -770,6 +835,7 @@ GameObject:
   - 212: {fileID: 218626590}
   - 114: {fileID: 218626589}
   - 61: {fileID: 218626588}
+  - 114: {fileID: 218626591}
   m_Layer: 0
   m_Name: knoppen2_2
   m_TagString: Untagged
@@ -811,6 +877,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   GoToLevel: -1
+  Disabled: 0
 --- !u!212 &218626590
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -834,6 +901,20 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_Sprite: {fileID: 21300030, guid: d906e0134247aff4ba76aa8a1fc6fa8d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
+--- !u!114 &218626591
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 218626586}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88d54fd67bf68d04994dc12a6868fbbb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  World: 2
+  Level: 4
+  startingRoom: 0
 --- !u!1 &326409052
 GameObject:
   m_ObjectHideFlags: 0
@@ -937,6 +1018,7 @@ GameObject:
   - 212: {fileID: 358714420}
   - 114: {fileID: 358714419}
   - 61: {fileID: 358714418}
+  - 114: {fileID: 358714421}
   m_Layer: 0
   m_Name: knoppen2_2
   m_TagString: Untagged
@@ -978,6 +1060,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   GoToLevel: 13
+  Disabled: 1
 --- !u!212 &358714420
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1001,6 +1084,20 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_Sprite: {fileID: 21300014, guid: d906e0134247aff4ba76aa8a1fc6fa8d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
+--- !u!114 &358714421
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 358714416}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88d54fd67bf68d04994dc12a6868fbbb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  World: 1
+  Level: 7
+  startingRoom: 0
 --- !u!1 &373377072
 GameObject:
   m_ObjectHideFlags: 0
@@ -1012,6 +1109,7 @@ GameObject:
   - 212: {fileID: 373377075}
   - 114: {fileID: 373377074}
   - 61: {fileID: 373377073}
+  - 114: {fileID: 373377077}
   m_Layer: 0
   m_Name: knoppen2_1
   m_TagString: Untagged
@@ -1042,6 +1140,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   GoToLevel: -1
+  Disabled: 0
 --- !u!212 &373377075
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1076,6 +1175,20 @@ Transform:
   m_LocalScale: {x: 1.5, y: 1.5, z: 1}
   m_Children: []
   m_Father: {fileID: 1323494924}
+--- !u!114 &373377077
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 373377072}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88d54fd67bf68d04994dc12a6868fbbb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  World: 4
+  Level: 1
+  startingRoom: 0
 --- !u!1 &475984709
 GameObject:
   m_ObjectHideFlags: 0
@@ -1087,6 +1200,7 @@ GameObject:
   - 212: {fileID: 475984713}
   - 114: {fileID: 475984712}
   - 61: {fileID: 475984711}
+  - 114: {fileID: 475984714}
   m_Layer: 0
   m_Name: knoppen2_2
   m_TagString: Untagged
@@ -1128,6 +1242,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   GoToLevel: -1
+  Disabled: 0
 --- !u!212 &475984713
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1151,6 +1266,20 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_Sprite: {fileID: 21300076, guid: d906e0134247aff4ba76aa8a1fc6fa8d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
+--- !u!114 &475984714
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 475984709}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88d54fd67bf68d04994dc12a6868fbbb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  World: 4
+  Level: 6
+  startingRoom: 0
 --- !u!1 &477249409
 GameObject:
   m_ObjectHideFlags: 0
@@ -1225,7 +1354,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 494280131}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -6.91956758, y: -2.50064063, z: 0}
+  m_LocalPosition: {x: -6.91956806, y: -3.88942432, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1577769316}
@@ -1262,7 +1391,7 @@ SpriteRenderer:
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 5
   m_SortingLayerID: 0
   m_Sprite: {fileID: 21300084, guid: d906e0134247aff4ba76aa8a1fc6fa8d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -1288,6 +1417,7 @@ GameObject:
   - 212: {fileID: 528017008}
   - 114: {fileID: 528017007}
   - 61: {fileID: 528017006}
+  - 114: {fileID: 528017009}
   m_Layer: 0
   m_Name: knoppen2_2
   m_TagString: Untagged
@@ -1329,6 +1459,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   GoToLevel: -1
+  Disabled: 0
 --- !u!212 &528017008
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1352,6 +1483,20 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_Sprite: {fileID: 21300028, guid: d906e0134247aff4ba76aa8a1fc6fa8d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
+--- !u!114 &528017009
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 528017004}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88d54fd67bf68d04994dc12a6868fbbb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  World: 2
+  Level: 3
+  startingRoom: 0
 --- !u!1 &533051880
 GameObject:
   m_ObjectHideFlags: 0
@@ -1442,6 +1587,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   GoToLevel: 6
+  Disabled: 0
 --- !u!1 &538095307
 GameObject:
   m_ObjectHideFlags: 0
@@ -1453,6 +1599,7 @@ GameObject:
   - 212: {fileID: 538095311}
   - 114: {fileID: 538095310}
   - 61: {fileID: 538095309}
+  - 114: {fileID: 538095312}
   m_Layer: 0
   m_Name: knoppen2_2
   m_TagString: Untagged
@@ -1494,6 +1641,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   GoToLevel: -1
+  Disabled: 0
 --- !u!212 &538095311
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1517,6 +1665,20 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_Sprite: {fileID: 21300034, guid: d906e0134247aff4ba76aa8a1fc6fa8d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
+--- !u!114 &538095312
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 538095307}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88d54fd67bf68d04994dc12a6868fbbb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  World: 2
+  Level: 6
+  startingRoom: 0
 --- !u!1 &542041235
 GameObject:
   m_ObjectHideFlags: 0
@@ -1628,6 +1790,7 @@ GameObject:
   - 212: {fileID: 595823362}
   - 114: {fileID: 595823361}
   - 61: {fileID: 595823360}
+  - 114: {fileID: 595823364}
   m_Layer: 0
   m_Name: knoppen2_1
   m_TagString: Untagged
@@ -1658,6 +1821,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   GoToLevel: -1
+  Disabled: 0
 --- !u!212 &595823362
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1692,6 +1856,20 @@ Transform:
   m_LocalScale: {x: 1.5, y: 1.5, z: 1}
   m_Children: []
   m_Father: {fileID: 1045936696}
+--- !u!114 &595823364
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 595823359}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88d54fd67bf68d04994dc12a6868fbbb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  World: 2
+  Level: 1
+  startingRoom: 0
 --- !u!1 &618406253
 GameObject:
   m_ObjectHideFlags: 0
@@ -1703,6 +1881,7 @@ GameObject:
   - 212: {fileID: 618406256}
   - 114: {fileID: 618406255}
   - 61: {fileID: 618406254}
+  - 114: {fileID: 618406258}
   m_Layer: 0
   m_Name: knoppen2_2
   m_TagString: Untagged
@@ -1733,6 +1912,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   GoToLevel: -1
+  Disabled: 0
 --- !u!212 &618406256
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1767,6 +1947,20 @@ Transform:
   m_LocalScale: {x: 1.5, y: 1.5, z: 1}
   m_Children: []
   m_Father: {fileID: 1350757142}
+--- !u!114 &618406258
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 618406253}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88d54fd67bf68d04994dc12a6868fbbb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  World: 3
+  Level: 4
+  startingRoom: 0
 --- !u!1 &662992368
 GameObject:
   m_ObjectHideFlags: 0
@@ -1776,7 +1970,6 @@ GameObject:
   m_Component:
   - 4: {fileID: 662992369}
   - 114: {fileID: 662992371}
-  - 61: {fileID: 662992370}
   m_Layer: 0
   m_Name: ID 3 World 1
   m_TagString: Untagged
@@ -1810,17 +2003,6 @@ Transform:
   - {fileID: 1857418794}
   - {fileID: 1067351248}
   m_Father: {fileID: 0}
---- !u!61 &662992370
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 662992368}
-  m_Enabled: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Size: {x: 1, y: 1}
-  m_Center: {x: 0, y: 0}
 --- !u!114 &662992371
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1846,6 +2028,7 @@ GameObject:
   - 212: {fileID: 723720262}
   - 114: {fileID: 723720261}
   - 61: {fileID: 723720260}
+  - 114: {fileID: 723720263}
   m_Layer: 0
   m_Name: knoppen2_2
   m_TagString: Untagged
@@ -1860,7 +2043,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 723720258}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4.5, y: 4.75, z: 0}
+  m_LocalPosition: {x: -4.51985168, y: 4.73014832, z: 0}
   m_LocalScale: {x: 1.5, y: 1.5, z: 1}
   m_Children: []
   m_Father: {fileID: 1323494924}
@@ -1887,6 +2070,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   GoToLevel: -1
+  Disabled: 0
 --- !u!212 &723720262
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1910,6 +2094,20 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_Sprite: {fileID: 21300068, guid: d906e0134247aff4ba76aa8a1fc6fa8d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
+--- !u!114 &723720263
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 723720258}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88d54fd67bf68d04994dc12a6868fbbb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  World: 4
+  Level: 2
+  startingRoom: 0
 --- !u!1 &725530958
 GameObject:
   m_ObjectHideFlags: 0
@@ -2092,6 +2290,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   GoToLevel: 5
+  Disabled: 0
 --- !u!1 &858295274
 GameObject:
   m_ObjectHideFlags: 0
@@ -2194,6 +2393,7 @@ GameObject:
   - 212: {fileID: 874243695}
   - 114: {fileID: 874243694}
   - 61: {fileID: 874243693}
+  - 114: {fileID: 874243696}
   m_Layer: 0
   m_Name: knoppen2_0
   m_TagString: Untagged
@@ -2235,6 +2435,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   GoToLevel: 6
+  Disabled: 0
 --- !u!212 &874243695
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2258,6 +2459,20 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_Sprite: {fileID: 21300000, guid: d906e0134247aff4ba76aa8a1fc6fa8d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
+--- !u!114 &874243696
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 874243691}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88d54fd67bf68d04994dc12a6868fbbb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  World: 1
+  Level: 0
+  startingRoom: 0
 --- !u!1 &942772474
 GameObject:
   m_ObjectHideFlags: 0
@@ -2269,6 +2484,7 @@ GameObject:
   - 212: {fileID: 942772478}
   - 114: {fileID: 942772477}
   - 61: {fileID: 942772476}
+  - 114: {fileID: 942772479}
   m_Layer: 0
   m_Name: knoppen2_2
   m_TagString: Untagged
@@ -2310,6 +2526,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   GoToLevel: -1
+  Disabled: 0
 --- !u!212 &942772478
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2333,6 +2550,20 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_Sprite: {fileID: 21300070, guid: d906e0134247aff4ba76aa8a1fc6fa8d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
+--- !u!114 &942772479
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 942772474}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88d54fd67bf68d04994dc12a6868fbbb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  World: 4
+  Level: 3
+  startingRoom: 0
 --- !u!1 &949550473
 GameObject:
   m_ObjectHideFlags: 0
@@ -2416,6 +2647,7 @@ GameObject:
   - 212: {fileID: 950870109}
   - 114: {fileID: 950870108}
   - 61: {fileID: 950870107}
+  - 114: {fileID: 950870110}
   m_Layer: 0
   m_Name: knoppen2_2
   m_TagString: Untagged
@@ -2457,6 +2689,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   GoToLevel: -1
+  Disabled: 0
 --- !u!212 &950870109
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2480,6 +2713,20 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_Sprite: {fileID: 21300080, guid: d906e0134247aff4ba76aa8a1fc6fa8d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
+--- !u!114 &950870110
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 950870105}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88d54fd67bf68d04994dc12a6868fbbb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  World: 4
+  Level: 8
+  startingRoom: 0
 --- !u!1 &970013422
 GameObject:
   m_ObjectHideFlags: 0
@@ -2568,6 +2815,7 @@ GameObject:
   - 212: {fileID: 979252639}
   - 114: {fileID: 979252638}
   - 61: {fileID: 979252637}
+  - 114: {fileID: 979252640}
   m_Layer: 0
   m_Name: knoppen2_2
   m_TagString: Untagged
@@ -2609,6 +2857,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   GoToLevel: -1
+  Disabled: 0
 --- !u!212 &979252639
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2632,6 +2881,20 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_Sprite: {fileID: 21300078, guid: d906e0134247aff4ba76aa8a1fc6fa8d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
+--- !u!114 &979252640
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 979252635}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88d54fd67bf68d04994dc12a6868fbbb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  World: 4
+  Level: 7
+  startingRoom: 0
 --- !u!1 &999140658
 GameObject:
   m_ObjectHideFlags: 0
@@ -2925,7 +3188,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1046374936}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 6.87527084, y: -1.7027874, z: 0}
+  m_LocalPosition: {x: 6.87527084, y: -3.90169334, z: 0}
   m_LocalScale: {x: .491821349, y: .491821557, z: 1}
   m_Children: []
   m_Father: {fileID: 1577769316}
@@ -2940,6 +3203,7 @@ GameObject:
   - 212: {fileID: 1067351251}
   - 114: {fileID: 1067351250}
   - 61: {fileID: 1067351249}
+  - 114: {fileID: 1067351252}
   m_Layer: 0
   m_Name: knoppen2_2
   m_TagString: Untagged
@@ -2981,6 +3245,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   GoToLevel: 15
+  Disabled: 1
 --- !u!212 &1067351251
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3004,6 +3269,20 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_Sprite: {fileID: 21300018, guid: d906e0134247aff4ba76aa8a1fc6fa8d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
+--- !u!114 &1067351252
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1067351247}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88d54fd67bf68d04994dc12a6868fbbb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  World: 1
+  Level: 9
+  startingRoom: 0
 --- !u!1 &1072972885
 GameObject:
   m_ObjectHideFlags: 0
@@ -3032,7 +3311,6 @@ Transform:
   m_Children:
   - {fileID: 2115868519}
   - {fileID: 542041237}
-  - {fileID: 1857410583}
   m_Father: {fileID: 0}
 --- !u!114 &1072972887
 MonoBehaviour:
@@ -3059,6 +3337,7 @@ GameObject:
   - 212: {fileID: 1116607047}
   - 114: {fileID: 1116607046}
   - 61: {fileID: 1116607045}
+  - 114: {fileID: 1116607048}
   m_Layer: 0
   m_Name: knoppen2_0
   m_TagString: Untagged
@@ -3100,6 +3379,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   GoToLevel: 16
+  Disabled: 1
 --- !u!212 &1116607047
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3123,6 +3403,20 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_Sprite: {fileID: 21300000, guid: d906e0134247aff4ba76aa8a1fc6fa8d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
+--- !u!114 &1116607048
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1116607043}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88d54fd67bf68d04994dc12a6868fbbb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  World: 1
+  Level: 10
+  startingRoom: 0
 --- !u!1 &1146138258
 GameObject:
   m_ObjectHideFlags: 0
@@ -3134,6 +3428,7 @@ GameObject:
   - 212: {fileID: 1146138262}
   - 114: {fileID: 1146138261}
   - 61: {fileID: 1146138260}
+  - 114: {fileID: 1146138263}
   m_Layer: 0
   m_Name: knoppen2_2
   m_TagString: Untagged
@@ -3175,6 +3470,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   GoToLevel: -1
+  Disabled: 0
 --- !u!212 &1146138262
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3198,6 +3494,20 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_Sprite: {fileID: 21300048, guid: d906e0134247aff4ba76aa8a1fc6fa8d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
+--- !u!114 &1146138263
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1146138258}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88d54fd67bf68d04994dc12a6868fbbb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  World: 3
+  Level: 2
+  startingRoom: 0
 --- !u!1 &1243249167
 GameObject:
   m_ObjectHideFlags: 0
@@ -3209,6 +3519,7 @@ GameObject:
   - 212: {fileID: 1243249171}
   - 114: {fileID: 1243249170}
   - 61: {fileID: 1243249169}
+  - 114: {fileID: 1243249172}
   m_Layer: 0
   m_Name: knoppen2_2
   m_TagString: Untagged
@@ -3250,6 +3561,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   GoToLevel: 9
+  Disabled: 0
 --- !u!212 &1243249171
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3273,6 +3585,20 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_Sprite: {fileID: 21300006, guid: d906e0134247aff4ba76aa8a1fc6fa8d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
+--- !u!114 &1243249172
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1243249167}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88d54fd67bf68d04994dc12a6868fbbb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  World: 1
+  Level: 3
+  startingRoom: 0
 --- !u!1 &1272413881
 GameObject:
   m_ObjectHideFlags: 0
@@ -3366,6 +3692,7 @@ GameObject:
   - 212: {fileID: 1298249560}
   - 114: {fileID: 1298249559}
   - 61: {fileID: 1298249558}
+  - 114: {fileID: 1298249561}
   m_Layer: 0
   m_Name: knoppen2_0
   m_TagString: Untagged
@@ -3407,6 +3734,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   GoToLevel: -1
+  Disabled: 0
 --- !u!212 &1298249560
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3430,6 +3758,20 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_Sprite: {fileID: 21300022, guid: d906e0134247aff4ba76aa8a1fc6fa8d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
+--- !u!114 &1298249561
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1298249556}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88d54fd67bf68d04994dc12a6868fbbb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  World: 2
+  Level: 0
+  startingRoom: 0
 --- !u!1 &1308403100
 GameObject:
   m_ObjectHideFlags: 0
@@ -4688,6 +5030,7 @@ GameObject:
   - 212: {fileID: 1338462216}
   - 114: {fileID: 1338462215}
   - 61: {fileID: 1338462214}
+  - 114: {fileID: 1338462217}
   m_Layer: 0
   m_Name: knoppen2_2
   m_TagString: Untagged
@@ -4729,6 +5072,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   GoToLevel: -1
+  Disabled: 0
 --- !u!212 &1338462216
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4752,6 +5096,20 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_Sprite: {fileID: 21300050, guid: d906e0134247aff4ba76aa8a1fc6fa8d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
+--- !u!114 &1338462217
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1338462212}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88d54fd67bf68d04994dc12a6868fbbb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  World: 3
+  Level: 3
+  startingRoom: 0
 --- !u!1 &1350757141
 GameObject:
   m_ObjectHideFlags: 0
@@ -4815,6 +5173,7 @@ GameObject:
   - 212: {fileID: 1357516533}
   - 114: {fileID: 1357516532}
   - 61: {fileID: 1357516531}
+  - 114: {fileID: 1357516534}
   m_Layer: 0
   m_Name: knoppen2_1
   m_TagString: Untagged
@@ -4856,6 +5215,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   GoToLevel: 7
+  Disabled: 0
 --- !u!212 &1357516533
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4879,6 +5239,20 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_Sprite: {fileID: 21300002, guid: d906e0134247aff4ba76aa8a1fc6fa8d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
+--- !u!114 &1357516534
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1357516529}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88d54fd67bf68d04994dc12a6868fbbb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  World: 1
+  Level: 1
+  startingRoom: 0
 --- !u!1 &1392389935
 GameObject:
   m_ObjectHideFlags: 0
@@ -4890,6 +5264,7 @@ GameObject:
   - 212: {fileID: 1392389939}
   - 114: {fileID: 1392389938}
   - 61: {fileID: 1392389937}
+  - 114: {fileID: 1392389940}
   m_Layer: 0
   m_Name: knoppen2_2
   m_TagString: Untagged
@@ -4931,6 +5306,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   GoToLevel: -1
+  Disabled: 0
 --- !u!212 &1392389939
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4954,6 +5330,20 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_Sprite: {fileID: 21300074, guid: d906e0134247aff4ba76aa8a1fc6fa8d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
+--- !u!114 &1392389940
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1392389935}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88d54fd67bf68d04994dc12a6868fbbb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  World: 4
+  Level: 5
+  startingRoom: 0
 --- !u!1 &1435776592
 GameObject:
   m_ObjectHideFlags: 0
@@ -4965,6 +5355,7 @@ GameObject:
   - 212: {fileID: 1435776596}
   - 114: {fileID: 1435776595}
   - 61: {fileID: 1435776594}
+  - 114: {fileID: 1435776597}
   m_Layer: 0
   m_Name: knoppen2_2
   m_TagString: Untagged
@@ -5006,6 +5397,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   GoToLevel: -1
+  Disabled: 0
 --- !u!212 &1435776596
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5029,6 +5421,20 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_Sprite: {fileID: 21300062, guid: d906e0134247aff4ba76aa8a1fc6fa8d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
+--- !u!114 &1435776597
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1435776592}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88d54fd67bf68d04994dc12a6868fbbb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  World: 3
+  Level: 9
+  startingRoom: 0
 --- !u!1 &1439204442
 GameObject:
   m_ObjectHideFlags: 0
@@ -5112,7 +5518,7 @@ GUITexture:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1439204442}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Texture: {fileID: 2800000, guid: ccc7ae486c8907843bce98382ee63a5b, type: 3}
   m_Color: {r: .5, g: .5, b: .5, a: .5}
   m_PixelInset:
@@ -5136,6 +5542,7 @@ GameObject:
   - 212: {fileID: 1442857517}
   - 114: {fileID: 1442857516}
   - 61: {fileID: 1442857515}
+  - 114: {fileID: 1442857518}
   m_Layer: 0
   m_Name: knoppen2_0
   m_TagString: Untagged
@@ -5150,8 +5557,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1442857513}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.24504709, y: 2.80095387, z: 0}
-  m_LocalScale: {x: 1.5, y: 1.5, z: 1}
+  m_LocalPosition: {x: -5.25546169, y: 2.80095387, z: 0}
+  m_LocalScale: {x: 1.54084253, y: 1.46024013, z: 1}
   m_Children: []
   m_Father: {fileID: 662992369}
 --- !u!61 &1442857515
@@ -5177,6 +5584,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   GoToLevel: 17
+  Disabled: 1
 --- !u!212 &1442857517
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5200,6 +5608,20 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_Sprite: {fileID: 21300002, guid: d906e0134247aff4ba76aa8a1fc6fa8d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
+--- !u!114 &1442857518
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1442857513}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88d54fd67bf68d04994dc12a6868fbbb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  World: 1
+  Level: 11
+  startingRoom: 0
 --- !u!1 &1468267734
 GameObject:
   m_ObjectHideFlags: 0
@@ -5211,6 +5633,7 @@ GameObject:
   - 212: {fileID: 1468267738}
   - 114: {fileID: 1468267737}
   - 61: {fileID: 1468267736}
+  - 114: {fileID: 1468267739}
   m_Layer: 0
   m_Name: knoppen2_2
   m_TagString: Untagged
@@ -5252,6 +5675,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   GoToLevel: -1
+  Disabled: 0
 --- !u!212 &1468267738
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5275,6 +5699,20 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_Sprite: {fileID: 21300026, guid: d906e0134247aff4ba76aa8a1fc6fa8d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
+--- !u!114 &1468267739
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1468267734}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88d54fd67bf68d04994dc12a6868fbbb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  World: 2
+  Level: 2
+  startingRoom: 0
 --- !u!1 &1512161490
 GameObject:
   m_ObjectHideFlags: 0
@@ -5397,6 +5835,7 @@ Transform:
   - {fileID: 1046374940}
   - {fileID: 569973169}
   - {fileID: 137656960}
+  - {fileID: 1857410583}
   m_Father: {fileID: 0}
 --- !u!114 &1577769317
 MonoBehaviour:
@@ -5473,6 +5912,7 @@ GameObject:
   - 212: {fileID: 1630740094}
   - 114: {fileID: 1630740093}
   - 61: {fileID: 1630740092}
+  - 114: {fileID: 1630740095}
   m_Layer: 0
   m_Name: knoppen2_0
   m_TagString: Untagged
@@ -5514,6 +5954,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   GoToLevel: -1
+  Disabled: 0
 --- !u!212 &1630740094
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5537,6 +5978,20 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_Sprite: {fileID: 21300044, guid: d906e0134247aff4ba76aa8a1fc6fa8d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
+--- !u!114 &1630740095
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1630740090}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88d54fd67bf68d04994dc12a6868fbbb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  World: 3
+  Level: 0
+  startingRoom: 0
 --- !u!1 &1647744617
 GameObject:
   m_ObjectHideFlags: 0
@@ -5548,6 +6003,7 @@ GameObject:
   - 212: {fileID: 1647744621}
   - 114: {fileID: 1647744620}
   - 61: {fileID: 1647744619}
+  - 114: {fileID: 1647744622}
   m_Layer: 0
   m_Name: knoppen2_2
   m_TagString: Untagged
@@ -5589,6 +6045,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   GoToLevel: -1
+  Disabled: 0
 --- !u!212 &1647744621
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5612,6 +6069,20 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_Sprite: {fileID: 21300056, guid: d906e0134247aff4ba76aa8a1fc6fa8d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
+--- !u!114 &1647744622
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1647744617}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88d54fd67bf68d04994dc12a6868fbbb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  World: 3
+  Level: 6
+  startingRoom: 0
 --- !u!1 &1694510159
 GameObject:
   m_ObjectHideFlags: 0
@@ -5623,6 +6094,7 @@ GameObject:
   - 212: {fileID: 1694510163}
   - 114: {fileID: 1694510162}
   - 61: {fileID: 1694510161}
+  - 114: {fileID: 1694510164}
   m_Layer: 0
   m_Name: knoppen2_2
   m_TagString: Untagged
@@ -5664,6 +6136,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   GoToLevel: -1
+  Disabled: 0
 --- !u!212 &1694510163
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5687,6 +6160,20 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_Sprite: {fileID: 21300036, guid: d906e0134247aff4ba76aa8a1fc6fa8d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
+--- !u!114 &1694510164
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1694510159}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88d54fd67bf68d04994dc12a6868fbbb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  World: 2
+  Level: 7
+  startingRoom: 0
 --- !u!1 &1699968386
 GameObject:
   m_ObjectHideFlags: 0
@@ -5698,6 +6185,7 @@ GameObject:
   - 212: {fileID: 1699968390}
   - 114: {fileID: 1699968389}
   - 61: {fileID: 1699968388}
+  - 114: {fileID: 1699968391}
   m_Layer: 0
   m_Name: knoppen2_1
   m_TagString: Untagged
@@ -5739,6 +6227,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   GoToLevel: -1
+  Disabled: 0
 --- !u!212 &1699968390
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5762,6 +6251,20 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_Sprite: {fileID: 21300046, guid: d906e0134247aff4ba76aa8a1fc6fa8d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
+--- !u!114 &1699968391
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1699968386}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88d54fd67bf68d04994dc12a6868fbbb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  World: 3
+  Level: 1
+  startingRoom: 0
 --- !u!1 &1712935978
 GameObject:
   m_ObjectHideFlags: 0
@@ -5773,6 +6276,7 @@ GameObject:
   - 212: {fileID: 1712935982}
   - 114: {fileID: 1712935981}
   - 61: {fileID: 1712935980}
+  - 114: {fileID: 1712935983}
   m_Layer: 0
   m_Name: knoppen2_2
   m_TagString: Untagged
@@ -5814,6 +6318,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   GoToLevel: -1
+  Disabled: 0
 --- !u!212 &1712935982
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5837,6 +6342,20 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_Sprite: {fileID: 21300058, guid: d906e0134247aff4ba76aa8a1fc6fa8d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
+--- !u!114 &1712935983
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1712935978}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88d54fd67bf68d04994dc12a6868fbbb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  World: 3
+  Level: 7
+  startingRoom: 0
 --- !u!1 &1751662763
 GameObject:
   m_ObjectHideFlags: 0
@@ -5848,6 +6367,7 @@ GameObject:
   - 212: {fileID: 1751662767}
   - 114: {fileID: 1751662766}
   - 61: {fileID: 1751662765}
+  - 114: {fileID: 1751662768}
   m_Layer: 0
   m_Name: knoppen2_2
   m_TagString: Untagged
@@ -5889,6 +6409,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   GoToLevel: -1
+  Disabled: 0
 --- !u!212 &1751662767
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5912,6 +6433,20 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_Sprite: {fileID: 21300032, guid: d906e0134247aff4ba76aa8a1fc6fa8d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
+--- !u!114 &1751662768
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1751662763}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88d54fd67bf68d04994dc12a6868fbbb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  World: 2
+  Level: 5
+  startingRoom: 0
 --- !u!1 &1768622208
 GameObject:
   m_ObjectHideFlags: 0
@@ -5995,7 +6530,7 @@ GUITexture:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1768622208}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Texture: {fileID: 2800000, guid: ccc7ae486c8907843bce98382ee63a5b, type: 3}
   m_Color: {r: .5, g: .5, b: .5, a: .5}
   m_PixelInset:
@@ -6019,6 +6554,7 @@ GameObject:
   - 212: {fileID: 1797225334}
   - 114: {fileID: 1797225333}
   - 61: {fileID: 1797225332}
+  - 114: {fileID: 1797225335}
   m_Layer: 0
   m_Name: knoppen2_1
   m_TagString: Untagged
@@ -6060,6 +6596,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   GoToLevel: 16
+  Disabled: 1
 --- !u!212 &1797225334
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6083,6 +6620,20 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_Sprite: {fileID: 21300002, guid: d906e0134247aff4ba76aa8a1fc6fa8d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
+--- !u!114 &1797225335
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1797225330}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88d54fd67bf68d04994dc12a6868fbbb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  World: 1
+  Level: 10
+  startingRoom: 0
 --- !u!1 &1857299889
 GameObject:
   m_ObjectHideFlags: 0
@@ -6094,6 +6645,7 @@ GameObject:
   - 212: {fileID: 1857299893}
   - 114: {fileID: 1857299892}
   - 61: {fileID: 1857299891}
+  - 114: {fileID: 1857299894}
   m_Layer: 0
   m_Name: knoppen2_2
   m_TagString: Untagged
@@ -6135,6 +6687,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   GoToLevel: -1
+  Disabled: 0
 --- !u!212 &1857299893
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6158,6 +6711,20 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_Sprite: {fileID: 21300038, guid: d906e0134247aff4ba76aa8a1fc6fa8d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
+--- !u!114 &1857299894
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1857299889}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88d54fd67bf68d04994dc12a6868fbbb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  World: 2
+  Level: 8
+  startingRoom: 0
 --- !u!1 &1857410580
 GameObject:
   m_ObjectHideFlags: 0
@@ -6227,12 +6794,12 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1857410580}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 6.03816319, y: -.989821672, z: 0}
+  m_LocalPosition: {x: 5.34377146, y: -.718411446, z: 0}
   m_LocalScale: {x: 1.5, y: 1.5, z: 1}
   m_Children:
   - {fileID: 1439204444}
   - {fileID: 1768622210}
-  m_Father: {fileID: 1072972886}
+  m_Father: {fileID: 1577769316}
 --- !u!65 &1857410584
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6256,6 +6823,7 @@ GameObject:
   - 212: {fileID: 1857418793}
   - 114: {fileID: 1857418792}
   - 61: {fileID: 1857418791}
+  - 114: {fileID: 1857418795}
   m_Layer: 0
   m_Name: knoppen2_2
   m_TagString: Untagged
@@ -6286,6 +6854,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   GoToLevel: 14
+  Disabled: 1
 --- !u!212 &1857418793
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6320,6 +6889,20 @@ Transform:
   m_LocalScale: {x: 1.5, y: 1.5, z: 1}
   m_Children: []
   m_Father: {fileID: 662992369}
+--- !u!114 &1857418795
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1857418790}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88d54fd67bf68d04994dc12a6868fbbb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  World: 1
+  Level: 8
+  startingRoom: 0
 --- !u!1 &1862823746
 GameObject:
   m_ObjectHideFlags: 0
@@ -6423,6 +7006,7 @@ GameObject:
   - 212: {fileID: 1927819942}
   - 114: {fileID: 1927819941}
   - 61: {fileID: 1927819940}
+  - 114: {fileID: 1927819943}
   m_Layer: 0
   m_Name: knoppen2_2
   m_TagString: Untagged
@@ -6464,6 +7048,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   GoToLevel: -1
+  Disabled: 0
 --- !u!212 &1927819942
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6487,6 +7072,20 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_Sprite: {fileID: 21300082, guid: d906e0134247aff4ba76aa8a1fc6fa8d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
+--- !u!114 &1927819943
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1927819938}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88d54fd67bf68d04994dc12a6868fbbb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  World: 4
+  Level: 9
+  startingRoom: 0
 --- !u!1 &1933801496
 GameObject:
   m_ObjectHideFlags: 0
@@ -6498,6 +7097,7 @@ GameObject:
   - 212: {fileID: 1933801500}
   - 114: {fileID: 1933801499}
   - 61: {fileID: 1933801498}
+  - 114: {fileID: 1933801501}
   m_Layer: 0
   m_Name: knoppen2_1
   m_TagString: Untagged
@@ -6539,6 +7139,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   GoToLevel: 17
+  Disabled: 1
 --- !u!212 &1933801500
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6562,6 +7163,20 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_Sprite: {fileID: 21300002, guid: d906e0134247aff4ba76aa8a1fc6fa8d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
+--- !u!114 &1933801501
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1933801496}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88d54fd67bf68d04994dc12a6868fbbb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  World: 1
+  Level: 11
+  startingRoom: 0
 --- !u!1 &1961327179
 GameObject:
   m_ObjectHideFlags: 0
@@ -6573,6 +7188,7 @@ GameObject:
   - 212: {fileID: 1961327183}
   - 114: {fileID: 1961327182}
   - 61: {fileID: 1961327181}
+  - 114: {fileID: 1961327184}
   m_Layer: 0
   m_Name: knoppen2_2
   m_TagString: Untagged
@@ -6614,6 +7230,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   GoToLevel: 10
+  Disabled: 0
 --- !u!212 &1961327183
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6637,6 +7254,20 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_Sprite: {fileID: 21300008, guid: d906e0134247aff4ba76aa8a1fc6fa8d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
+--- !u!114 &1961327184
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1961327179}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88d54fd67bf68d04994dc12a6868fbbb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  World: 1
+  Level: 4
+  startingRoom: 0
 --- !u!1 &2088679618
 GameObject:
   m_ObjectHideFlags: 0
@@ -6648,6 +7279,7 @@ GameObject:
   - 212: {fileID: 2088679622}
   - 114: {fileID: 2088679621}
   - 61: {fileID: 2088679620}
+  - 114: {fileID: 2088679623}
   m_Layer: 0
   m_Name: knoppen2_2
   m_TagString: Untagged
@@ -6689,6 +7321,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   GoToLevel: -1
+  Disabled: 0
 --- !u!212 &2088679622
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6712,6 +7345,20 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_Sprite: {fileID: 21300060, guid: d906e0134247aff4ba76aa8a1fc6fa8d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
+--- !u!114 &2088679623
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2088679618}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88d54fd67bf68d04994dc12a6868fbbb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  World: 3
+  Level: 8
+  startingRoom: 0
 --- !u!1 &2115868518
 GameObject:
   m_ObjectHideFlags: 0
@@ -6752,6 +7399,7 @@ GameObject:
   - 212: {fileID: 2125130606}
   - 114: {fileID: 2125130605}
   - 61: {fileID: 2125130604}
+  - 114: {fileID: 2125130607}
   m_Layer: 0
   m_Name: knoppen2_2
   m_TagString: Untagged
@@ -6793,6 +7441,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   GoToLevel: 8
+  Disabled: 0
 --- !u!212 &2125130606
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6816,6 +7465,20 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_Sprite: {fileID: 21300004, guid: d906e0134247aff4ba76aa8a1fc6fa8d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
+--- !u!114 &2125130607
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2125130602}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88d54fd67bf68d04994dc12a6868fbbb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  World: 1
+  Level: 2
+  startingRoom: 0
 --- !u!1 &2128329180
 GameObject:
   m_ObjectHideFlags: 0
@@ -6827,6 +7490,7 @@ GameObject:
   - 212: {fileID: 2128329184}
   - 114: {fileID: 2128329183}
   - 61: {fileID: 2128329182}
+  - 114: {fileID: 2128329185}
   m_Layer: 0
   m_Name: knoppen2_2
   m_TagString: Untagged
@@ -6868,6 +7532,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   GoToLevel: 11
+  Disabled: 1
 --- !u!212 &2128329184
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6891,6 +7556,20 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_Sprite: {fileID: 21300010, guid: d906e0134247aff4ba76aa8a1fc6fa8d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
+--- !u!114 &2128329185
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2128329180}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88d54fd67bf68d04994dc12a6868fbbb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  World: 1
+  Level: 5
+  startingRoom: 0
 --- !u!1 &2130724053
 GameObject:
   m_ObjectHideFlags: 0
@@ -6902,6 +7581,7 @@ GameObject:
   - 212: {fileID: 2130724057}
   - 114: {fileID: 2130724056}
   - 61: {fileID: 2130724055}
+  - 114: {fileID: 2130724058}
   m_Layer: 0
   m_Name: knoppen2_2
   m_TagString: Untagged
@@ -6943,6 +7623,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   GoToLevel: -1
+  Disabled: 0
 --- !u!212 &2130724057
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6966,3 +7647,17 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_Sprite: {fileID: 21300054, guid: d906e0134247aff4ba76aa8a1fc6fa8d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
+--- !u!114 &2130724058
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2130724053}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88d54fd67bf68d04994dc12a6868fbbb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  World: 3
+  Level: 5
+  startingRoom: 0
