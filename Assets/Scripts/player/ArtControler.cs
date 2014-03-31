@@ -10,7 +10,7 @@ namespace Player
             public int typeIndex = 0;
             private Animator ani;
             // public GameObject parent;
-            public BetaCharControler parentControler;
+            public PlayerControler parentControler;
             // Use this for initialization
             void Start()
             {

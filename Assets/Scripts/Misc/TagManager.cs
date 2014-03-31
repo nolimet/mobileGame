@@ -2,10 +2,10 @@
 using System.Collections;
 
 
-public class TagManager : MonoBehaviour {
-
-    static public string floor = "ground";
-	static public string player ="player";
-    static public string enemyTrigger = "EnemyTrigger";
-    static public string deadly = "Deadly";
+public class TagManager : MonoBehaviour
+{
+    public const string floor = "ground";
+    public const string player = "player";
+    public const string enemyTrigger = "EnemyTrigger";
+    public const string deadly = "Deadly";
 }

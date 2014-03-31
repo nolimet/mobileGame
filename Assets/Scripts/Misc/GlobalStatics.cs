@@ -8,6 +8,7 @@ public class GlobalStatics :MonoBehaviour {
 	public static bool playerOnGround = false;
     public static bool loadedLevel = false;
     public static bool SelectedAObject = false;
+    public const string audioManager= "AudioManager";
 
     public static void load(int level)
     {

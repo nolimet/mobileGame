@@ -23,12 +23,24 @@ namespace EnemyAI
                 if(rigidbody2D.velocity.x<MaxSpeed){
                     rigidbody2D.AddForce(new Vector2(SpeedUp, 0));
                 }
+                if (rigidbody2D.velocity.x > MaxSpeed)
+                {
+                    Vector2 temp = rigidbody2D.velocity;
+                    temp.x = MaxSpeed;
+                    rigidbody2D.velocity = temp;
+                }
             }
             else
             {
                 if (rigidbody2D.velocity.x > -MaxSpeed)
                 {
                     rigidbody2D.AddForce(new Vector2(-SpeedUp, 0));
+                }
+                if (rigidbody2D.velocity.x < -MaxSpeed)
+                {
+                    Vector2 temp = rigidbody2D.velocity;
+                    temp.x = -MaxSpeed;
+                    rigidbody2D.velocity = temp;
                 }
             }
             if (kill)

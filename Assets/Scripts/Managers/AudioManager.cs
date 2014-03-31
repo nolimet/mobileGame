@@ -1,15 +1,28 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class AudioManager : MonoBehaviour {
+namespace Managers
+{
+    public class AudioManager : MonoBehaviour
+    {
 
-	// Use this for initialization
-	void Start () {
-	
-	}
-	
-	// Update is called once per frame
-	void Update () {
-	
-	}
+        public bool FSXIsMuted = false;
+        public bool MusicIsMuted = false;
+
+        void Start()
+        {
+            this.name = "AudioManager";
+            Object.DontDestroyOnLoad(this.gameObject);
+        }
+
+        public void ToggleMusic()
+        {
+            MusicIsMuted = !MusicIsMuted;
+        }
+
+        public void ToggleFSX()
+        {
+            FSXIsMuted = !FSXIsMuted;
+        }
+    }
 }

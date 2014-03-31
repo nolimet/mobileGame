@@ -83,7 +83,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   SpeedUp: 5
-  MaxSpeed: 4
+  MaxSpeed: 1
   health: 100
   kill: 0
 --- !u!212 &21200000

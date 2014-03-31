@@ -49,7 +49,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 2465
+        y: 1613
         width: 19
         height: 19
       alignment: 0
@@ -58,268 +58,268 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 60
-        y: 2360
-        width: 420
-        height: 91
+        y: 1512
+        width: 363
+        height: 79
       alignment: 0
       pivot: {x: 0, y: 0}
     - name: otter_spritesheet_2
       rect:
         serializedVersion: 2
-        x: 501
-        y: 2358
-        width: 417
-        height: 93
+        x: 443
+        y: 1510
+        width: 361
+        height: 81
       alignment: 0
       pivot: {x: 0, y: 0}
     - name: otter_spritesheet_3
       rect:
         serializedVersion: 2
-        x: 939
-        y: 2357
-        width: 415
-        height: 94
+        x: 825
+        y: 1509
+        width: 359
+        height: 82
       alignment: 0
       pivot: {x: 0, y: 0}
     - name: otter_spritesheet_4
       rect:
         serializedVersion: 2
-        x: 1375
-        y: 2356
-        width: 412
-        height: 96
+        x: 1204
+        y: 1508
+        width: 356
+        height: 84
       alignment: 0
       pivot: {x: 0, y: 0}
     - name: otter_spritesheet_5
       rect:
         serializedVersion: 2
-        x: 60
-        y: 2235
-        width: 409
-        height: 101
+        x: 1580
+        y: 1503
+        width: 353
+        height: 88
       alignment: 0
       pivot: {x: 0, y: 0}
     - name: otter_spritesheet_6
       rect:
         serializedVersion: 2
-        x: 489
-        y: 2228
-        width: 406
-        height: 107
+        x: 60
+        y: 1388
+        width: 350
+        height: 94
       alignment: 0
       pivot: {x: 0, y: 0}
     - name: otter_spritesheet_7
       rect:
         serializedVersion: 2
-        x: 916
-        y: 2225
-        width: 402
-        height: 111
+        x: 431
+        y: 1385
+        width: 347
+        height: 97
       alignment: 0
       pivot: {x: 0, y: 0}
     - name: otter_spritesheet_8
       rect:
         serializedVersion: 2
-        x: 1339
-        y: 2227
-        width: 399
-        height: 109
+        x: 798
+        y: 1388
+        width: 344
+        height: 94
       alignment: 0
       pivot: {x: 0, y: 0}
     - name: otter_spritesheet_9
       rect:
         serializedVersion: 2
-        x: 60
-        y: 2095
-        width: 395
-        height: 109
+        x: 1163
+        y: 1386
+        width: 340
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
     - name: otter_spritesheet_10
       rect:
         serializedVersion: 2
-        x: 475
-        y: 2094
-        width: 402
-        height: 110
+        x: 1524
+        y: 1386
+        width: 346
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
     - name: otter_spritesheet_11
       rect:
         serializedVersion: 2
-        x: 897
-        y: 2095
-        width: 407
-        height: 109
+        x: 60
+        y: 1270
+        width: 350
+        height: 95
       alignment: 0
       pivot: {x: 0, y: 0}
     - name: otter_spritesheet_12
       rect:
         serializedVersion: 2
-        x: 1324
-        y: 2096
-        width: 411
-        height: 108
+        x: 431
+        y: 1271
+        width: 354
+        height: 94
       alignment: 0
       pivot: {x: 0, y: 0}
     - name: otter_spritesheet_13
       rect:
         serializedVersion: 2
-        x: 60
-        y: 1966
-        width: 413
-        height: 107
+        x: 805
+        y: 1272
+        width: 356
+        height: 93
       alignment: 0
       pivot: {x: 0, y: 0}
     - name: otter_spritesheet_14
       rect:
         serializedVersion: 2
-        x: 494
-        y: 1969
-        width: 413
-        height: 104
+        x: 1182
+        y: 1275
+        width: 357
+        height: 90
       alignment: 0
       pivot: {x: 0, y: 0}
     - name: otter_spritesheet_15
       rect:
         serializedVersion: 2
-        x: 927
-        y: 1974
-        width: 413
-        height: 99
+        x: 1559
+        y: 1279
+        width: 357
+        height: 87
       alignment: 0
       pivot: {x: 0, y: 0}
     - name: otter_spritesheet_16
       rect:
         serializedVersion: 2
-        x: 1361
-        y: 1974
-        width: 416
-        height: 100
+        x: 60
+        y: 1161
+        width: 360
+        height: 88
       alignment: 0
       pivot: {x: 0, y: 0}
     - name: otter_spritesheet_17
       rect:
         serializedVersion: 2
-        x: 60
-        y: 1845
-        width: 418
-        height: 102
+        x: 440
+        y: 1160
+        width: 361
+        height: 89
       alignment: 0
       pivot: {x: 0, y: 0}
     - name: otter_spritesheet_18
       rect:
         serializedVersion: 2
-        x: 500
-        y: 1844
-        width: 417
-        height: 103
+        x: 822
+        y: 1159
+        width: 361
+        height: 90
       alignment: 0
       pivot: {x: 0, y: 0}
     - name: otter_spritesheet_19
       rect:
         serializedVersion: 2
-        x: 937
-        y: 1840
-        width: 416
-        height: 106
+        x: 1203
+        y: 1156
+        width: 359
+        height: 93
       alignment: 0
       pivot: {x: 0, y: 0}
     - name: otter_spritesheet_20
       rect:
         serializedVersion: 2
-        x: 1373
-        y: 1836
-        width: 412
-        height: 110
+        x: 1583
+        y: 1152
+        width: 356
+        height: 97
       alignment: 0
       pivot: {x: 0, y: 0}
     - name: otter_spritesheet_21
       rect:
         serializedVersion: 2
         x: 60
-        y: 1707
-        width: 416
-        height: 108
+        y: 1036
+        width: 358
+        height: 95
       alignment: 0
       pivot: {x: 0, y: 0}
     - name: otter_spritesheet_22
       rect:
         serializedVersion: 2
-        x: 497
-        y: 1711
-        width: 416
-        height: 105
+        x: 439
+        y: 1040
+        width: 360
+        height: 91
       alignment: 0
       pivot: {x: 0, y: 0}
     - name: otter_spritesheet_23
       rect:
         serializedVersion: 2
-        x: 934
-        y: 1715
-        width: 422
-        height: 100
+        x: 818
+        y: 1045
+        width: 365
+        height: 87
       alignment: 0
       pivot: {x: 0, y: 0}
     - name: otter_spritesheet_24
       rect:
         serializedVersion: 2
-        x: 1376
-        y: 1714
-        width: 426
-        height: 101
+        x: 1204
+        y: 1042
+        width: 368
+        height: 89
       alignment: 0
       pivot: {x: 0, y: 0}
     - name: otter_spritesheet_25
       rect:
         serializedVersion: 2
-        x: 60
-        y: 1584
-        width: 428
-        height: 102
+        x: 1592
+        y: 1043
+        width: 369
+        height: 89
       alignment: 0
       pivot: {x: 0, y: 0}
     - name: otter_spritesheet_26
       rect:
         serializedVersion: 2
-        x: 508
-        y: 1585
-        width: 429
-        height: 101
+        x: 60
+        y: 928
+        width: 370
+        height: 88
       alignment: 0
       pivot: {x: 0, y: 0}
     - name: otter_spritesheet_27
       rect:
         serializedVersion: 2
-        x: 957
-        y: 1586
-        width: 429
-        height: 100
+        x: 451
+        y: 929
+        width: 370
+        height: 87
       alignment: 0
       pivot: {x: 0, y: 0}
     - name: otter_spritesheet_28
       rect:
         serializedVersion: 2
-        x: 1407
-        y: 1589
-        width: 428
-        height: 97
+        x: 842
+        y: 932
+        width: 370
+        height: 84
       alignment: 0
       pivot: {x: 0, y: 0}
     - name: otter_spritesheet_29
       rect:
         serializedVersion: 2
-        x: 61
-        y: 1471
-        width: 426
-        height: 91
+        x: 1233
+        y: 936
+        width: 369
+        height: 80
       alignment: 0
       pivot: {x: 0, y: 0}
     - name: otter_spritesheet_30
       rect:
         serializedVersion: 2
         x: 0
-        y: 1433
+        y: 897
         width: 19
         height: 19
       alignment: 0
@@ -327,334 +327,334 @@ TextureImporter:
     - name: otter_spritesheet_31
       rect:
         serializedVersion: 2
-        x: 60
-        y: 1333
-        width: 420
-        height: 91
+        x: 54
+        y: 816
+        width: 363
+        height: 80
       alignment: 0
       pivot: {x: 0, y: 0}
     - name: otter_spritesheet_32
       rect:
         serializedVersion: 2
-        x: 501
-        y: 1330
-        width: 416
-        height: 93
+        x: 438
+        y: 815
+        width: 360
+        height: 82
       alignment: 0
       pivot: {x: 0, y: 0}
     - name: otter_spritesheet_33
       rect:
         serializedVersion: 2
-        x: 938
-        y: 1329
-        width: 412
-        height: 94
+        x: 819
+        y: 814
+        width: 357
+        height: 82
       alignment: 0
       pivot: {x: 0, y: 0}
     - name: otter_spritesheet_34
       rect:
         serializedVersion: 2
-        x: 1371
-        y: 1328
-        width: 408
-        height: 96
+        x: 1196
+        y: 813
+        width: 354
+        height: 84
       alignment: 0
       pivot: {x: 0, y: 0}
     - name: otter_spritesheet_35
       rect:
         serializedVersion: 2
-        x: 60
-        y: 1207
-        width: 404
-        height: 101
+        x: 1571
+        y: 808
+        width: 350
+        height: 88
       alignment: 0
       pivot: {x: 0, y: 0}
     - name: otter_spritesheet_36
       rect:
         serializedVersion: 2
-        x: 484
-        y: 1200
-        width: 399
-        height: 107
+        x: 54
+        y: 693
+        width: 346
+        height: 94
       alignment: 0
       pivot: {x: 0, y: 0}
     - name: otter_spritesheet_37
       rect:
         serializedVersion: 2
-        x: 904
-        y: 1197
-        width: 394
-        height: 111
+        x: 420
+        y: 690
+        width: 343
+        height: 97
       alignment: 0
       pivot: {x: 0, y: 0}
     - name: otter_spritesheet_38
       rect:
         serializedVersion: 2
-        x: 1320
-        y: 1199
-        width: 389
-        height: 109
+        x: 783
+        y: 692
+        width: 338
+        height: 95
       alignment: 0
       pivot: {x: 0, y: 0}
     - name: otter_spritesheet_39
       rect:
         serializedVersion: 2
-        x: 60
-        y: 1067
-        width: 385
-        height: 109
+        x: 1142
+        y: 692
+        width: 334
+        height: 95
       alignment: 0
       pivot: {x: 0, y: 0}
     - name: otter_spritesheet_40
       rect:
         serializedVersion: 2
-        x: 465
-        y: 1066
-        width: 396
-        height: 110
+        x: 1496
+        y: 690
+        width: 344
+        height: 97
       alignment: 0
       pivot: {x: 0, y: 0}
     - name: otter_spritesheet_41
       rect:
         serializedVersion: 2
-        x: 882
-        y: 1063
-        width: 408
-        height: 113
+        x: 54
+        y: 570
+        width: 354
+        height: 99
       alignment: 0
       pivot: {x: 0, y: 0}
     - name: otter_spritesheet_42
       rect:
         serializedVersion: 2
-        x: 1311
-        y: 1063
-        width: 412
-        height: 113
+        x: 428
+        y: 571
+        width: 356
+        height: 98
       alignment: 0
       pivot: {x: 0, y: 0}
     - name: otter_spritesheet_43
       rect:
         serializedVersion: 2
-        x: 60
-        y: 931
-        width: 415
-        height: 111
+        x: 805
+        y: 572
+        width: 359
+        height: 97
       alignment: 0
       pivot: {x: 0, y: 0}
     - name: otter_spritesheet_44
       rect:
         serializedVersion: 2
-        x: 495
-        y: 935
-        width: 419
-        height: 107
+        x: 1184
+        y: 576
+        width: 361
+        height: 93
       alignment: 0
       pivot: {x: 0, y: 0}
     - name: otter_spritesheet_45
       rect:
         serializedVersion: 2
-        x: 934
-        y: 936
-        width: 421
-        height: 107
+        x: 1566
+        y: 576
+        width: 363
+        height: 93
       alignment: 0
       pivot: {x: 0, y: 0}
     - name: otter_spritesheet_46
       rect:
         serializedVersion: 2
-        x: 1375
-        y: 942
-        width: 423
-        height: 100
+        x: 53
+        y: 462
+        width: 365
+        height: 87
       alignment: 0
       pivot: {x: 0, y: 0}
     - name: otter_spritesheet_47
       rect:
         serializedVersion: 2
-        x: 60
-        y: 809
-        width: 426
-        height: 101
+        x: 439
+        y: 461
+        width: 368
+        height: 88
       alignment: 0
       pivot: {x: 0, y: 0}
     - name: otter_spritesheet_48
       rect:
         serializedVersion: 2
-        x: 507
-        y: 808
-        width: 428
-        height: 102
+        x: 828
+        y: 460
+        width: 370
+        height: 89
       alignment: 0
       pivot: {x: 0, y: 0}
     - name: otter_spritesheet_49
       rect:
         serializedVersion: 2
-        x: 956
-        y: 806
-        width: 424
-        height: 104
+        x: 1219
+        y: 458
+        width: 366
+        height: 91
       alignment: 0
       pivot: {x: 0, y: 0}
     - name: otter_spritesheet_50
       rect:
         serializedVersion: 2
-        x: 1400
-        y: 803
-        width: 419
-        height: 107
+        x: 1605
+        y: 454
+        width: 362
+        height: 95
       alignment: 0
       pivot: {x: 0, y: 0}
     - name: otter_spritesheet_51
       rect:
         serializedVersion: 2
-        x: 60
-        y: 671
-        width: 413
-        height: 111
+        x: 54
+        y: 336
+        width: 357
+        height: 98
       alignment: 0
       pivot: {x: 0, y: 0}
     - name: otter_spritesheet_52
       rect:
         serializedVersion: 2
-        x: 492
-        y: 673
-        width: 414
-        height: 109
+        x: 432
+        y: 338
+        width: 357
+        height: 97
       alignment: 0
       pivot: {x: 0, y: 0}
     - name: otter_spritesheet_53
       rect:
         serializedVersion: 2
-        x: 925
-        y: 675
-        width: 415
-        height: 107
+        x: 810
+        y: 339
+        width: 358
+        height: 95
       alignment: 0
       pivot: {x: 0, y: 0}
     - name: otter_spritesheet_54
       rect:
         serializedVersion: 2
-        x: 1360
-        y: 676
-        width: 415
-        height: 106
+        x: 1189
+        y: 340
+        width: 359
+        height: 94
       alignment: 0
       pivot: {x: 0, y: 0}
     - name: otter_spritesheet_55
       rect:
         serializedVersion: 2
-        x: 60
-        y: 546
-        width: 416
-        height: 105
+        x: 1569
+        y: 342
+        width: 360
+        height: 93
       alignment: 0
       pivot: {x: 0, y: 0}
     - name: otter_spritesheet_56
       rect:
         serializedVersion: 2
-        x: 496
-        y: 546
-        width: 417
-        height: 104
+        x: 53
+        y: 223
+        width: 361
+        height: 92
       alignment: 0
       pivot: {x: 0, y: 0}
     - name: otter_spritesheet_57
       rect:
         serializedVersion: 2
-        x: 933
-        y: 548
-        width: 418
-        height: 102
+        x: 435
+        y: 225
+        width: 361
+        height: 90
       alignment: 0
       pivot: {x: 0, y: 0}
     - name: otter_spritesheet_58
       rect:
         serializedVersion: 2
-        x: 1372
-        y: 548
-        width: 417
-        height: 102
+        x: 817
+        y: 225
+        width: 361
+        height: 90
       alignment: 0
       pivot: {x: 0, y: 0}
     - name: otter_spritesheet_59
       rect:
         serializedVersion: 2
-        x: 60
-        y: 423
-        width: 418
-        height: 102
+        x: 1199
+        y: 225
+        width: 361
+        height: 90
       alignment: 0
       pivot: {x: 0, y: 0}
     - name: otter_spritesheet_60
       rect:
         serializedVersion: 2
-        x: 499
-        y: 423
-        width: 417
-        height: 102
+        x: 1581
+        y: 225
+        width: 361
+        height: 90
       alignment: 0
       pivot: {x: 0, y: 0}
     - name: otter_spritesheet_61
       rect:
         serializedVersion: 2
-        x: 937
-        y: 423
-        width: 417
-        height: 102
+        x: 54
+        y: 112
+        width: 361
+        height: 90
       alignment: 0
       pivot: {x: 0, y: 0}
     - name: otter_spritesheet_62
       rect:
         serializedVersion: 2
-        x: 1375
-        y: 423
-        width: 417
-        height: 102
+        x: 436
+        y: 112
+        width: 361
+        height: 90
       alignment: 0
       pivot: {x: 0, y: 0}
     - name: otter_spritesheet_63
       rect:
         serializedVersion: 2
-        x: 61
-        y: 300
-        width: 417
-        height: 102
+        x: 818
+        y: 112
+        width: 361
+        height: 90
       alignment: 0
       pivot: {x: 0, y: 0}
     - name: otter_spritesheet_64
       rect:
         serializedVersion: 2
-        x: 499
-        y: 300
-        width: 417
-        height: 102
+        x: 1200
+        y: 112
+        width: 361
+        height: 90
       alignment: 0
       pivot: {x: 0, y: 0}
     - name: otter_spritesheet_65
       rect:
         serializedVersion: 2
-        x: 937
-        y: 300
-        width: 417
-        height: 102
+        x: 1582
+        y: 112
+        width: 361
+        height: 90
       alignment: 0
       pivot: {x: 0, y: 0}
     - name: otter_spritesheet_66
       rect:
         serializedVersion: 2
-        x: 1374
-        y: 300
-        width: 417
-        height: 102
+        x: 54
+        y: 0
+        width: 361
+        height: 91
       alignment: 0
       pivot: {x: 0, y: 0}
     - name: otter_spritesheet_67
       rect:
         serializedVersion: 2
-        x: 60
-        y: 176
-        width: 417
-        height: 103
+        x: 436
+        y: 0
+        width: 361
+        height: 91
       alignment: 0
       pivot: {x: 0, y: 0}
   spritePackingTag: 

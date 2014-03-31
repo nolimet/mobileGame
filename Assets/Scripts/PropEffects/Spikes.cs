@@ -10,7 +10,7 @@ namespace PropEffects
         {
             if (coll.gameObject.tag == TagManager.player)
             {
-                BetaCharControler player = coll.gameObject.GetComponent<BetaCharControler>();
+                PlayerControler player = coll.gameObject.GetComponent<PlayerControler>();
                 player.GetHit(999999999);
             }
         }

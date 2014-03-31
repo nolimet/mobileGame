@@ -5,6 +5,7 @@ public class OpenURL : MonoBehaviour
 {
 
     public string url = "fb://page/459833187476932";
+    public string Alt = "https://www.facebook.com/pages/The-Moonrabbit/459833187476932?ref=ts&fref=ts";
 
     void IWillDo()
     {
@@ -12,7 +13,7 @@ public class OpenURL : MonoBehaviour
         float timeAfter = Time.timeSinceLevelLoad;
         if (Time.timeSinceLevelLoad - timeAfter >= 1)
         {
-
+            Application.OpenURL(Alt);
         }
     }
 
