@@ -45,6 +45,7 @@ public class GlobalStatics :MonoBehaviour {
     {
         if (!loadedLevel)
         {
+            
             levelToLoad = Application.loadedLevel;
             Application.LoadLevelAdditive(3);
             loadedLevel = true;

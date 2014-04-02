@@ -45,7 +45,7 @@ TextureImporter:
     compressionQuality: 50
   spriteSheet:
     sprites:
-    - name: tiles_en_platforms_0
+    - name: tiles_0
       rect:
         serializedVersion: 2
         x: 0
@@ -53,17 +53,17 @@ TextureImporter:
         width: 330
         height: 99
       alignment: 0
-      pivot: {x: .5, y: .5}
-    - name: tiles_en_platforms_1
+      pivot: {x: 0, y: 0}
+    - name: tiles_1
       rect:
         serializedVersion: 2
-        x: 662
+        x: 661
         y: 2848
-        width: 334
+        width: 335
         height: 80
       alignment: 0
-      pivot: {x: .5, y: .5}
-    - name: tiles_en_platforms_2
+      pivot: {x: 0, y: 0}
+    - name: tiles_2
       rect:
         serializedVersion: 2
         x: 1000
@@ -71,8 +71,8 @@ TextureImporter:
         width: 330
         height: 80
       alignment: 0
-      pivot: {x: .5, y: .5}
-    - name: tiles_en_platforms_3
+      pivot: {x: 0, y: 0}
+    - name: tiles_3
       rect:
         serializedVersion: 2
         x: 1332
@@ -80,8 +80,8 @@ TextureImporter:
         width: 330
         height: 80
       alignment: 0
-      pivot: {x: .5, y: .5}
-    - name: tiles_en_platforms_4
+      pivot: {x: 0, y: 0}
+    - name: tiles_4
       rect:
         serializedVersion: 2
         x: 1665
@@ -89,17 +89,17 @@ TextureImporter:
         width: 331
         height: 101
       alignment: 0
-      pivot: {x: .5, y: .5}
-    - name: tiles_en_platforms_5
+      pivot: {x: 0, y: 0}
+    - name: tiles_5
       rect:
         serializedVersion: 2
         x: 2042
-        y: 2817
+        y: 2816
         width: 330
-        height: 100
+        height: 101
       alignment: 0
-      pivot: {x: .5, y: .5}
-    - name: tiles_en_platforms_6
+      pivot: {x: 0, y: 0}
+    - name: tiles_6
       rect:
         serializedVersion: 2
         x: 2612
@@ -107,8 +107,8 @@ TextureImporter:
         width: 330
         height: 99
       alignment: 0
-      pivot: {x: .5, y: .5}
-    - name: tiles_en_platforms_7
+      pivot: {x: 0, y: 0}
+    - name: tiles_7
       rect:
         serializedVersion: 2
         x: 0
@@ -116,8 +116,8 @@ TextureImporter:
         width: 330
         height: 99
       alignment: 0
-      pivot: {x: .5, y: .5}
-    - name: tiles_en_platforms_8
+      pivot: {x: 0, y: 0}
+    - name: tiles_8
       rect:
         serializedVersion: 2
         x: 663
@@ -125,8 +125,8 @@ TextureImporter:
         width: 331
         height: 80
       alignment: 0
-      pivot: {x: .5, y: .5}
-    - name: tiles_en_platforms_9
+      pivot: {x: 0, y: 0}
+    - name: tiles_9
       rect:
         serializedVersion: 2
         x: 998
@@ -134,8 +134,8 @@ TextureImporter:
         width: 330
         height: 80
       alignment: 0
-      pivot: {x: .5, y: .5}
-    - name: tiles_en_platforms_10
+      pivot: {x: 0, y: 0}
+    - name: tiles_10
       rect:
         serializedVersion: 2
         x: 1330
@@ -143,8 +143,8 @@ TextureImporter:
         width: 330
         height: 80
       alignment: 0
-      pivot: {x: .5, y: .5}
-    - name: tiles_en_platforms_11
+      pivot: {x: 0, y: 0}
+    - name: tiles_11
       rect:
         serializedVersion: 2
         x: 1665
@@ -152,8 +152,8 @@ TextureImporter:
         width: 331
         height: 101
       alignment: 0
-      pivot: {x: .5, y: .5}
-    - name: tiles_en_platforms_12
+      pivot: {x: 0, y: 0}
+    - name: tiles_12
       rect:
         serializedVersion: 2
         x: 2042
@@ -161,8 +161,8 @@ TextureImporter:
         width: 330
         height: 101
       alignment: 0
-      pivot: {x: .5, y: .5}
-    - name: tiles_en_platforms_13
+      pivot: {x: 0, y: 0}
+    - name: tiles_13
       rect:
         serializedVersion: 2
         x: 2612
@@ -170,17 +170,17 @@ TextureImporter:
         width: 330
         height: 99
       alignment: 0
-      pivot: {x: .5, y: .5}
-    - name: tiles_en_platforms_14
+      pivot: {x: 0, y: 0}
+    - name: tiles_14
       rect:
         serializedVersion: 2
         x: 656
-        y: 2721
+        y: 2719
         width: 7
-        height: 10
+        height: 13
       alignment: 0
-      pivot: {x: .5, y: .5}
-    - name: tiles_en_platforms_15
+      pivot: {x: 0, y: 0}
+    - name: tiles_15
       rect:
         serializedVersion: 2
         x: 663
@@ -188,8 +188,8 @@ TextureImporter:
         width: 331
         height: 80
       alignment: 0
-      pivot: {x: .5, y: .5}
-    - name: tiles_en_platforms_16
+      pivot: {x: 0, y: 0}
+    - name: tiles_16
       rect:
         serializedVersion: 2
         x: 995
@@ -197,8 +197,8 @@ TextureImporter:
         width: 331
         height: 80
       alignment: 0
-      pivot: {x: .5, y: .5}
-    - name: tiles_en_platforms_17
+      pivot: {x: 0, y: 0}
+    - name: tiles_17
       rect:
         serializedVersion: 2
         x: 1330
@@ -206,8 +206,8 @@ TextureImporter:
         width: 330
         height: 80
       alignment: 0
-      pivot: {x: .5, y: .5}
-    - name: tiles_en_platforms_18
+      pivot: {x: 0, y: 0}
+    - name: tiles_18
       rect:
         serializedVersion: 2
         x: 0
@@ -215,8 +215,8 @@ TextureImporter:
         width: 330
         height: 99
       alignment: 0
-      pivot: {x: .5, y: .5}
-    - name: tiles_en_platforms_19
+      pivot: {x: 0, y: 0}
+    - name: tiles_19
       rect:
         serializedVersion: 2
         x: 666
@@ -224,8 +224,8 @@ TextureImporter:
         width: 331
         height: 80
       alignment: 0
-      pivot: {x: .5, y: .5}
-    - name: tiles_en_platforms_20
+      pivot: {x: 0, y: 0}
+    - name: tiles_20
       rect:
         serializedVersion: 2
         x: 998
@@ -233,8 +233,8 @@ TextureImporter:
         width: 331
         height: 80
       alignment: 0
-      pivot: {x: .5, y: .5}
-    - name: tiles_en_platforms_21
+      pivot: {x: 0, y: 0}
+    - name: tiles_21
       rect:
         serializedVersion: 2
         x: 1333
@@ -242,8 +242,8 @@ TextureImporter:
         width: 330
         height: 80
       alignment: 0
-      pivot: {x: .5, y: .5}
-    - name: tiles_en_platforms_22
+      pivot: {x: 0, y: 0}
+    - name: tiles_22
       rect:
         serializedVersion: 2
         x: 1665
@@ -251,17 +251,17 @@ TextureImporter:
         width: 331
         height: 101
       alignment: 0
-      pivot: {x: .5, y: .5}
-    - name: tiles_en_platforms_23
+      pivot: {x: 0, y: 0}
+    - name: tiles_23
       rect:
         serializedVersion: 2
         x: 2035
-        y: 2605
+        y: 2590
         width: 330
-        height: 97
+        height: 112
       alignment: 0
-      pivot: {x: .5, y: .5}
-    - name: tiles_en_platforms_24
+      pivot: {x: 0, y: 0}
+    - name: tiles_24
       rect:
         serializedVersion: 2
         x: 2612
@@ -269,8 +269,8 @@ TextureImporter:
         width: 330
         height: 99
       alignment: 0
-      pivot: {x: .5, y: .5}
-    - name: tiles_en_platforms_25
+      pivot: {x: 0, y: 0}
+    - name: tiles_25
       rect:
         serializedVersion: 2
         x: 995
@@ -278,8 +278,8 @@ TextureImporter:
         width: 331
         height: 79
       alignment: 0
-      pivot: {x: .5, y: .5}
-    - name: tiles_en_platforms_26
+      pivot: {x: 0, y: 0}
+    - name: tiles_26
       rect:
         serializedVersion: 2
         x: 1349
@@ -287,26 +287,26 @@ TextureImporter:
         width: 330
         height: 79
       alignment: 0
-      pivot: {x: .5, y: .5}
-    - name: tiles_en_platforms_27
+      pivot: {x: 0, y: 0}
+    - name: tiles_27
       rect:
         serializedVersion: 2
-        x: 1690
+        x: 1689
         y: 2397
-        width: 336
+        width: 337
         height: 212
       alignment: 0
-      pivot: {x: .5, y: .5}
-    - name: tiles_en_platforms_28
+      pivot: {x: 0, y: 0}
+    - name: tiles_28
       rect:
         serializedVersion: 2
-        x: 2043
-        y: 2392
-        width: 336
-        height: 211
+        x: 2147
+        y: 2478
+        width: 51
+        height: 29
       alignment: 0
-      pivot: {x: .5, y: .5}
-    - name: tiles_en_platforms_29
+      pivot: {x: 0, y: 0}
+    - name: tiles_29
       rect:
         serializedVersion: 2
         x: 2529
@@ -314,8 +314,8 @@ TextureImporter:
         width: 413
         height: 190
       alignment: 0
-      pivot: {x: .5, y: .5}
-    - name: tiles_en_platforms_30
+      pivot: {x: 0, y: 0}
+    - name: tiles_30
       rect:
         serializedVersion: 2
         x: 0
@@ -323,8 +323,8 @@ TextureImporter:
         width: 330
         height: 93
       alignment: 0
-      pivot: {x: .5, y: .5}
-    - name: tiles_en_platforms_31
+      pivot: {x: 0, y: 0}
+    - name: tiles_31
       rect:
         serializedVersion: 2
         x: 333
@@ -332,8 +332,8 @@ TextureImporter:
         width: 330
         height: 93
       alignment: 0
-      pivot: {x: .5, y: .5}
-    - name: tiles_en_platforms_32
+      pivot: {x: 0, y: 0}
+    - name: tiles_32
       rect:
         serializedVersion: 2
         x: 676
@@ -341,8 +341,8 @@ TextureImporter:
         width: 331
         height: 80
       alignment: 0
-      pivot: {x: .5, y: .5}
-    - name: tiles_en_platforms_33
+      pivot: {x: 0, y: 0}
+    - name: tiles_33
       rect:
         serializedVersion: 2
         x: 1015
@@ -350,8 +350,8 @@ TextureImporter:
         width: 331
         height: 80
       alignment: 0
-      pivot: {x: .5, y: .5}
-    - name: tiles_en_platforms_34
+      pivot: {x: 0, y: 0}
+    - name: tiles_34
       rect:
         serializedVersion: 2
         x: 1356
@@ -359,17 +359,17 @@ TextureImporter:
         width: 331
         height: 71
       alignment: 0
-      pivot: {x: .5, y: .5}
-    - name: tiles_en_platforms_35
+      pivot: {x: 0, y: 0}
+    - name: tiles_35
       rect:
         serializedVersion: 2
         x: 1705
         y: 2294
         width: 331
-        height: 100
+        height: 101
       alignment: 0
-      pivot: {x: .5, y: .5}
-    - name: tiles_en_platforms_36
+      pivot: {x: 0, y: 0}
+    - name: tiles_36
       rect:
         serializedVersion: 2
         x: 17
@@ -377,8 +377,8 @@ TextureImporter:
         width: 120
         height: 73
       alignment: 0
-      pivot: {x: .5, y: .5}
-    - name: tiles_en_platforms_37
+      pivot: {x: 0, y: 0}
+    - name: tiles_37
       rect:
         serializedVersion: 2
         x: 140
@@ -386,8 +386,8 @@ TextureImporter:
         width: 120
         height: 73
       alignment: 0
-      pivot: {x: .5, y: .5}
-    - name: tiles_en_platforms_38
+      pivot: {x: 0, y: 0}
+    - name: tiles_38
       rect:
         serializedVersion: 2
         x: 262
@@ -395,8 +395,8 @@ TextureImporter:
         width: 121
         height: 73
       alignment: 0
-      pivot: {x: .5, y: .5}
-    - name: tiles_en_platforms_39
+      pivot: {x: 0, y: 0}
+    - name: tiles_39
       rect:
         serializedVersion: 2
         x: 385
@@ -404,8 +404,8 @@ TextureImporter:
         width: 121
         height: 73
       alignment: 0
-      pivot: {x: .5, y: .5}
-    - name: tiles_en_platforms_40
+      pivot: {x: 0, y: 0}
+    - name: tiles_40
       rect:
         serializedVersion: 2
         x: 508
@@ -413,8 +413,8 @@ TextureImporter:
         width: 121
         height: 73
       alignment: 0
-      pivot: {x: .5, y: .5}
-    - name: tiles_en_platforms_41
+      pivot: {x: 0, y: 0}
+    - name: tiles_41
       rect:
         serializedVersion: 2
         x: 645
@@ -422,35 +422,35 @@ TextureImporter:
         width: 120
         height: 73
       alignment: 0
-      pivot: {x: .5, y: .5}
-    - name: tiles_en_platforms_42
+      pivot: {x: 0, y: 0}
+    - name: tiles_42
       rect:
         serializedVersion: 2
         x: 817
         y: 1948
         width: 125
-        height: 418
+        height: 419
       alignment: 0
-      pivot: {x: .5, y: .5}
-    - name: tiles_en_platforms_43
+      pivot: {x: 0, y: 0}
+    - name: tiles_43
       rect:
         serializedVersion: 2
         x: 993
         y: 1948
         width: 125
-        height: 418
+        height: 419
       alignment: 0
-      pivot: {x: .5, y: .5}
-    - name: tiles_en_platforms_44
+      pivot: {x: 0, y: 0}
+    - name: tiles_44
       rect:
         serializedVersion: 2
         x: 1159
         y: 1948
         width: 125
-        height: 418
+        height: 419
       alignment: 0
-      pivot: {x: .5, y: .5}
-    - name: tiles_en_platforms_45
+      pivot: {x: 0, y: 0}
+    - name: tiles_45
       rect:
         serializedVersion: 2
         x: 1342
@@ -458,17 +458,8 @@ TextureImporter:
         width: 124
         height: 418
       alignment: 0
-      pivot: {x: .5, y: .5}
-    - name: tiles_en_platforms_46
-      rect:
-        serializedVersion: 2
-        x: 1519
-        y: 1940
-        width: 124
-        height: 417
-      alignment: 0
-      pivot: {x: .5, y: .5}
-    - name: tiles_en_platforms_47
+      pivot: {x: 0, y: 0}
+    - name: tiles_46
       rect:
         serializedVersion: 2
         x: 2049
@@ -476,8 +467,8 @@ TextureImporter:
         width: 330
         height: 99
       alignment: 0
-      pivot: {x: .5, y: .5}
-    - name: tiles_en_platforms_48
+      pivot: {x: 0, y: 0}
+    - name: tiles_47
       rect:
         serializedVersion: 2
         x: 2529
@@ -485,8 +476,8 @@ TextureImporter:
         width: 413
         height: 191
       alignment: 0
-      pivot: {x: .5, y: .5}
-    - name: tiles_en_platforms_49
+      pivot: {x: 0, y: 0}
+    - name: tiles_48
       rect:
         serializedVersion: 2
         x: 0
@@ -494,8 +485,8 @@ TextureImporter:
         width: 201
         height: 200
       alignment: 0
-      pivot: {x: .5, y: .5}
-    - name: tiles_en_platforms_50
+      pivot: {x: 0, y: 0}
+    - name: tiles_49
       rect:
         serializedVersion: 2
         x: 202
@@ -503,8 +494,8 @@ TextureImporter:
         width: 201
         height: 200
       alignment: 0
-      pivot: {x: .5, y: .5}
-    - name: tiles_en_platforms_51
+      pivot: {x: 0, y: 0}
+    - name: tiles_50
       rect:
         serializedVersion: 2
         x: 405
@@ -512,8 +503,8 @@ TextureImporter:
         width: 201
         height: 200
       alignment: 0
-      pivot: {x: .5, y: .5}
-    - name: tiles_en_platforms_52
+      pivot: {x: 0, y: 0}
+    - name: tiles_51
       rect:
         serializedVersion: 2
         x: 609
@@ -521,8 +512,8 @@ TextureImporter:
         width: 201
         height: 200
       alignment: 0
-      pivot: {x: .5, y: .5}
-    - name: tiles_en_platforms_53
+      pivot: {x: 0, y: 0}
+    - name: tiles_52
       rect:
         serializedVersion: 2
         x: 1643
@@ -530,8 +521,8 @@ TextureImporter:
         width: 201
         height: 200
       alignment: 0
-      pivot: {x: .5, y: .5}
-    - name: tiles_en_platforms_54
+      pivot: {x: 0, y: 0}
+    - name: tiles_53
       rect:
         serializedVersion: 2
         x: 1854
@@ -539,8 +530,8 @@ TextureImporter:
         width: 50
         height: 100
       alignment: 0
-      pivot: {x: .5, y: .5}
-    - name: tiles_en_platforms_55
+      pivot: {x: 0, y: 0}
+    - name: tiles_54
       rect:
         serializedVersion: 2
         x: 1909
@@ -548,8 +539,8 @@ TextureImporter:
         width: 50
         height: 100
       alignment: 0
-      pivot: {x: .5, y: .5}
-    - name: tiles_en_platforms_56
+      pivot: {x: 0, y: 0}
+    - name: tiles_55
       rect:
         serializedVersion: 2
         x: 1962
@@ -557,8 +548,8 @@ TextureImporter:
         width: 50
         height: 100
       alignment: 0
-      pivot: {x: .5, y: .5}
-    - name: tiles_en_platforms_57
+      pivot: {x: 0, y: 0}
+    - name: tiles_56
       rect:
         serializedVersion: 2
         x: 2016
@@ -566,8 +557,8 @@ TextureImporter:
         width: 50
         height: 100
       alignment: 0
-      pivot: {x: .5, y: .5}
-    - name: tiles_en_platforms_58
+      pivot: {x: 0, y: 0}
+    - name: tiles_57
       rect:
         serializedVersion: 2
         x: 2070
@@ -575,8 +566,8 @@ TextureImporter:
         width: 50
         height: 100
       alignment: 0
-      pivot: {x: .5, y: .5}
-    - name: tiles_en_platforms_59
+      pivot: {x: 0, y: 0}
+    - name: tiles_58
       rect:
         serializedVersion: 2
         x: 1854
@@ -584,8 +575,8 @@ TextureImporter:
         width: 50
         height: 100
       alignment: 0
-      pivot: {x: .5, y: .5}
-    - name: tiles_en_platforms_60
+      pivot: {x: 0, y: 0}
+    - name: tiles_59
       rect:
         serializedVersion: 2
         x: 1909
@@ -593,8 +584,8 @@ TextureImporter:
         width: 50
         height: 100
       alignment: 0
-      pivot: {x: .5, y: .5}
-    - name: tiles_en_platforms_61
+      pivot: {x: 0, y: 0}
+    - name: tiles_60
       rect:
         serializedVersion: 2
         x: 1962
@@ -602,8 +593,8 @@ TextureImporter:
         width: 50
         height: 101
       alignment: 0
-      pivot: {x: .5, y: .5}
-    - name: tiles_en_platforms_62
+      pivot: {x: 0, y: 0}
+    - name: tiles_61
       rect:
         serializedVersion: 2
         x: 2016
@@ -611,8 +602,8 @@ TextureImporter:
         width: 50
         height: 100
       alignment: 0
-      pivot: {x: .5, y: .5}
-    - name: tiles_en_platforms_63
+      pivot: {x: 0, y: 0}
+    - name: tiles_62
       rect:
         serializedVersion: 2
         x: 2070
@@ -620,8 +611,8 @@ TextureImporter:
         width: 50
         height: 100
       alignment: 0
-      pivot: {x: .5, y: .5}
-    - name: tiles_en_platforms_64
+      pivot: {x: 0, y: 0}
+    - name: tiles_63
       rect:
         serializedVersion: 2
         x: 2523
@@ -629,8 +620,17 @@ TextureImporter:
         width: 413
         height: 190
       alignment: 0
-      pivot: {x: .5, y: .5}
-    - name: tiles_en_platforms_65
+      pivot: {x: 0, y: 0}
+    - name: tiles_64
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 1936
+        width: 330
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: tiles_65
       rect:
         serializedVersion: 2
         x: 1853
@@ -638,8 +638,8 @@ TextureImporter:
         width: 50
         height: 100
       alignment: 0
-      pivot: {x: .5, y: .5}
-    - name: tiles_en_platforms_66
+      pivot: {x: 0, y: 0}
+    - name: tiles_66
       rect:
         serializedVersion: 2
         x: 1908
@@ -647,8 +647,8 @@ TextureImporter:
         width: 50
         height: 100
       alignment: 0
-      pivot: {x: .5, y: .5}
-    - name: tiles_en_platforms_67
+      pivot: {x: 0, y: 0}
+    - name: tiles_67
       rect:
         serializedVersion: 2
         x: 1961
@@ -656,8 +656,8 @@ TextureImporter:
         width: 50
         height: 100
       alignment: 0
-      pivot: {x: .5, y: .5}
-    - name: tiles_en_platforms_68
+      pivot: {x: 0, y: 0}
+    - name: tiles_68
       rect:
         serializedVersion: 2
         x: 2016
@@ -665,8 +665,8 @@ TextureImporter:
         width: 50
         height: 100
       alignment: 0
-      pivot: {x: .5, y: .5}
-    - name: tiles_en_platforms_69
+      pivot: {x: 0, y: 0}
+    - name: tiles_69
       rect:
         serializedVersion: 2
         x: 2069
@@ -674,8 +674,8 @@ TextureImporter:
         width: 50
         height: 100
       alignment: 0
-      pivot: {x: .5, y: .5}
-    - name: tiles_en_platforms_70
+      pivot: {x: 0, y: 0}
+    - name: tiles_70
       rect:
         serializedVersion: 2
         x: 8
@@ -683,8 +683,8 @@ TextureImporter:
         width: 101
         height: 100
       alignment: 0
-      pivot: {x: .5, y: .5}
-    - name: tiles_en_platforms_71
+      pivot: {x: 0, y: 0}
+    - name: tiles_71
       rect:
         serializedVersion: 2
         x: 153
@@ -692,8 +692,8 @@ TextureImporter:
         width: 101
         height: 100
       alignment: 0
-      pivot: {x: .5, y: .5}
-    - name: tiles_en_platforms_72
+      pivot: {x: 0, y: 0}
+    - name: tiles_72
       rect:
         serializedVersion: 2
         x: 302
@@ -701,8 +701,8 @@ TextureImporter:
         width: 102
         height: 100
       alignment: 0
-      pivot: {x: .5, y: .5}
-    - name: tiles_en_platforms_73
+      pivot: {x: 0, y: 0}
+    - name: tiles_73
       rect:
         serializedVersion: 2
         x: 446
@@ -710,8 +710,8 @@ TextureImporter:
         width: 101
         height: 100
       alignment: 0
-      pivot: {x: .5, y: .5}
-    - name: tiles_en_platforms_74
+      pivot: {x: 0, y: 0}
+    - name: tiles_74
       rect:
         serializedVersion: 2
         x: 596
@@ -719,8 +719,8 @@ TextureImporter:
         width: 102
         height: 100
       alignment: 0
-      pivot: {x: .5, y: .5}
-    - name: tiles_en_platforms_75
+      pivot: {x: 0, y: 0}
+    - name: tiles_75
       rect:
         serializedVersion: 2
         x: 732
@@ -728,8 +728,8 @@ TextureImporter:
         width: 101
         height: 100
       alignment: 0
-      pivot: {x: .5, y: .5}
-    - name: tiles_en_platforms_76
+      pivot: {x: 0, y: 0}
+    - name: tiles_76
       rect:
         serializedVersion: 2
         x: 1481
@@ -737,8 +737,8 @@ TextureImporter:
         width: 413
         height: 191
       alignment: 0
-      pivot: {x: .5, y: .5}
-    - name: tiles_en_platforms_77
+      pivot: {x: 0, y: 0}
+    - name: tiles_77
       rect:
         serializedVersion: 2
         x: 2523
@@ -746,8 +746,8 @@ TextureImporter:
         width: 413
         height: 190
       alignment: 0
-      pivot: {x: .5, y: .5}
-    - name: tiles_en_platforms_78
+      pivot: {x: 0, y: 0}
+    - name: tiles_78
       rect:
         serializedVersion: 2
         x: 7
@@ -755,8 +755,8 @@ TextureImporter:
         width: 101
         height: 101
       alignment: 0
-      pivot: {x: .5, y: .5}
-    - name: tiles_en_platforms_79
+      pivot: {x: 0, y: 0}
+    - name: tiles_79
       rect:
         serializedVersion: 2
         x: 154
@@ -764,8 +764,8 @@ TextureImporter:
         width: 101
         height: 101
       alignment: 0
-      pivot: {x: .5, y: .5}
-    - name: tiles_en_platforms_80
+      pivot: {x: 0, y: 0}
+    - name: tiles_80
       rect:
         serializedVersion: 2
         x: 303
@@ -773,8 +773,8 @@ TextureImporter:
         width: 101
         height: 101
       alignment: 0
-      pivot: {x: .5, y: .5}
-    - name: tiles_en_platforms_81
+      pivot: {x: 0, y: 0}
+    - name: tiles_81
       rect:
         serializedVersion: 2
         x: 444
@@ -782,8 +782,8 @@ TextureImporter:
         width: 101
         height: 101
       alignment: 0
-      pivot: {x: .5, y: .5}
-    - name: tiles_en_platforms_82
+      pivot: {x: 0, y: 0}
+    - name: tiles_82
       rect:
         serializedVersion: 2
         x: 595
@@ -791,8 +791,8 @@ TextureImporter:
         width: 101
         height: 101
       alignment: 0
-      pivot: {x: .5, y: .5}
-    - name: tiles_en_platforms_83
+      pivot: {x: 0, y: 0}
+    - name: tiles_83
       rect:
         serializedVersion: 2
         x: 732
@@ -800,8 +800,8 @@ TextureImporter:
         width: 101
         height: 101
       alignment: 0
-      pivot: {x: .5, y: .5}
-    - name: tiles_en_platforms_84
+      pivot: {x: 0, y: 0}
+    - name: tiles_84
       rect:
         serializedVersion: 2
         x: 913
@@ -809,8 +809,8 @@ TextureImporter:
         width: 101
         height: 101
       alignment: 0
-      pivot: {x: .5, y: .5}
-    - name: tiles_en_platforms_85
+      pivot: {x: 0, y: 0}
+    - name: tiles_85
       rect:
         serializedVersion: 2
         x: 1052
@@ -818,8 +818,8 @@ TextureImporter:
         width: 101
         height: 101
       alignment: 0
-      pivot: {x: .5, y: .5}
-    - name: tiles_en_platforms_86
+      pivot: {x: 0, y: 0}
+    - name: tiles_86
       rect:
         serializedVersion: 2
         x: 1189
@@ -827,8 +827,8 @@ TextureImporter:
         width: 101
         height: 101
       alignment: 0
-      pivot: {x: .5, y: .5}
-    - name: tiles_en_platforms_87
+      pivot: {x: 0, y: 0}
+    - name: tiles_87
       rect:
         serializedVersion: 2
         x: 1320
@@ -836,8 +836,8 @@ TextureImporter:
         width: 50
         height: 100
       alignment: 0
-      pivot: {x: .5, y: .5}
-    - name: tiles_en_platforms_88
+      pivot: {x: 0, y: 0}
+    - name: tiles_88
       rect:
         serializedVersion: 2
         x: 1481
@@ -845,8 +845,8 @@ TextureImporter:
         width: 413
         height: 190
       alignment: 0
-      pivot: {x: .5, y: .5}
-    - name: tiles_en_platforms_89
+      pivot: {x: 0, y: 0}
+    - name: tiles_89
       rect:
         serializedVersion: 2
         x: 1972
@@ -854,8 +854,8 @@ TextureImporter:
         width: 101
         height: 101
       alignment: 0
-      pivot: {x: .5, y: .5}
-    - name: tiles_en_platforms_90
+      pivot: {x: 0, y: 0}
+    - name: tiles_90
       rect:
         serializedVersion: 2
         x: 2111
@@ -863,8 +863,8 @@ TextureImporter:
         width: 101
         height: 101
       alignment: 0
-      pivot: {x: .5, y: .5}
-    - name: tiles_en_platforms_91
+      pivot: {x: 0, y: 0}
+    - name: tiles_91
       rect:
         serializedVersion: 2
         x: 2249
@@ -872,8 +872,8 @@ TextureImporter:
         width: 101
         height: 101
       alignment: 0
-      pivot: {x: .5, y: .5}
-    - name: tiles_en_platforms_92
+      pivot: {x: 0, y: 0}
+    - name: tiles_92
       rect:
         serializedVersion: 2
         x: 2379
@@ -881,8 +881,8 @@ TextureImporter:
         width: 51
         height: 100
       alignment: 0
-      pivot: {x: .5, y: .5}
-    - name: tiles_en_platforms_93
+      pivot: {x: 0, y: 0}
+    - name: tiles_93
       rect:
         serializedVersion: 2
         x: 7
@@ -890,8 +890,8 @@ TextureImporter:
         width: 101
         height: 101
       alignment: 0
-      pivot: {x: .5, y: .5}
-    - name: tiles_en_platforms_94
+      pivot: {x: 0, y: 0}
+    - name: tiles_94
       rect:
         serializedVersion: 2
         x: 154
@@ -899,8 +899,8 @@ TextureImporter:
         width: 101
         height: 101
       alignment: 0
-      pivot: {x: .5, y: .5}
-    - name: tiles_en_platforms_95
+      pivot: {x: 0, y: 0}
+    - name: tiles_95
       rect:
         serializedVersion: 2
         x: 303
@@ -908,8 +908,8 @@ TextureImporter:
         width: 101
         height: 101
       alignment: 0
-      pivot: {x: .5, y: .5}
-    - name: tiles_en_platforms_96
+      pivot: {x: 0, y: 0}
+    - name: tiles_96
       rect:
         serializedVersion: 2
         x: 444
@@ -917,8 +917,8 @@ TextureImporter:
         width: 101
         height: 101
       alignment: 0
-      pivot: {x: .5, y: .5}
-    - name: tiles_en_platforms_97
+      pivot: {x: 0, y: 0}
+    - name: tiles_97
       rect:
         serializedVersion: 2
         x: 595
@@ -926,8 +926,8 @@ TextureImporter:
         width: 101
         height: 101
       alignment: 0
-      pivot: {x: .5, y: .5}
-    - name: tiles_en_platforms_98
+      pivot: {x: 0, y: 0}
+    - name: tiles_98
       rect:
         serializedVersion: 2
         x: 731
@@ -935,8 +935,8 @@ TextureImporter:
         width: 101
         height: 100
       alignment: 0
-      pivot: {x: .5, y: .5}
-    - name: tiles_en_platforms_99
+      pivot: {x: 0, y: 0}
+    - name: tiles_99
       rect:
         serializedVersion: 2
         x: 912
@@ -944,8 +944,8 @@ TextureImporter:
         width: 101
         height: 101
       alignment: 0
-      pivot: {x: .5, y: .5}
-    - name: tiles_en_platforms_100
+      pivot: {x: 0, y: 0}
+    - name: tiles_100
       rect:
         serializedVersion: 2
         x: 1052
@@ -953,8 +953,8 @@ TextureImporter:
         width: 101
         height: 101
       alignment: 0
-      pivot: {x: .5, y: .5}
-    - name: tiles_en_platforms_101
+      pivot: {x: 0, y: 0}
+    - name: tiles_101
       rect:
         serializedVersion: 2
         x: 1320
@@ -962,8 +962,8 @@ TextureImporter:
         width: 50
         height: 100
       alignment: 0
-      pivot: {x: .5, y: .5}
-    - name: tiles_en_platforms_102
+      pivot: {x: 0, y: 0}
+    - name: tiles_102
       rect:
         serializedVersion: 2
         x: 1971
@@ -971,8 +971,8 @@ TextureImporter:
         width: 101
         height: 101
       alignment: 0
-      pivot: {x: .5, y: .5}
-    - name: tiles_en_platforms_103
+      pivot: {x: 0, y: 0}
+    - name: tiles_103
       rect:
         serializedVersion: 2
         x: 0
@@ -980,8 +980,8 @@ TextureImporter:
         width: 98
         height: 101
       alignment: 0
-      pivot: {x: .5, y: .5}
-    - name: tiles_en_platforms_104
+      pivot: {x: 0, y: 0}
+    - name: tiles_104
       rect:
         serializedVersion: 2
         x: 149
@@ -989,8 +989,8 @@ TextureImporter:
         width: 98
         height: 101
       alignment: 0
-      pivot: {x: .5, y: .5}
-    - name: tiles_en_platforms_105
+      pivot: {x: 0, y: 0}
+    - name: tiles_105
       rect:
         serializedVersion: 2
         x: 301
@@ -998,8 +998,8 @@ TextureImporter:
         width: 98
         height: 101
       alignment: 0
-      pivot: {x: .5, y: .5}
-    - name: tiles_en_platforms_106
+      pivot: {x: 0, y: 0}
+    - name: tiles_106
       rect:
         serializedVersion: 2
         x: 440
@@ -1007,8 +1007,8 @@ TextureImporter:
         width: 98
         height: 101
       alignment: 0
-      pivot: {x: .5, y: .5}
-    - name: tiles_en_platforms_107
+      pivot: {x: 0, y: 0}
+    - name: tiles_107
       rect:
         serializedVersion: 2
         x: 594
@@ -1016,8 +1016,8 @@ TextureImporter:
         width: 98
         height: 101
       alignment: 0
-      pivot: {x: .5, y: .5}
-    - name: tiles_en_platforms_108
+      pivot: {x: 0, y: 0}
+    - name: tiles_108
       rect:
         serializedVersion: 2
         x: 732
@@ -1025,8 +1025,8 @@ TextureImporter:
         width: 101
         height: 101
       alignment: 0
-      pivot: {x: .5, y: .5}
-    - name: tiles_en_platforms_109
+      pivot: {x: 0, y: 0}
+    - name: tiles_109
       rect:
         serializedVersion: 2
         x: 913
@@ -1034,8 +1034,8 @@ TextureImporter:
         width: 101
         height: 101
       alignment: 0
-      pivot: {x: .5, y: .5}
-    - name: tiles_en_platforms_110
+      pivot: {x: 0, y: 0}
+    - name: tiles_110
       rect:
         serializedVersion: 2
         x: 1052
@@ -1043,8 +1043,8 @@ TextureImporter:
         width: 101
         height: 100
       alignment: 0
-      pivot: {x: .5, y: .5}
-    - name: tiles_en_platforms_111
+      pivot: {x: 0, y: 0}
+    - name: tiles_111
       rect:
         serializedVersion: 2
         x: 1189
@@ -1052,8 +1052,8 @@ TextureImporter:
         width: 101
         height: 101
       alignment: 0
-      pivot: {x: .5, y: .5}
-    - name: tiles_en_platforms_112
+      pivot: {x: 0, y: 0}
+    - name: tiles_112
       rect:
         serializedVersion: 2
         x: 1316
@@ -1061,8 +1061,8 @@ TextureImporter:
         width: 50
         height: 101
       alignment: 0
-      pivot: {x: .5, y: .5}
-    - name: tiles_en_platforms_113
+      pivot: {x: 0, y: 0}
+    - name: tiles_113
       rect:
         serializedVersion: 2
         x: 1430
@@ -1070,8 +1070,8 @@ TextureImporter:
         width: 101
         height: 101
       alignment: 0
-      pivot: {x: .5, y: .5}
-    - name: tiles_en_platforms_114
+      pivot: {x: 0, y: 0}
+    - name: tiles_114
       rect:
         serializedVersion: 2
         x: 1569
@@ -1079,8 +1079,8 @@ TextureImporter:
         width: 101
         height: 100
       alignment: 0
-      pivot: {x: .5, y: .5}
-    - name: tiles_en_platforms_115
+      pivot: {x: 0, y: 0}
+    - name: tiles_115
       rect:
         serializedVersion: 2
         x: 1707
@@ -1088,8 +1088,8 @@ TextureImporter:
         width: 101
         height: 101
       alignment: 0
-      pivot: {x: .5, y: .5}
-    - name: tiles_en_platforms_116
+      pivot: {x: 0, y: 0}
+    - name: tiles_116
       rect:
         serializedVersion: 2
         x: 1832
@@ -1097,8 +1097,8 @@ TextureImporter:
         width: 50
         height: 101
       alignment: 0
-      pivot: {x: .5, y: .5}
-    - name: tiles_en_platforms_117
+      pivot: {x: 0, y: 0}
+    - name: tiles_117
       rect:
         serializedVersion: 2
         x: 1972
@@ -1106,8 +1106,8 @@ TextureImporter:
         width: 101
         height: 101
       alignment: 0
-      pivot: {x: .5, y: .5}
-    - name: tiles_en_platforms_118
+      pivot: {x: 0, y: 0}
+    - name: tiles_118
       rect:
         serializedVersion: 2
         x: 2111
@@ -1115,8 +1115,8 @@ TextureImporter:
         width: 101
         height: 100
       alignment: 0
-      pivot: {x: .5, y: .5}
-    - name: tiles_en_platforms_119
+      pivot: {x: 0, y: 0}
+    - name: tiles_119
       rect:
         serializedVersion: 2
         x: 2249
@@ -1124,8 +1124,8 @@ TextureImporter:
         width: 101
         height: 101
       alignment: 0
-      pivot: {x: .5, y: .5}
-    - name: tiles_en_platforms_120
+      pivot: {x: 0, y: 0}
+    - name: tiles_120
       rect:
         serializedVersion: 2
         x: 2375
@@ -1133,8 +1133,8 @@ TextureImporter:
         width: 50
         height: 101
       alignment: 0
-      pivot: {x: .5, y: .5}
-    - name: tiles_en_platforms_121
+      pivot: {x: 0, y: 0}
+    - name: tiles_121
       rect:
         serializedVersion: 2
         x: 2489
@@ -1142,8 +1142,8 @@ TextureImporter:
         width: 101
         height: 101
       alignment: 0
-      pivot: {x: .5, y: .5}
-    - name: tiles_en_platforms_122
+      pivot: {x: 0, y: 0}
+    - name: tiles_122
       rect:
         serializedVersion: 2
         x: 2628
@@ -1151,8 +1151,8 @@ TextureImporter:
         width: 102
         height: 100
       alignment: 0
-      pivot: {x: .5, y: .5}
-    - name: tiles_en_platforms_123
+      pivot: {x: 0, y: 0}
+    - name: tiles_123
       rect:
         serializedVersion: 2
         x: 2766
@@ -1160,8 +1160,8 @@ TextureImporter:
         width: 101
         height: 101
       alignment: 0
-      pivot: {x: .5, y: .5}
-    - name: tiles_en_platforms_124
+      pivot: {x: 0, y: 0}
+    - name: tiles_124
       rect:
         serializedVersion: 2
         x: 2891
@@ -1169,8 +1169,8 @@ TextureImporter:
         width: 50
         height: 101
       alignment: 0
-      pivot: {x: .5, y: .5}
-    - name: tiles_en_platforms_125
+      pivot: {x: 0, y: 0}
+    - name: tiles_125
       rect:
         serializedVersion: 2
         x: 3
@@ -1178,8 +1178,8 @@ TextureImporter:
         width: 95
         height: 101
       alignment: 0
-      pivot: {x: .5, y: .5}
-    - name: tiles_en_platforms_126
+      pivot: {x: 0, y: 0}
+    - name: tiles_126
       rect:
         serializedVersion: 2
         x: 152
@@ -1187,8 +1187,8 @@ TextureImporter:
         width: 95
         height: 101
       alignment: 0
-      pivot: {x: .5, y: .5}
-    - name: tiles_en_platforms_127
+      pivot: {x: 0, y: 0}
+    - name: tiles_127
       rect:
         serializedVersion: 2
         x: 304
@@ -1196,8 +1196,8 @@ TextureImporter:
         width: 95
         height: 101
       alignment: 0
-      pivot: {x: .5, y: .5}
-    - name: tiles_en_platforms_128
+      pivot: {x: 0, y: 0}
+    - name: tiles_128
       rect:
         serializedVersion: 2
         x: 443
@@ -1205,8 +1205,8 @@ TextureImporter:
         width: 95
         height: 101
       alignment: 0
-      pivot: {x: .5, y: .5}
-    - name: tiles_en_platforms_129
+      pivot: {x: 0, y: 0}
+    - name: tiles_129
       rect:
         serializedVersion: 2
         x: 597
@@ -1214,8 +1214,8 @@ TextureImporter:
         width: 95
         height: 101
       alignment: 0
-      pivot: {x: .5, y: .5}
-    - name: tiles_en_platforms_130
+      pivot: {x: 0, y: 0}
+    - name: tiles_130
       rect:
         serializedVersion: 2
         x: 732
@@ -1223,8 +1223,8 @@ TextureImporter:
         width: 101
         height: 100
       alignment: 0
-      pivot: {x: .5, y: .5}
-    - name: tiles_en_platforms_131
+      pivot: {x: 0, y: 0}
+    - name: tiles_131
       rect:
         serializedVersion: 2
         x: 912
@@ -1232,8 +1232,8 @@ TextureImporter:
         width: 101
         height: 101
       alignment: 0
-      pivot: {x: .5, y: .5}
-    - name: tiles_en_platforms_132
+      pivot: {x: 0, y: 0}
+    - name: tiles_132
       rect:
         serializedVersion: 2
         x: 1052
@@ -1241,8 +1241,8 @@ TextureImporter:
         width: 101
         height: 101
       alignment: 0
-      pivot: {x: .5, y: .5}
-    - name: tiles_en_platforms_133
+      pivot: {x: 0, y: 0}
+    - name: tiles_133
       rect:
         serializedVersion: 2
         x: 1316
@@ -1250,8 +1250,8 @@ TextureImporter:
         width: 50
         height: 100
       alignment: 0
-      pivot: {x: .5, y: .5}
-    - name: tiles_en_platforms_134
+      pivot: {x: 0, y: 0}
+    - name: tiles_134
       rect:
         serializedVersion: 2
         x: 1429
@@ -1259,8 +1259,8 @@ TextureImporter:
         width: 101
         height: 101
       alignment: 0
-      pivot: {x: .5, y: .5}
-    - name: tiles_en_platforms_135
+      pivot: {x: 0, y: 0}
+    - name: tiles_135
       rect:
         serializedVersion: 2
         x: 1570
@@ -1268,8 +1268,8 @@ TextureImporter:
         width: 101
         height: 101
       alignment: 0
-      pivot: {x: .5, y: .5}
-    - name: tiles_en_platforms_136
+      pivot: {x: 0, y: 0}
+    - name: tiles_136
       rect:
         serializedVersion: 2
         x: 1832
@@ -1277,8 +1277,8 @@ TextureImporter:
         width: 50
         height: 100
       alignment: 0
-      pivot: {x: .5, y: .5}
-    - name: tiles_en_platforms_137
+      pivot: {x: 0, y: 0}
+    - name: tiles_137
       rect:
         serializedVersion: 2
         x: 1971
@@ -1286,8 +1286,8 @@ TextureImporter:
         width: 101
         height: 101
       alignment: 0
-      pivot: {x: .5, y: .5}
-    - name: tiles_en_platforms_138
+      pivot: {x: 0, y: 0}
+    - name: tiles_138
       rect:
         serializedVersion: 2
         x: 2488
@@ -1295,8 +1295,8 @@ TextureImporter:
         width: 101
         height: 101
       alignment: 0
-      pivot: {x: .5, y: .5}
-    - name: tiles_en_platforms_139
+      pivot: {x: 0, y: 0}
+    - name: tiles_139
       rect:
         serializedVersion: 2
         x: 0
@@ -1304,8 +1304,8 @@ TextureImporter:
         width: 98
         height: 101
       alignment: 0
-      pivot: {x: .5, y: .5}
-    - name: tiles_en_platforms_140
+      pivot: {x: 0, y: 0}
+    - name: tiles_140
       rect:
         serializedVersion: 2
         x: 154
@@ -1313,8 +1313,8 @@ TextureImporter:
         width: 98
         height: 101
       alignment: 0
-      pivot: {x: .5, y: .5}
-    - name: tiles_en_platforms_141
+      pivot: {x: 0, y: 0}
+    - name: tiles_141
       rect:
         serializedVersion: 2
         x: 293
@@ -1322,8 +1322,8 @@ TextureImporter:
         width: 98
         height: 101
       alignment: 0
-      pivot: {x: .5, y: .5}
-    - name: tiles_en_platforms_142
+      pivot: {x: 0, y: 0}
+    - name: tiles_142
       rect:
         serializedVersion: 2
         x: 445
@@ -1331,8 +1331,8 @@ TextureImporter:
         width: 98
         height: 101
       alignment: 0
-      pivot: {x: .5, y: .5}
-    - name: tiles_en_platforms_143
+      pivot: {x: 0, y: 0}
+    - name: tiles_143
       rect:
         serializedVersion: 2
         x: 594
@@ -1340,8 +1340,8 @@ TextureImporter:
         width: 98
         height: 101
       alignment: 0
-      pivot: {x: .5, y: .5}
-    - name: tiles_en_platforms_144
+      pivot: {x: 0, y: 0}
+    - name: tiles_144
       rect:
         serializedVersion: 2
         x: 734
@@ -1349,8 +1349,8 @@ TextureImporter:
         width: 101
         height: 101
       alignment: 0
-      pivot: {x: .5, y: .5}
-    - name: tiles_en_platforms_145
+      pivot: {x: 0, y: 0}
+    - name: tiles_145
       rect:
         serializedVersion: 2
         x: 913
@@ -1358,8 +1358,8 @@ TextureImporter:
         width: 101
         height: 100
       alignment: 0
-      pivot: {x: .5, y: .5}
-    - name: tiles_en_platforms_146
+      pivot: {x: 0, y: 0}
+    - name: tiles_146
       rect:
         serializedVersion: 2
         x: 1052
@@ -1367,8 +1367,8 @@ TextureImporter:
         width: 101
         height: 101
       alignment: 0
-      pivot: {x: .5, y: .5}
-    - name: tiles_en_platforms_147
+      pivot: {x: 0, y: 0}
+    - name: tiles_147
       rect:
         serializedVersion: 2
         x: 1189
@@ -1376,8 +1376,8 @@ TextureImporter:
         width: 101
         height: 101
       alignment: 0
-      pivot: {x: .5, y: .5}
-    - name: tiles_en_platforms_148
+      pivot: {x: 0, y: 0}
+    - name: tiles_148
       rect:
         serializedVersion: 2
         x: 1316
@@ -1385,8 +1385,8 @@ TextureImporter:
         width: 50
         height: 100
       alignment: 0
-      pivot: {x: .5, y: .5}
-    - name: tiles_en_platforms_149
+      pivot: {x: 0, y: 0}
+    - name: tiles_149
       rect:
         serializedVersion: 2
         x: 1430
@@ -1394,8 +1394,8 @@ TextureImporter:
         width: 101
         height: 101
       alignment: 0
-      pivot: {x: .5, y: .5}
-    - name: tiles_en_platforms_150
+      pivot: {x: 0, y: 0}
+    - name: tiles_150
       rect:
         serializedVersion: 2
         x: 1569
@@ -1403,8 +1403,8 @@ TextureImporter:
         width: 101
         height: 101
       alignment: 0
-      pivot: {x: .5, y: .5}
-    - name: tiles_en_platforms_151
+      pivot: {x: 0, y: 0}
+    - name: tiles_151
       rect:
         serializedVersion: 2
         x: 1707
@@ -1412,8 +1412,8 @@ TextureImporter:
         width: 101
         height: 101
       alignment: 0
-      pivot: {x: .5, y: .5}
-    - name: tiles_en_platforms_152
+      pivot: {x: 0, y: 0}
+    - name: tiles_152
       rect:
         serializedVersion: 2
         x: 1833
@@ -1421,8 +1421,8 @@ TextureImporter:
         width: 50
         height: 100
       alignment: 0
-      pivot: {x: .5, y: .5}
-    - name: tiles_en_platforms_153
+      pivot: {x: 0, y: 0}
+    - name: tiles_153
       rect:
         serializedVersion: 2
         x: 1972
@@ -1430,8 +1430,8 @@ TextureImporter:
         width: 101
         height: 100
       alignment: 0
-      pivot: {x: .5, y: .5}
-    - name: tiles_en_platforms_154
+      pivot: {x: 0, y: 0}
+    - name: tiles_154
       rect:
         serializedVersion: 2
         x: 2111
@@ -1439,8 +1439,8 @@ TextureImporter:
         width: 101
         height: 101
       alignment: 0
-      pivot: {x: .5, y: .5}
-    - name: tiles_en_platforms_155
+      pivot: {x: 0, y: 0}
+    - name: tiles_155
       rect:
         serializedVersion: 2
         x: 2249
@@ -1448,8 +1448,8 @@ TextureImporter:
         width: 101
         height: 101
       alignment: 0
-      pivot: {x: .5, y: .5}
-    - name: tiles_en_platforms_156
+      pivot: {x: 0, y: 0}
+    - name: tiles_156
       rect:
         serializedVersion: 2
         x: 2375
@@ -1457,8 +1457,8 @@ TextureImporter:
         width: 50
         height: 100
       alignment: 0
-      pivot: {x: .5, y: .5}
-    - name: tiles_en_platforms_157
+      pivot: {x: 0, y: 0}
+    - name: tiles_157
       rect:
         serializedVersion: 2
         x: 2489
@@ -1466,8 +1466,8 @@ TextureImporter:
         width: 101
         height: 101
       alignment: 0
-      pivot: {x: .5, y: .5}
-    - name: tiles_en_platforms_158
+      pivot: {x: 0, y: 0}
+    - name: tiles_158
       rect:
         serializedVersion: 2
         x: 2628
@@ -1475,8 +1475,8 @@ TextureImporter:
         width: 102
         height: 101
       alignment: 0
-      pivot: {x: .5, y: .5}
-    - name: tiles_en_platforms_159
+      pivot: {x: 0, y: 0}
+    - name: tiles_159
       rect:
         serializedVersion: 2
         x: 2766
@@ -1484,8 +1484,8 @@ TextureImporter:
         width: 101
         height: 101
       alignment: 0
-      pivot: {x: .5, y: .5}
-    - name: tiles_en_platforms_160
+      pivot: {x: 0, y: 0}
+    - name: tiles_160
       rect:
         serializedVersion: 2
         x: 2892
@@ -1493,8 +1493,8 @@ TextureImporter:
         width: 50
         height: 100
       alignment: 0
-      pivot: {x: .5, y: .5}
-    - name: tiles_en_platforms_161
+      pivot: {x: 0, y: 0}
+    - name: tiles_161
       rect:
         serializedVersion: 2
         x: 0
@@ -1502,8 +1502,8 @@ TextureImporter:
         width: 95
         height: 101
       alignment: 0
-      pivot: {x: .5, y: .5}
-    - name: tiles_en_platforms_162
+      pivot: {x: 0, y: 0}
+    - name: tiles_162
       rect:
         serializedVersion: 2
         x: 154
@@ -1511,8 +1511,8 @@ TextureImporter:
         width: 95
         height: 101
       alignment: 0
-      pivot: {x: .5, y: .5}
-    - name: tiles_en_platforms_163
+      pivot: {x: 0, y: 0}
+    - name: tiles_163
       rect:
         serializedVersion: 2
         x: 293
@@ -1520,8 +1520,8 @@ TextureImporter:
         width: 95
         height: 101
       alignment: 0
-      pivot: {x: .5, y: .5}
-    - name: tiles_en_platforms_164
+      pivot: {x: 0, y: 0}
+    - name: tiles_164
       rect:
         serializedVersion: 2
         x: 445
@@ -1529,8 +1529,8 @@ TextureImporter:
         width: 95
         height: 101
       alignment: 0
-      pivot: {x: .5, y: .5}
-    - name: tiles_en_platforms_165
+      pivot: {x: 0, y: 0}
+    - name: tiles_165
       rect:
         serializedVersion: 2
         x: 594
@@ -1538,8 +1538,8 @@ TextureImporter:
         width: 95
         height: 101
       alignment: 0
-      pivot: {x: .5, y: .5}
-    - name: tiles_en_platforms_166
+      pivot: {x: 0, y: 0}
+    - name: tiles_166
       rect:
         serializedVersion: 2
         x: 732
@@ -1547,8 +1547,8 @@ TextureImporter:
         width: 101
         height: 100
       alignment: 0
-      pivot: {x: .5, y: .5}
-    - name: tiles_en_platforms_167
+      pivot: {x: 0, y: 0}
+    - name: tiles_167
       rect:
         serializedVersion: 2
         x: 912
@@ -1556,8 +1556,8 @@ TextureImporter:
         width: 101
         height: 101
       alignment: 0
-      pivot: {x: .5, y: .5}
-    - name: tiles_en_platforms_168
+      pivot: {x: 0, y: 0}
+    - name: tiles_168
       rect:
         serializedVersion: 2
         x: 1052
@@ -1565,8 +1565,8 @@ TextureImporter:
         width: 101
         height: 101
       alignment: 0
-      pivot: {x: .5, y: .5}
-    - name: tiles_en_platforms_169
+      pivot: {x: 0, y: 0}
+    - name: tiles_169
       rect:
         serializedVersion: 2
         x: 1316
@@ -1574,8 +1574,8 @@ TextureImporter:
         width: 50
         height: 100
       alignment: 0
-      pivot: {x: .5, y: .5}
-    - name: tiles_en_platforms_170
+      pivot: {x: 0, y: 0}
+    - name: tiles_170
       rect:
         serializedVersion: 2
         x: 1429
@@ -1583,8 +1583,8 @@ TextureImporter:
         width: 101
         height: 101
       alignment: 0
-      pivot: {x: .5, y: .5}
-    - name: tiles_en_platforms_171
+      pivot: {x: 0, y: 0}
+    - name: tiles_171
       rect:
         serializedVersion: 2
         x: 1570
@@ -1592,8 +1592,8 @@ TextureImporter:
         width: 101
         height: 101
       alignment: 0
-      pivot: {x: .5, y: .5}
-    - name: tiles_en_platforms_172
+      pivot: {x: 0, y: 0}
+    - name: tiles_172
       rect:
         serializedVersion: 2
         x: 1833
@@ -1601,8 +1601,8 @@ TextureImporter:
         width: 50
         height: 101
       alignment: 0
-      pivot: {x: .5, y: .5}
-    - name: tiles_en_platforms_173
+      pivot: {x: 0, y: 0}
+    - name: tiles_173
       rect:
         serializedVersion: 2
         x: 1971
@@ -1610,8 +1610,8 @@ TextureImporter:
         width: 101
         height: 101
       alignment: 0
-      pivot: {x: .5, y: .5}
-    - name: tiles_en_platforms_174
+      pivot: {x: 0, y: 0}
+    - name: tiles_174
       rect:
         serializedVersion: 2
         x: 2488
@@ -1619,8 +1619,8 @@ TextureImporter:
         width: 101
         height: 101
       alignment: 0
-      pivot: {x: .5, y: .5}
-    - name: tiles_en_platforms_175
+      pivot: {x: 0, y: 0}
+    - name: tiles_175
       rect:
         serializedVersion: 2
         x: 735
@@ -1628,323 +1628,8 @@ TextureImporter:
         width: 101
         height: 101
       alignment: 0
-      pivot: {x: .5, y: .5}
-    - name: tiles_en_platforms_176
-      rect:
-        serializedVersion: 2
-        x: 8
-        y: 816
-        width: 101
-        height: 100
-      alignment: 0
-      pivot: {x: .5, y: .5}
-    - name: tiles_en_platforms_177
-      rect:
-        serializedVersion: 2
-        x: 208
-        y: 795
-        width: 101
-        height: 101
-      alignment: 0
-      pivot: {x: .5, y: .5}
-    - name: tiles_en_platforms_178
-      rect:
-        serializedVersion: 2
-        x: 347
-        y: 796
-        width: 101
-        height: 101
-      alignment: 0
-      pivot: {x: .5, y: .5}
-    - name: tiles_en_platforms_179
-      rect:
-        serializedVersion: 2
-        x: 485
-        y: 795
-        width: 101
-        height: 101
-      alignment: 0
-      pivot: {x: .5, y: .5}
-    - name: tiles_en_platforms_180
-      rect:
-        serializedVersion: 2
-        x: 616
-        y: 796
-        width: 50
-        height: 100
-      alignment: 0
-      pivot: {x: .5, y: .5}
-    - name: tiles_en_platforms_181
-      rect:
-        serializedVersion: 2
-        x: 748
-        y: 797
-        width: 101
-        height: 101
-      alignment: 0
-      pivot: {x: .5, y: .5}
-    - name: tiles_en_platforms_182
-      rect:
-        serializedVersion: 2
-        x: 887
-        y: 798
-        width: 101
-        height: 101
-      alignment: 0
-      pivot: {x: .5, y: .5}
-    - name: tiles_en_platforms_183
-      rect:
-        serializedVersion: 2
-        x: 1024
-        y: 797
-        width: 101
-        height: 101
-      alignment: 0
-      pivot: {x: .5, y: .5}
-    - name: tiles_en_platforms_184
-      rect:
-        serializedVersion: 2
-        x: 1155
-        y: 798
-        width: 50
-        height: 100
-      alignment: 0
-      pivot: {x: .5, y: .5}
-    - name: tiles_en_platforms_185
-      rect:
-        serializedVersion: 2
-        x: 7
-        y: 678
-        width: 101
-        height: 101
-      alignment: 0
-      pivot: {x: .5, y: .5}
-    - name: tiles_en_platforms_186
-      rect:
-        serializedVersion: 2
-        x: 207
-        y: 683
-        width: 101
-        height: 101
-      alignment: 0
-      pivot: {x: .5, y: .5}
-    - name: tiles_en_platforms_187
-      rect:
-        serializedVersion: 2
-        x: 348
-        y: 681
-        width: 101
-        height: 101
-      alignment: 0
-      pivot: {x: .5, y: .5}
-    - name: tiles_en_platforms_188
-      rect:
-        serializedVersion: 2
-        x: 616
-        y: 681
-        width: 50
-        height: 100
-      alignment: 0
-      pivot: {x: .5, y: .5}
-    - name: tiles_en_platforms_189
-      rect:
-        serializedVersion: 2
-        x: 747
-        y: 685
-        width: 101
-        height: 101
-      alignment: 0
-      pivot: {x: .5, y: .5}
-    - name: tiles_en_platforms_190
-      rect:
-        serializedVersion: 2
-        x: 7
-        y: 546
-        width: 101
-        height: 101
-      alignment: 0
-      pivot: {x: .5, y: .5}
-    - name: tiles_en_platforms_191
-      rect:
-        serializedVersion: 2
-        x: 149
-        y: 538
-        width: 101
-        height: 100
-      alignment: 0
-      pivot: {x: .5, y: .5}
-    - name: tiles_en_platforms_192
-      rect:
-        serializedVersion: 2
-        x: 353
-        y: 541
-        width: 100
-        height: 100
-      alignment: 0
-      pivot: {x: .5, y: .5}
-    - name: tiles_en_platforms_193
-      rect:
-        serializedVersion: 2
-        x: 484
-        y: 541
-        width: 100
-        height: 100
-      alignment: 0
-      pivot: {x: .5, y: .5}
-    - name: tiles_en_platforms_194
-      rect:
-        serializedVersion: 2
-        x: 601
-        y: 541
-        width: 100
-        height: 100
-      alignment: 0
-      pivot: {x: .5, y: .5}
-    - name: tiles_en_platforms_195
-      rect:
-        serializedVersion: 2
-        x: 718
-        y: 541
-        width: 100
-        height: 100
-      alignment: 0
-      pivot: {x: .5, y: .5}
-    - name: tiles_en_platforms_196
-      rect:
-        serializedVersion: 2
-        x: 835
-        y: 541
-        width: 100
-        height: 100
-      alignment: 0
-      pivot: {x: .5, y: .5}
-    - name: tiles_en_platforms_197
-      rect:
-        serializedVersion: 2
-        x: 952
-        y: 541
-        width: 100
-        height: 100
-      alignment: 0
-      pivot: {x: .5, y: .5}
-    - name: tiles_en_platforms_198
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 397
-        width: 98
-        height: 101
-      alignment: 0
-      pivot: {x: .5, y: .5}
-    - name: tiles_en_platforms_199
-      rect:
-        serializedVersion: 2
-        x: 149
-        y: 416
-        width: 101
-        height: 101
-      alignment: 0
-      pivot: {x: .5, y: .5}
-    - name: tiles_en_platforms_200
-      rect:
-        serializedVersion: 2
-        x: 353
-        y: 419
-        width: 100
-        height: 101
-      alignment: 0
-      pivot: {x: .5, y: .5}
-    - name: tiles_en_platforms_201
-      rect:
-        serializedVersion: 2
-        x: 484
-        y: 419
-        width: 100
-        height: 101
-      alignment: 0
-      pivot: {x: .5, y: .5}
-    - name: tiles_en_platforms_202
-      rect:
-        serializedVersion: 2
-        x: 601
-        y: 419
-        width: 100
-        height: 101
-      alignment: 0
-      pivot: {x: .5, y: .5}
-    - name: tiles_en_platforms_203
-      rect:
-        serializedVersion: 2
-        x: 718
-        y: 419
-        width: 100
-        height: 101
-      alignment: 0
-      pivot: {x: .5, y: .5}
-    - name: tiles_en_platforms_204
-      rect:
-        serializedVersion: 2
-        x: 835
-        y: 419
-        width: 100
-        height: 101
-      alignment: 0
-      pivot: {x: .5, y: .5}
-    - name: tiles_en_platforms_205
-      rect:
-        serializedVersion: 2
-        x: 952
-        y: 419
-        width: 100
-        height: 101
-      alignment: 0
-      pivot: {x: .5, y: .5}
-    - name: tiles_en_platforms_206
-      rect:
-        serializedVersion: 2
-        x: 3
-        y: 265
-        width: 95
-        height: 101
-      alignment: 0
-      pivot: {x: .5, y: .5}
-    - name: tiles_en_platforms_207
-      rect:
-        serializedVersion: 2
-        x: 149
-        y: 267
-        width: 101
-        height: 100
-      alignment: 0
-      pivot: {x: .5, y: .5}
-    - name: tiles_en_platforms_208
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 131
-        width: 98
-        height: 101
-      alignment: 0
-      pivot: {x: .5, y: .5}
-    - name: tiles_en_platforms_209
-      rect:
-        serializedVersion: 2
-        x: 153
-        y: 145
-        width: 101
-        height: 101
-      alignment: 0
-      pivot: {x: .5, y: .5}
-    - name: tiles_en_platforms_210
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 95
-        height: 101
-      alignment: 0
-      pivot: {x: .5, y: .5}
-    - name: tiles_en_platforms_211
+      pivot: {x: 0, y: 0}
+    - name: tiles_176
       rect:
         serializedVersion: 2
         x: 1323
@@ -1953,7 +1638,7 @@ TextureImporter:
         height: 101
       alignment: 0
       pivot: {x: 0, y: 0}
-    - name: tiles_en_platforms_212
+    - name: tiles_177
       rect:
         serializedVersion: 2
         x: 1392
@@ -1962,7 +1647,7 @@ TextureImporter:
         height: 100
       alignment: 0
       pivot: {x: 0, y: 0}
-    - name: tiles_en_platforms_213
+    - name: tiles_178
       rect:
         serializedVersion: 2
         x: 1459
@@ -1971,7 +1656,7 @@ TextureImporter:
         height: 100
       alignment: 0
       pivot: {x: 0, y: 0}
-    - name: tiles_en_platforms_214
+    - name: tiles_179
       rect:
         serializedVersion: 2
         x: 1538
@@ -1980,7 +1665,7 @@ TextureImporter:
         height: 100
       alignment: 0
       pivot: {x: 0, y: 0}
-    - name: tiles_en_platforms_215
+    - name: tiles_180
       rect:
         serializedVersion: 2
         x: 1608
@@ -1989,7 +1674,7 @@ TextureImporter:
         height: 100
       alignment: 0
       pivot: {x: 0, y: 0}
-    - name: tiles_en_platforms_216
+    - name: tiles_181
       rect:
         serializedVersion: 2
         x: 1690
@@ -1998,7 +1683,88 @@ TextureImporter:
         height: 100
       alignment: 0
       pivot: {x: 0, y: 0}
-    - name: tiles_en_platforms_217
+    - name: tiles_182
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 816
+        width: 101
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: tiles_183
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 795
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: tiles_184
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 796
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: tiles_185
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 795
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: tiles_186
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 796
+        width: 50
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: tiles_187
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 797
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: tiles_188
+      rect:
+        serializedVersion: 2
+        x: 887
+        y: 798
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: tiles_189
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 797
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: tiles_190
+      rect:
+        serializedVersion: 2
+        x: 1155
+        y: 798
+        width: 50
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: tiles_191
       rect:
         serializedVersion: 2
         x: 1325
@@ -2007,7 +1773,7 @@ TextureImporter:
         height: 101
       alignment: 0
       pivot: {x: 0, y: 0}
-    - name: tiles_en_platforms_218
+    - name: tiles_192
       rect:
         serializedVersion: 2
         x: 1395
@@ -2016,7 +1782,7 @@ TextureImporter:
         height: 101
       alignment: 0
       pivot: {x: 0, y: 0}
-    - name: tiles_en_platforms_219
+    - name: tiles_193
       rect:
         serializedVersion: 2
         x: 1463
@@ -2025,7 +1791,7 @@ TextureImporter:
         height: 101
       alignment: 0
       pivot: {x: 0, y: 0}
-    - name: tiles_en_platforms_220
+    - name: tiles_194
       rect:
         serializedVersion: 2
         x: 1531
@@ -2034,7 +1800,7 @@ TextureImporter:
         height: 101
       alignment: 0
       pivot: {x: 0, y: 0}
-    - name: tiles_en_platforms_221
+    - name: tiles_195
       rect:
         serializedVersion: 2
         x: 1614
@@ -2043,7 +1809,7 @@ TextureImporter:
         height: 101
       alignment: 0
       pivot: {x: 0, y: 0}
-    - name: tiles_en_platforms_222
+    - name: tiles_196
       rect:
         serializedVersion: 2
         x: 1688
@@ -2052,7 +1818,7 @@ TextureImporter:
         height: 100
       alignment: 0
       pivot: {x: 0, y: 0}
-    - name: tiles_en_platforms_223
+    - name: tiles_197
       rect:
         serializedVersion: 2
         x: 1847
@@ -2061,7 +1827,52 @@ TextureImporter:
         height: 100
       alignment: 0
       pivot: {x: 0, y: 0}
-    - name: tiles_en_platforms_224
+    - name: tiles_198
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 678
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: tiles_199
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 683
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: tiles_200
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 681
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: tiles_201
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 681
+        width: 50
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: tiles_202
+      rect:
+        serializedVersion: 2
+        x: 747
+        y: 685
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: tiles_203
       rect:
         serializedVersion: 2
         x: 1697
@@ -2070,7 +1881,7 @@ TextureImporter:
         height: 101
       alignment: 0
       pivot: {x: 0, y: 0}
-    - name: tiles_en_platforms_225
+    - name: tiles_204
       rect:
         serializedVersion: 2
         x: 1846
@@ -2078,8 +1889,8 @@ TextureImporter:
         width: 101
         height: 101
       alignment: 0
-      pivot: {x: 0, y: 0}
-    - name: tiles_en_platforms_226
+      pivot: {x: .5, y: .5}
+    - name: tiles_205
       rect:
         serializedVersion: 2
         x: 1984
@@ -2088,7 +1899,79 @@ TextureImporter:
         height: 101
       alignment: 0
       pivot: {x: 0, y: 0}
-    - name: tiles_en_platforms_227
+    - name: tiles_206
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 546
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: tiles_207
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 538
+        width: 101
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: tiles_208
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 541
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: tiles_209
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 541
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: tiles_210
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 541
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: tiles_211
+      rect:
+        serializedVersion: 2
+        x: 718
+        y: 541
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: tiles_212
+      rect:
+        serializedVersion: 2
+        x: 835
+        y: 541
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: tiles_213
+      rect:
+        serializedVersion: 2
+        x: 952
+        y: 541
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: tiles_214
       rect:
         serializedVersion: 2
         x: 1123
@@ -2097,7 +1980,7 @@ TextureImporter:
         height: 100
       alignment: 0
       pivot: {x: 0, y: 0}
-    - name: tiles_en_platforms_228
+    - name: tiles_215
       rect:
         serializedVersion: 2
         x: 1283
@@ -2106,7 +1989,7 @@ TextureImporter:
         height: 101
       alignment: 0
       pivot: {x: 0, y: 0}
-    - name: tiles_en_platforms_229
+    - name: tiles_216
       rect:
         serializedVersion: 2
         x: 1422
@@ -2115,7 +1998,7 @@ TextureImporter:
         height: 101
       alignment: 0
       pivot: {x: 0, y: 0}
-    - name: tiles_en_platforms_230
+    - name: tiles_217
       rect:
         serializedVersion: 2
         x: 1560
@@ -2124,7 +2007,7 @@ TextureImporter:
         height: 100
       alignment: 0
       pivot: {x: 0, y: 0}
-    - name: tiles_en_platforms_231
+    - name: tiles_218
       rect:
         serializedVersion: 2
         x: 1681
@@ -2133,7 +2016,7 @@ TextureImporter:
         height: 101
       alignment: 0
       pivot: {x: 0, y: 0}
-    - name: tiles_en_platforms_232
+    - name: tiles_219
       rect:
         serializedVersion: 2
         x: 1842
@@ -2142,7 +2025,79 @@ TextureImporter:
         height: 101
       alignment: 0
       pivot: {x: 0, y: 0}
-    - name: tiles_en_platforms_233
+    - name: tiles_220
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 397
+        width: 98
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: tiles_221
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 416
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: tiles_222
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 419
+        width: 100
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: tiles_223
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 419
+        width: 100
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: tiles_224
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 419
+        width: 100
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: tiles_225
+      rect:
+        serializedVersion: 2
+        x: 718
+        y: 419
+        width: 100
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: tiles_226
+      rect:
+        serializedVersion: 2
+        x: 835
+        y: 419
+        width: 100
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: tiles_227
+      rect:
+        serializedVersion: 2
+        x: 952
+        y: 419
+        width: 100
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: tiles_228
       rect:
         serializedVersion: 2
         x: 1127
@@ -2151,7 +2106,7 @@ TextureImporter:
         height: 101
       alignment: 0
       pivot: {x: 0, y: 0}
-    - name: tiles_en_platforms_234
+    - name: tiles_229
       rect:
         serializedVersion: 2
         x: 1281
@@ -2160,7 +2115,7 @@ TextureImporter:
         height: 101
       alignment: 0
       pivot: {x: 0, y: 0}
-    - name: tiles_en_platforms_235
+    - name: tiles_230
       rect:
         serializedVersion: 2
         x: 1422
@@ -2169,7 +2124,7 @@ TextureImporter:
         height: 101
       alignment: 0
       pivot: {x: 0, y: 0}
-    - name: tiles_en_platforms_236
+    - name: tiles_231
       rect:
         serializedVersion: 2
         x: 1564
@@ -2178,7 +2133,7 @@ TextureImporter:
         height: 101
       alignment: 0
       pivot: {x: 0, y: 0}
-    - name: tiles_en_platforms_237
+    - name: tiles_232
       rect:
         serializedVersion: 2
         x: 1981
@@ -2187,7 +2142,25 @@ TextureImporter:
         height: 101
       alignment: 0
       pivot: {x: 0, y: 0}
-    - name: tiles_en_platforms_238
+    - name: tiles_233
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 265
+        width: 95
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: tiles_234
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 267
+        width: 101
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: tiles_235
       rect:
         serializedVersion: 2
         x: 1130
@@ -2196,7 +2169,7 @@ TextureImporter:
         height: 100
       alignment: 0
       pivot: {x: 0, y: 0}
-    - name: tiles_en_platforms_239
+    - name: tiles_236
       rect:
         serializedVersion: 2
         x: 1280
@@ -2205,7 +2178,7 @@ TextureImporter:
         height: 100
       alignment: 0
       pivot: {x: 0, y: 0}
-    - name: tiles_en_platforms_240
+    - name: tiles_237
       rect:
         serializedVersion: 2
         x: 1422
@@ -2214,7 +2187,7 @@ TextureImporter:
         height: 100
       alignment: 0
       pivot: {x: 0, y: 0}
-    - name: tiles_en_platforms_241
+    - name: tiles_238
       rect:
         serializedVersion: 2
         x: 1567
@@ -2223,7 +2196,7 @@ TextureImporter:
         height: 100
       alignment: 0
       pivot: {x: 0, y: 0}
-    - name: tiles_en_platforms_242
+    - name: tiles_239
       rect:
         serializedVersion: 2
         x: 1685
@@ -2232,7 +2205,7 @@ TextureImporter:
         height: 101
       alignment: 0
       pivot: {x: 0, y: 0}
-    - name: tiles_en_platforms_243
+    - name: tiles_240
       rect:
         serializedVersion: 2
         x: 1839
@@ -2241,7 +2214,7 @@ TextureImporter:
         height: 101
       alignment: 0
       pivot: {x: 0, y: 0}
-    - name: tiles_en_platforms_244
+    - name: tiles_241
       rect:
         serializedVersion: 2
         x: 1981
@@ -2250,7 +2223,25 @@ TextureImporter:
         height: 101
       alignment: 0
       pivot: {x: 0, y: 0}
-    - name: tiles_en_platforms_245
+    - name: tiles_242
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 131
+        width: 98
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: tiles_243
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 145
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: tiles_244
       rect:
         serializedVersion: 2
         x: 1688
@@ -2259,7 +2250,7 @@ TextureImporter:
         height: 100
       alignment: 0
       pivot: {x: 0, y: 0}
-    - name: tiles_en_platforms_246
+    - name: tiles_245
       rect:
         serializedVersion: 2
         x: 1838
@@ -2268,7 +2259,7 @@ TextureImporter:
         height: 100
       alignment: 0
       pivot: {x: 0, y: 0}
-    - name: tiles_en_platforms_247
+    - name: tiles_246
       rect:
         serializedVersion: 2
         x: 1981
@@ -2277,7 +2268,16 @@ TextureImporter:
         height: 100
       alignment: 0
       pivot: {x: 0, y: 0}
-    - name: tiles_en_platforms_248
+    - name: tiles_247
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 95
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: tiles_248
       rect:
         serializedVersion: 2
         x: 1689
@@ -2286,7 +2286,7 @@ TextureImporter:
         height: 100
       alignment: 0
       pivot: {x: 0, y: 0}
-    - name: tiles_en_platforms_249
+    - name: tiles_249
       rect:
         serializedVersion: 2
         x: 1838
@@ -2295,7 +2295,7 @@ TextureImporter:
         height: 100
       alignment: 0
       pivot: {x: 0, y: 0}
-    - name: tiles_en_platforms_250
+    - name: tiles_250
       rect:
         serializedVersion: 2
         x: 1976

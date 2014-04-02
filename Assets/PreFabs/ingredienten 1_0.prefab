@@ -11,6 +11,7 @@ GameObject:
   - 212: {fileID: 21200000}
   - 114: {fileID: 11400000}
   - 61: {fileID: 6100000}
+  - 114: {fileID: 11400002}
   m_Layer: 0
   m_Name: ingredienten 1_0
   m_TagString: Untagged
@@ -25,8 +26,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100000}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 86.8890533, y: -2.90320396, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 123.880852, y: 10.6647863, z: 0}
+  m_LocalScale: {x: 2, y: 2, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
 --- !u!61 &6100000
@@ -52,7 +53,30 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   changeRoom: 1
-  NextRoom: 5
+  NextRoom: 7
+--- !u!114 &11400002
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69ec2ecaeb1bf1a4d8144da0d3952229, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  chance: 0
+  Sprites:
+  - {fileID: 21300000, guid: 35962897471f59e4ebe4b7390305d253, type: 3}
+  - {fileID: 21300002, guid: 35962897471f59e4ebe4b7390305d253, type: 3}
+  - {fileID: 21300004, guid: 35962897471f59e4ebe4b7390305d253, type: 3}
+  - {fileID: 21300006, guid: 35962897471f59e4ebe4b7390305d253, type: 3}
+  - {fileID: 21300008, guid: 35962897471f59e4ebe4b7390305d253, type: 3}
+  - {fileID: 21300010, guid: 35962897471f59e4ebe4b7390305d253, type: 3}
+  - {fileID: 21300012, guid: 35962897471f59e4ebe4b7390305d253, type: 3}
+  - {fileID: 21300014, guid: 35962897471f59e4ebe4b7390305d253, type: 3}
+  - {fileID: 21300016, guid: 35962897471f59e4ebe4b7390305d253, type: 3}
+  - {fileID: 21300018, guid: 35962897471f59e4ebe4b7390305d253, type: 3}
 --- !u!212 &21200000
 SpriteRenderer:
   m_ObjectHideFlags: 1

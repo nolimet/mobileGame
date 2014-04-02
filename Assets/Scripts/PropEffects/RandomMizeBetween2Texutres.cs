@@ -7,12 +7,10 @@ namespace PropEffects
         [Range(0,100f)]
         public float chance;
 
-        private float chanceLast;
         public Sprite[] Sprites;
         // Use this for initialization
         void Start()
         {
-            chanceLast = chance;
             float resizesChanse = chance / 100f;
             if (Random.value > resizesChanse)
             {
@@ -20,6 +18,7 @@ namespace PropEffects
                 int RandomIndex1 = Mathf.FloorToInt(Random.Range(0f, Sprites.Length));
                 spriterendere.sprite = Sprites[RandomIndex1];
             }
+            Destroy(this);
         }
     }
 }
