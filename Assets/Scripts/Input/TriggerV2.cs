@@ -9,14 +9,14 @@ public class TriggerV2 : MonoBehaviour {
 
     public void IWillDo()
     {
-        if (Disabled)
+        if (!Disabled)
         {
             State = true;
         }
     }
-    void OnClick()
+    void OnMouseClick()
     {
-        if (Disabled)
+        if (!Disabled)
         {
             State = true;
         }

@@ -40,7 +40,7 @@ namespace menu
                 if (Vector2.Distance(temp2, temp1) > 0.05f)
                 {
                     Vector2 dir = temp1 - temp2;
-                    transform.Translate(dir * Time.deltaTime);
+                    transform.Translate(dir * Time.deltaTime*4);
                 }
             }
         }

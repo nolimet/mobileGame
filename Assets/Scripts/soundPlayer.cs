@@ -8,17 +8,19 @@ public class soundPlayer : MonoBehaviour {
     void Start()
     {
         sound = GetComponent<AudioSource>();
+        sound.mute = true;
     }
     public void Play()
     {
-        sound.Play();
+        playing = true;
+        sound.mute = false;
     }
 
     public void Stop()
     {
         if (sound.isPlaying)
         {
-            sound.Stop();
+            sound.mute = true;
         }
     }
 }
