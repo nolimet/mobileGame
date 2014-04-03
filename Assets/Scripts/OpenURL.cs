@@ -9,36 +9,18 @@ public class OpenURL : MonoBehaviour
 
     void IWillDo()
     {
-        Application.OpenURL(url);
-        float timeAfter = Time.timeSinceLevelLoad;
-        if (Time.timeSinceLevelLoad - timeAfter >= 1)
+        if (Application.platform == RuntimePlatform.Android)
+        {
+            Application.OpenURL(url);
+            float timeAfter = Time.timeSinceLevelLoad;
+            if (Time.timeSinceLevelLoad - timeAfter >= 1)
+            {
+                Application.OpenURL(Alt);
+            }
+        }
+        else
         {
             Application.OpenURL(Alt);
         }
     }
-
-    /*void OpenFacebookPage()
-    {
-        ww
-        WWW www = new WWW("fb://page/xxxxx");
-        StartCoroutine(WaitForRequest(www));
-    }
-
-    IEnumerator WaitForRequest(WWW www)
-    {
-        yield return www;
-
-        // check for errors
-        if (www.error == null)
-        {
-            Debug.Log("Sucess!: " + www.text);
-        }
-        else
-        {
-            Debug.Log("WWW Error: " + www.error + " Opening Safari...");
-            //error. Open normal address
-            Application.OpenURL("http://www.facebook.com/xxxxxx");
-
-        }
-    }*/
 }

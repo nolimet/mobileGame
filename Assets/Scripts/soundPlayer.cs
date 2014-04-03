@@ -18,9 +18,6 @@ public class soundPlayer : MonoBehaviour {
 
     public void Stop()
     {
-        if (sound.isPlaying)
-        {
-            sound.mute = true;
-        }
+        sound.mute = true;
     }
 }
