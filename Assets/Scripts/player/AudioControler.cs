@@ -26,6 +26,10 @@ namespace Player
                     AudioManager = go.GetComponent<Managers.AudioManager>();
                 }
             }
+            if (AudioManager == null)
+            {
+                Destroy(this);
+            }
         }
 
         // Update is called once per frame

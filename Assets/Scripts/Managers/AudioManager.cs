@@ -58,7 +58,8 @@ namespace Managers
                 PlayerPrefs.SetInt("MusicIsMuted", 0);
             }
         }
-        void OnApplicationExit()
+
+        void OnApplicationQuit()
         {
             PlayerPrefs.Save();
         }

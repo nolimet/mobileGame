@@ -221,7 +221,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Selected: 0
-  speed: 1
+  speed: 20
   Sparkels: {fileID: 19800000}
 --- !u!114 &11400004
 MonoBehaviour:
