@@ -114,6 +114,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   FSXIsMuted: 0
   MusicIsMuted: 0
+  currentSound: 0
 --- !u!1 &213792809
 GameObject:
   m_ObjectHideFlags: 0

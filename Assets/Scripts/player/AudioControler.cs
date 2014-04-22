@@ -14,10 +14,15 @@ namespace Player
         public soundPlayer dieSound;
         public AudioClip graviSwitch;
 
-        private bool[] soundStates =  new bool[4]; //0 - idle, 1 walk,2 dead, 3 jump
+        private bool[] soundStates = new bool[4]; //0 - idle, 1 walk,2 dead, 3 jump
         // Use this for initialization
         void Start()
         {
+            Destroy(walkSound.gameObject);
+            Destroy(jumpSound.gameObject);
+            Destroy(idleSound.gameObject);
+            Destroy(dieSound.gameObject);
+            Destroy(this);
             Object[] objects = FindObjectsOfType(typeof(GameObject));
             foreach (GameObject go in objects)
             {
@@ -93,7 +98,7 @@ namespace Player
         void playSound(AudioClip sound)
         {
             audio.PlayOneShot(sound);
-            
+
         }
         void GraviSwitch()
         {
@@ -107,7 +112,7 @@ namespace Player
             idleSound.Stop();
             dieSound.Stop();
             int l = soundStates.Length;
-            for (int i = 0; i > 0; i++)
+            for (int i = 0; i > l; i++)
             {
                 soundStates[i] = false;
             }

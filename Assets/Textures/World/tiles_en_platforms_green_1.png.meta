@@ -1,0 +1,571 @@
+fileFormatVersion: 2
+guid: 50fdec453640ef34eacc930f1eb70a22
+TextureImporter:
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: 0
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spritePixelsToUnits: 21
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings:
+  - buildTarget: iPhone
+    maxTextureSize: 1024
+    textureFormat: -2
+    compressionQuality: 50
+  spriteSheet:
+    sprites:
+    - name: tiles_en_platforms_green_1_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 388
+        width: 171
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: tiles_en_platforms_green_1_1
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 381
+        width: 54
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: tiles_en_platforms_green_1_2
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 386
+        width: 54
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: tiles_en_platforms_green_1_3
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 388
+        width: 172
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: tiles_en_platforms_green_1_4
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 385
+        width: 173
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: tiles_en_platforms_green_1_5
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 373
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: tiles_en_platforms_green_1_6
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 378
+        width: 52
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: tiles_en_platforms_green_1_7
+      rect:
+        serializedVersion: 2
+        x: 824
+        y: 381
+        width: 54
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: tiles_en_platforms_green_1_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 272
+        width: 215
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: tiles_en_platforms_green_1_9
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 319
+        width: 173
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: tiles_en_platforms_green_1_10
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 339
+        width: 64
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: tiles_en_platforms_green_1_11
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 155
+        width: 65
+        height: 217
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: tiles_en_platforms_green_1_12
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 296
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: tiles_en_platforms_green_1_13
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 292
+        width: 53
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: tiles_en_platforms_green_1_14
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 290
+        width: 53
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: tiles_en_platforms_green_1_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 203
+        width: 53
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: tiles_en_platforms_green_1_16
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 204
+        width: 54
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: tiles_en_platforms_green_1_17
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 203
+        width: 54
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: tiles_en_platforms_green_1_18
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 204
+        width: 27
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: tiles_en_platforms_green_1_19
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 231
+        width: 54
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: tiles_en_platforms_green_1_20
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 230
+        width: 54
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: tiles_en_platforms_green_1_21
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 226
+        width: 103
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: tiles_en_platforms_green_1_22
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 228
+        width: 53
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: tiles_en_platforms_green_1_23
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 225
+        width: 53
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: tiles_en_platforms_green_1_24
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 225
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: tiles_en_platforms_green_1_25
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 145
+        width: 53
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: tiles_en_platforms_green_1_26
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 144
+        width: 54
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: tiles_en_platforms_green_1_27
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 142
+        width: 54
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: tiles_en_platforms_green_1_28
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 144
+        width: 27
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: tiles_en_platforms_green_1_29
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 147
+        width: 53
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: tiles_en_platforms_green_1_30
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 148
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: tiles_en_platforms_green_1_31
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 147
+        width: 54
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: tiles_en_platforms_green_1_32
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 148
+        width: 27
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: tiles_en_platforms_green_1_33
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 155
+        width: 54
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: tiles_en_platforms_green_1_34
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 155
+        width: 54
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: tiles_en_platforms_green_1_35
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 155
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: tiles_en_platforms_green_1_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 70
+        width: 53
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: tiles_en_platforms_green_1_37
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 75
+        width: 54
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: tiles_en_platforms_green_1_38
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 72
+        width: 54
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: tiles_en_platforms_green_1_39
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 89
+        width: 54
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: tiles_en_platforms_green_1_40
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 90
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: tiles_en_platforms_green_1_41
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 70
+        width: 54
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: tiles_en_platforms_green_1_42
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 70
+        width: 54
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: tiles_en_platforms_green_1_43
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 70
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: tiles_en_platforms_green_1_44
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 70
+        width: 52
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: tiles_en_platforms_green_1_45
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 70
+        width: 51
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: tiles_en_platforms_green_1_46
+      rect:
+        serializedVersion: 2
+        x: 757
+        y: 70
+        width: 52
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: tiles_en_platforms_green_1_47
+      rect:
+        serializedVersion: 2
+        x: 829
+        y: 70
+        width: 50
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: tiles_en_platforms_green_1_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2
+        width: 44
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: tiles_en_platforms_green_1_49
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 0
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: tiles_en_platforms_green_1_50
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 0
+        width: 54
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: tiles_en_platforms_green_1_51
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 0
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: tiles_en_platforms_green_1_52
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 19
+        width: 54
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: tiles_en_platforms_green_1_53
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 19
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: tiles_en_platforms_green_1_54
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 0
+        width: 173
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: tiles_en_platforms_green_1_55
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 10
+        width: 172
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: tiles_en_platforms_green_1_56
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 13
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: tiles_en_platforms_green_1_57
+      rect:
+        serializedVersion: 2
+        x: 837
+        y: 13
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+  spritePackingTag: 
+  userData: 
